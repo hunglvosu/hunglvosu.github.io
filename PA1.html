@@ -12,7 +12,7 @@
 The dataset can be downloaded from <a href = "https://hunglvosu.github.io/res/question-dataset.zip">here</a>.
 <br>
 <br>
-<b>Output Format:</b> output must be given in the tsv file, with two columns: <font face="Courier" size="3" color="blue">qid</font> and <font face="Courier" size="3" color="blue">similar-qids</font> where <font face="Courier" size="3" color="blue">qid</font> is the qid of the queried question and <font face="Courier" size="3" color="blue">similar-qids</font> is the set of similar questions given by their qids. The format of column <font face="Courier" size="3" color="blue">similar-qids</font> is comma-separated. If a question has no similar question, then this column is empty. Below is an example of the output format:
+<b>Output Format:</b> output must be given in tsv forrmat, with two columns: <font face="Courier" size="3" color="blue">qid</font> and <font face="Courier" size="3" color="blue">similar-qids</font> where <font face="Courier" size="3" color="blue">qid</font> is the qid of the queried question and <font face="Courier" size="3" color="blue">similar-qids</font> is the set of similar questions given by their qids. The format of column <font face="Courier" size="3" color="blue">similar-qids</font> is comma-separated. If a question has no similar question, then this column is empty. Below is an example of the output format:
 <br>
 <br>
 <table border="0">
@@ -46,7 +46,7 @@ There are two questions in this assigment. The first question is worth 15 points
 <b>Question 2 (25 points):</b> Implement the locality sensitive hashing algorithm we learned in the class, with x = 0.6, s = 14 and r = 6, where s is the number of hash tables (we use b instead in the lecture slide) and r is the size of the minhash signature. For full score, your algorithm must run in <b>less than 10 minutes</b> on the dataset <font face="Verdana,Arial,Helvetica" size="3" color="blue">question_150k.tsv</font>.
 <br>
 <br>
-<b>Note 1:</b> As you may understand from the lecture, it could be that two non-similar questions may be mapped to the same location in the locality sensitive data structure. This is called false positive. You must remove all false positives before writing to the output file.
+<b>Note 1:</b> As you may understand from the lecture, it could be that two non-similar questions are mapped to the same location in the locality sensitive data structure. This is called false positive. You must remove all false positives before writing to the output file.
 <br>
 <br>
 <b>Note 2:</b> Submit your code and output data to the Connex
