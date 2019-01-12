@@ -46,7 +46,10 @@ There are two questions in this assigment. The first question is worth 15 points
 <b>Question 2 (25 points):</b> Implement the locality sensitive hashing algorithm we learned in the class, with x = 0.6, s = 14 and r = 6, where s is the number of hash tables (we use b instead in the lecture slide) and r is the size of the minhash signature. For full score, your algorithm must run in <b>less than 10 minutes</b> on the dataset <font face="Verdana,Arial,Helvetica" size="3" color="blue">question_150k.tsv</font>.
 <br>
 <br>
-<b>Submit your code and output data to the Connex</b>
+<b>Note 1:</b> As you may understand from the lecture, it could be that two non-similar questions may be mapped to the same location in the locality sensitive data structure. This is called false positive. You must remove all false positives before writing to the output file.
+<br>
+<br>
+<b>Note 2:</b> Submit your code and output data to the Connex
 <br>
 <br>
 <br>
