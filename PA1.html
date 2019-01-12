@@ -1,0 +1,93 @@
+<h1 align="center">Programming Assignment 1 Instructions</h1>
+<br>
+<b>Goal:</b> In this assignment, we will apply the locality sensitive hashing technique learned in the lecture to a question dataset. The goal is: <b>for each</b> question X, find a set of questions Y in the data set such that Sim(X,Y) &#x2a7e; 0.6, where the similarity is Jaccard.
+<br>
+<br>
+<b>Input Format:</b> The datasets are given in tvs (tab-separated) format. The file contains two columns: <font face="Courier" size="3" color="blue">qid</font> and <font face="Courier" size="3" color="blue">question</font>. Four datasets provided in a single zip-compressed file are:
+<ol> <li><font face="Verdana,Arial,Helvetica" size="3" color="blue">question_10k.tsv</font>: This dataset contains 10,000 questions.</li>
+     <li><font face="Verdana,Arial,Helvetica" size="3" color="blue">question_50k.tsv</font>: This dataset contains 50,000 questions.</li>
+      <li><font face="Verdana,Arial,Helvetica" size="3" color="blue">question_150k.tsv</font>: This dataset contains 150,000 questions.</li>
+       <li><font face="Verdana,Arial,Helvetica" size="3" color="blue">question_290k.tsv</font>: This dataset contains 290,000 questions.</li>
+    </ol>
+The dataset can be downloaded from <a href = "https://hunglvosu.github.io/res/question-dataset.zip">here</a>.
+<br>
+<br>
+<b>Output Format:</b> output must be given in the tsv file, with two columns: <font face="Courier" size="3" color="blue">qid</font> and <font face="Courier" size="3" color="blue">similar-qids</font> where <font face="Courier" size="3" color="blue">qid</font> is the qid of the queried question and <font face="Courier" size="3" color="blue">similar-qids</font> is the set of similar questions given by their qids. The format of column <font face="Courier" size="3" color="blue">similar-qids</font> is comma-separated. If a question has no similar question, then this column is empty. Below is an example of the output format:
+<br>
+<br>
+<table border="0">
+    <tr>
+        <th>qid</th>
+        <th>similar-qids</th>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td >13</td>
+        <td>145970</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>229098,280602,6603,204128,164826,238609,65667,139632,265843,143673,217736,38330</td>
+    </tr>
+</table>
+<br>
+The way to interpret the above sample output is: the question of qid 11 has no similar question, the question of qid 13 has 1 similar question of qid 145970 and the question of qid 15 has 12 similar questions. You can download a sample output tsv file <a href = "https://hunglvosu.github.io/res/sample_output.tsv">here</a>. The name of the output file must be <font face="Courier" size="3" color="blue">question_sim_[*].tsv</font> where [*] is replaced by the size of the dataset. For example, the output of the 10k question data set must be <font face="Courier" size="3" color="blue">question_sim_10k.tsv</font>.
+<br>
+<br>
+There are two questions in this assigment. The first question is worth 15 points and the second question is worth 35 points, all of 50 points total.
+<br>
+<br>
+<b>Question 1 (15 points): </b> Implement the native algorithm that, for each question, loops through the database, computes the Jaccard similarity and output questions of similarity at least 0.6. For full score, your algorithm must run in <b>less than 3 minutes</b> on the dataset <font face="Verdana,Arial,Helvetica" size="3" color="blue">question_10k.tsv</font>.
+<br>
+<br>
+<b>Question 2 (25 points):</b> Implement the locality sensitive hashing algorithm we learned in the class, with x = 0.6, s = 14 and r = 6, where s is the number of hash tables (we use b instead in the lecture slide) and r is the size of the minhash signature. For full score, your algorithm must run in <b>less than 10 minutes</b> on the dataset <font face="Verdana,Arial,Helvetica" size="3" color="blue">question_150k.tsv</font>.
+<br>
+<br>
+<b>Submit your code and output data to the Connex</b>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1 align="center">FAQ</h1>
+<br>
+<b>Q1:</b> Will 50k and 290k question datasets be graded?
+<br>
+<b>Answer:</b> No. They are provided for learning purposes.
+<br>
+<br>
+<b>Q2:</b> How can we generate a random number in Python3?
+<br>
+<b>Answer:</b> <a href = "https://hunglvosu.github.io/res/random-gen.py">Here</a> is an example code that I use for generating a random 64-bit integer in my implementation.
+<br>
+<br>
+<b>Q3:</b> What kind of hash function do you recommend for computing the minHash signature?
+<br>
+<b>Answer:</b> In my implementation, I use the linear hash function h(x) = (a*x +b) mod p, where a,b are two random 64-bits integers and p is a 64-bit prime integer. I set p = 15373875993579943603 for all hash functions.
+
+<br>
+<br>
+<b>Q4:</b> How can I map a string (and a word specifically for this homework) to an integer so that I can feed it to the linear hash function in Q3.
+<br>
+<b>Answer:</b> I recommend the FNV hash function. You can download and install following the instruction in <a href = "https://pypi.org/project/fnv/">here</a>. However, I use this library in a slightly different way. Here are steps: I download the libarary, look for the file name "__init__.py" in the downloaded package, rename it to <a href = "https://hunglvosu.github.io/res/fnv.py">"fnv.py"</a>, put to the source code folder and import to my code. Here is <a href = "https://hunglvosu.github.io/res/fnv-example.py">an example</a> of how to import it. You may notice that there are three diffent hash functions in the example. I use this function <font face="Courier" size="3" color="blue">hash(data, bits=64)</font> in my implementation.
+<br>
+<br>
+<b>Q5:</b> If I don't use python, where can I find a version of the FNV function implementation in other languages?
+<br>
+<b>Answer:</b> You can visit <a href = "http://isthe.com/chongo/tech/comp/fnv/">this site</a>. It might have what you want.
+<br>
+<br>
+<b>Q6:</b> Do you apply any advanced processing technique to nomarlize the datasets?
+<br>
+<b>Answer:</b> I don't. I want to keep the implementation as simple as possible for learning purpose. I do use <font face="Courier" size="3" color="blue">question.strip()</font> to remove possible white-space characters ended at each question. Then, I just use split function of Python3 <font face="Courier" size="3" color="blue">question.split()</font> to break a question into words. You may notice that in this implementation, "what" and "What" would be regarded as different words because I do not handle capitalization. You are welcome to use any technique that can help you improve the correctness of your algorithm, but keep in mind the running time constraint.
+<br>
+
+<br>
+<br>
+<b>Q7:</b> If the outputs of my implementation and another group's implementation are different, is this a problem?
+<br>
+<b>Answer:</b> No. Because the nature of randomness in locality sensitive hashing, I expect differences in the output. The assignment will mainly be graded based on: speed and your understanding of the algorithm reflected in your code. And don't forget the dicussion policy that I specified in class. 
+<br>
