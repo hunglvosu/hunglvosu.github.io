@@ -4,7 +4,7 @@
 <br>
 <br>
 <b>Input Format:</b> The datasets are given in tvs (tab-separated) format. The file contains two columns: <font face="Courier" size="3" color="blue">qid</font> and <font face="Courier" size="3" color="blue">question</font>. Four datasets provided in a single zip-compressed file are:
-<ol> <li><font face="Verdana,Arial,Helvetica" size="3" color="blue">question_10k.tsv</font>: This dataset contains 10,000 questions.</li>
+<ol> <li><font face="Verdana,Arial,Helvetica" size="3" color="blue">question_4k.tsv</font>: This dataset contains 4,000 questions.</li>
      <li><font face="Verdana,Arial,Helvetica" size="3" color="blue">question_50k.tsv</font>: This dataset contains 50,000 questions.</li>
       <li><font face="Verdana,Arial,Helvetica" size="3" color="blue">question_150k.tsv</font>: This dataset contains 150,000 questions.</li>
        <li><font face="Verdana,Arial,Helvetica" size="3" color="blue">question_290k.tsv</font>: This dataset contains 290,000 questions.</li>
@@ -34,13 +34,13 @@ The dataset can be downloaded from <a href = "https://hunglvosu.github.io/res/qu
     </tr>
 </table>
 <br>
-The way to interpret the above sample output is: the question of qid 11 has no similar question, the question of qid 13 has 1 similar question of qid 145970 and the question of qid 15 has 12 similar questions. You can download a sample output tsv file <a href = "https://hunglvosu.github.io/res/sample_output.tsv">here</a>. The name of the output file must be <font face="Courier" size="3" color="blue">question_sim_[*].tsv</font> where [*] is replaced by the size of the dataset. For example, the output of the 10k question data set must be <font face="Courier" size="3" color="blue">question_sim_10k.tsv</font>.
+The way to interpret the above sample output is: the question of qid 11 has no similar question, the question of qid 13 has 1 similar question of qid 145970 and the question of qid 15 has 12 similar questions. You can download a sample output tsv file <a href = "https://hunglvosu.github.io/res/sample_output.tsv">here</a>. The name of the output file must be <font face="Courier" size="3" color="blue">question_sim_[*].tsv</font> where [*] is replaced by the size of the dataset. For example, the output of the 4k question data set must be <font face="Courier" size="3" color="blue">question_sim_4k.tsv</font>.
 <br>
 <br>
 There are two questions in this assigment. The first question is worth 15 points and the second question is worth 35 points, all of 50 points total.
 <br>
 <br>
-<b>Question 1 (15 points): </b> Implement the native algorithm that, for each question, loops through the database, computes the Jaccard similarity and output questions of similarity at least 0.6. For full score, your algorithm must run in <b>less than 3 minutes</b> on the dataset <font face="Verdana,Arial,Helvetica" size="3" color="blue">question_10k.tsv</font>.
+<b>Question 1 (15 points): </b> Implement the native algorithm that, for each question, loops through the database, computes the Jaccard similarity and output questions of similarity at least 0.6. For full score, your algorithm must run in <b>less than 3 minutes</b> on the dataset <font face="Verdana,Arial,Helvetica" size="3" color="blue">question_4k.tsv</font>.
 <br>
 <br>
 <b>Question 2 (25 points):</b> Implement the locality sensitive hashing algorithm we learned in the class, with x = 0.6, s = 14 and r = 6, where s is the number of hash tables (we use b instead in the lecture slide) and r is the size of the minhash signature. For full score, your algorithm must run in <b>less than 10 minutes</b> on the dataset <font face="Verdana,Arial,Helvetica" size="3" color="blue">question_150k.tsv</font>.
