@@ -13,25 +13,37 @@ There are two dataset that we will work with in this assignment.
 </li>
      <li><font face="Verdana,Arial,Helvetica" size="3" color="blue">web-Google.txt</font>: This dataset contains 875,713 web pages and 5,105,039 links. The dataset can be downloaded from <a href = "https://snap.stanford.edu/data/web-Google.txt.gz">here</a>. DO NOT assume that page ids are from 0 to 875,713.</li>
     </ol>
+Also, it's helpful to test your algorithm with this <a href = "https://hunglvosu.github.io/res/toy_graph.txt">toy dataset</a>.
 <br>
 <br>
-<b>Output Format:</b> output must be given in tsv format, with two columns:
-<ul> <li>The first column is the PageRank score.</li>
-    <li>The second column is the corresponding web page id.</li>
-</ul>
-<font color = "red">The output must be sorted by descending order of the PageRank scores.</font>
-<a href = "https://hunglvosu.github.io/res/toy_output.tsv">Here</a> is a sample output for this <a href = "https://hunglvosu.github.io/res/toy_graph.txt">toy dataset</a>.
+<br>
+<b>Output Format:</b> the output format for each quesion will be specified below.
 <br>
 <br>
 <br>
 There are two questions in this assigment worth 50 points total. The taxation parameter in both question is &#946; = 0.85 and the number of PageRank update is T = 10.
 <br>
 <br>
-<b>Question 1 (20 points): </b> Implement the PageRank algorithm for dataset <font face="Verdana,Arial,Helvetica" size="3" color="blue">web-Google_10k.txt</font>. For full score, your algorithm must run in <b>less than 30 seconds</b>.
+<b>Question 1 (20 points): </b> Find all dead ends. A node is a dead end if it has no out-going edges or all its outoging edges points to dead ends. For example, consider the graph A->B->C->D. All nodes A,B,C,D are dead ends by this definition. D is a dead end because it has no outgoing edge. C is a dead end because its only out-going neighbor, D, is a dead end. B is a dead end for the same reason, so is A.
+     <ol><li>(10 points) Find all dead ends of the dataset <font face="Verdana,Arial,Helvetica" size="3" color="blue">web-Google_10k.txt</font>.  For full score, your algorithm must run in <b>less than 15 seconds</b>. The output must be written to a file named <font face="Verdana,Arial,Helvetica" size="3" color="blue">deadends_10k.tsv</font></li>
+         <li>(10 points) Find all dead ends of the dataset <font face="Verdana,Arial,Helvetica" size="3" color="blue">web-Google_800k.txt</font>.  For full score, your algorithm must run in <b>less than 1 minute</b>. The output must be written to a file named <font face="Verdana,Arial,Helvetica" size="3" color="blue">deadends_800k.tsv</font></li>
+    </ol>
+The output format for Question 1 is single column, where each column is the id of an dead end. See  <a href = "https://hunglvosu.github.io/res/deadends_toy.tsv">here</a> for a sample output for the toy dataset.
 <br>
 <br>
-<b>Question 2 (30 points):</b> Implement the PageRank algorithm for dataset <font face="Verdana,Arial,Helvetica" size="3" color="blue">web-Google.txt</font>. For full score, your algorithm must run in <b>less than 2 minutes</b>.
+<br>
+<b>Question 2 (30 points):</b> Implement the PageRank algorithm for both datasets.
+    <ol> <li>(15 points)Run your algorithm for <font face="Verdana,Arial,Helvetica" size="3" color="blue">web-Google_10k.txt</font> dataset. For full score, your algorithm must run in <b>less than 30 seconds</b>. The output must be written to a file named <font face="Verdana,Arial,Helvetica" size="3" color="blue">PR_10k.tsv</font></li>
+         <li>(15 points)Run your algorithm for <font face="Verdana,Arial,Helvetica" size="3" color="blue">web-Google.txt</font> dataset. For full score, your algorithm must run in <b>less than 2 minutes</b>. The output must be written to a file named <font face="Verdana,Arial,Helvetica" size="3" color="blue">PR_800k.tsv</font></li>
+    </ol>
+The output format for Question 2 is two-column:
+<ul> <li>The first column is the PageRank score.</li>
+    <li>The second column is the corresponding web page id.</li>
+</ul>
+<font color = "red">The output must be sorted by descending order of the PageRank scores.</font>
+<a href = "https://hunglvosu.github.io/res/toy_output.tsv">Here</a> is a sample output for the toy dataset above.
 </ol>
+<br>
 <br>
 <br>
 <b>Note 1:</b> Submit your code and output data to the Connex
@@ -54,7 +66,7 @@ There are two questions in this assigment worth 50 points total. The taxation pa
 <br>
 <b>Q3:</b> How do I know that my calculation is correct?
 <br>
-<b>Answer:</b> Run your algorithm on the sample input, make sure that the order of the pages by the PageRank scores matches with that of the sample output. There may be a slight difference in the PageRanke scores itself (because of rounding off errorr), but the oder of the pages should be unaffected. Note that dead ends in the sample input are pages with ids <font face="Verdana,Arial,Helvetica" size="3" color="blue">4</font> and <font face="Verdana,Arial,Helvetica" size="3" color="blue">5</font>.
+<b>Answer:</b> Run your algorithm on the sample input, make sure that the order of the pages by the PageRank scores matches with that of the sample output. There may be a slight difference in the PageRanke scores itself (because of round-off error), but the oder of the pages should be unaffected. 
 
 Also, check with the following outputs, that I take 10 pages with highest PageRank scores for each dataset:
 <ol> <li><font face="Verdana,Arial,Helvetica" size="3" color="blue">web-Google_10k.txt</font>: here is a <a href = "https://hunglvosu.github.io/res/sample_output_10k.tsv">sample output</a>. This data has <font face="Verdana,Arial,Helvetica" size="3" color="blue">1544</font> dead ends total.</li>
