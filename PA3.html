@@ -21,7 +21,7 @@ Also, it's helpful to test your algorithm with this <a href = "https://hunglvosu
 <br>
 <br>
 <br>
-There are two questions in this assigment worth 50 points total. The taxation parameter in both question is &#946; = 0.85 and the number of PageRank update is T = 10.
+There are two questions in this assigment worth 50 points total.
 <br>
 <br>
 <b>Question 1 (20 points): </b> Find all dead ends. A node is a dead end if it has no out-going edges or all its outoging edges points to dead ends. For example, consider the graph A->B->C->D. All nodes A,B,C,D are dead ends by this definition. D is a dead end because it has no outgoing edge. C is a dead end because its only out-going neighbor, D, is a dead end. B is a dead end for the same reason, so is A.
@@ -32,7 +32,7 @@ The output format for Question 1 is single column, where each column is the id o
 <br>
 <br>
 <br>
-<b>Question 2 (30 points):</b> Implement the PageRank algorithm for both datasets.
+<b>Question 2 (30 points):</b> Implement the PageRank algorithm for both datasets. The taxation parameter for both dataset is &#946; = 0.85 and the number of PageRank iterations is T = 10.
     <ol> <li>(15 points)Run your algorithm for <font face="Verdana,Arial,Helvetica" size="3" color="blue">web-Google_10k.txt</font> dataset. For full score, your algorithm must run in <b>less than 30 seconds</b>. The output must be written to a file named <font face="Verdana,Arial,Helvetica" size="3" color="blue">PR_10k.tsv</font></li>
          <li>(15 points)Run your algorithm for <font face="Verdana,Arial,Helvetica" size="3" color="blue">web-Google.txt</font> dataset. For full score, your algorithm must run in <b>less than 2 minutes</b>. The output must be written to a file named <font face="Verdana,Arial,Helvetica" size="3" color="blue">PR_800k.tsv</font></li>
     </ol>
