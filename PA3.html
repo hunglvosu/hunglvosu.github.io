@@ -75,5 +75,9 @@ Also, check with the following outputs, that I take 10 pages with highest PageRa
             <li><font face="Verdana,Arial,Helvetica" size="3" color="blue">web-Google.txt</font>: here is a <a href = "https://hunglvosu.github.io/res/sample_output_800k.tsv">sample output</a>. This data has <font face="Verdana,Arial,Helvetica" size="3" color="blue">181057</font> dead ends total.</li></li>
         </ol>
 <br>
+<b>Q4:</b> What do I do if I get the out of memory error on 800K dataset?
+<br>
+<b>Answer:</b> It's probably because you construct a transition matrix to do PageRank computation. This matrix takes about 5TB (not GB) of memory, so it's is natural that you will run out of memory. The way to get around is using two adjacency list, say L, together with the algorithm in page 21 of my note. For node i, L[i] is the set of nodes that link to i. Also, you should use a degree array D, where D[i] is the out-degree of i. That is, D[i] the number of links from i to other nodes.
+<br>
 <br>
 Want to go back to the course overview, click <a href = "https://hunglvosu.github.io/DMW19.html">here</a>.
