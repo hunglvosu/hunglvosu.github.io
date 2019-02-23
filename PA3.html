@@ -80,4 +80,11 @@ Also, check with the following outputs, that I take 10 pages with highest PageRa
 <b>Answer:</b> It's probably because you construct a transition matrix to do PageRank computation. This matrix takes about 5TB (not GB) of memory, so it's is natural that you will run out of memory. The way to get around is using two adjacency list, say L, together with the algorithm in page 21 of my note. For node i, L[i] is the set of nodes that link to i. Also, you should use a degree array D, where D[i] is the out-degree of i. That is, D[i] the number of links from i to other nodes.
 <br>
 <br>
+<b>Q5:</b> How do I find dead ends efficiently?
+<br>
+<b>Answer:</b> You probably want to check <a href = "https://hunglvosu.github.io/res/deadend.pdf">this</a> out.
+<br>
+<br>
+<br>
+<br>
 Want to go back to the course overview, click <a href = "https://hunglvosu.github.io/DMW19.html">here</a>.
