@@ -5,8 +5,7 @@ permalink: /posts/2020/07/Syllabus-DM/
 ---
 
 **Course website on Heat** for [SENG 474](https://heat.csc.uvic.ca/coview/outline/2019/Spring/SENG/474)  and [CSC 578D](https://heat.csc.uvic.ca/coview/outline/2019/Spring/CSC/578D). There will be no further update on these two sites. More up-to-date contents will be on this site.
-<br>
-<br>
+
 **Tentative topics:**
 
 - Finding similar items
@@ -46,7 +45,7 @@ permalink: /posts/2020/07/Syllabus-DM/
 <b>Written Assignment 4</b> is posted. Check out <a href = "https://hunglvosu.github.io/res/HW4.pdf">here</a>. Check out <a href = "https://hunglvosu.github.io/res/HW4_solution.pdf">the solution</a> written by Jasbir Singh.
 <br>
 <br>
-<b>Programming Assignment 4:</b> The description for the programming assignemnet 4 is online. Plese checkout <a href = "https://hunglvosu.github.io/PA4.html">here</a>. Ask me or the TA if you have any confusion.
+<b>Programming Assignment 4:</b> The description for the programming assignemnet 4 is online. Plese checkout [here](/posts/2020/07/PA4/). Ask me or the TA if you have any confusion.
 <br>
 <br>
 <b>Midterm solution</b> is posted. Check out <a href = "https://hunglvosu.github.io/res/midterm-sol.pdf">here</a>.
@@ -58,19 +57,16 @@ permalink: /posts/2020/07/Syllabus-DM/
 <b>Written Assignment 3</b> is released. Check out <a href = "https://hunglvosu.github.io/res/HW3.pdf">here</a>. Check out <a href = "https://hunglvosu.github.io/res/HW3_solution.pdf">the solution</a> written by Jasbir Singh.
 <br>
 <br>
-<b>Programming Assignment 3:</b> The description for the programming assignemnet 3 is online. Plese checkout <a href = "https://hunglvosu.github.io/PA3.html">here</a>. Ask me or the TA if you have any confusion.
+<b>Programming Assignment 3:</b> The description for the programming assignemnet 3 is online. Plese checkout [here](/posts/2020/07/PA3/). Ask me or the TA if you have any confusion.
 <br>
 <br>
 <b>Written Assignment 2</b> is released. Check out <a href = "https://hunglvosu.github.io/res/HW2.pdf">here</a>. Check out <a href = "https://hunglvosu.github.io/res/sol-hw2.pdf">the solution</a>. The write up for Q2 and Q4b and Q5b is by Hung Le, for others is by Sajjad Azami.
-<br>
-<br>
-<b>Programming Assignment 2:</b> The description for the programming assignemnet 2 is online. Plese checkout <a href = "https://hunglvosu.github.io/PA2.html">here</a>. Ask me or the TA if you have any confusion.
-<br>
-<br>
-<b>Written Assignment 1</b> is released. Check out <a href = "https://hunglvosu.github.io/res/HW1.pdf">here</a>. Check out <a href = "https://hunglvosu.github.io/res/HW1solution.pdf">the solution</a> written by Jasbir Singh.
-<br>
-<br>
-<b>Programming Assignment 1:</b> The description for the programming assignemnet 1 is online. Plese checkout <a href = "https://hunglvosu.github.io/PA1.html">here</a>. Ask me or the TA if you have any confusion. Here is a <a href = "https://hunglvosu.github.io/res/PA1-sol.py">sample solution</a>.
+
+**Programming Assignment 2:** The description for the programming assignemnet 2 is online. Plese checkout [here](/posts/2020/07/PA2/). Ask me or the TA if you have any confusion.
+
+**Written Assignment 1** is released. Check out <a href = "https://hunglvosu.github.io/res/HW1.pdf">here</a>. Check out <a href = "https://hunglvosu.github.io/res/HW1solution.pdf">the solution</a> written by Jasbir Singh.
+
+**Programming Assignment 1:** The description for the programming assignemnet 1 is online. Plese checkout [here](/posts/2020/07/PA1/). Ask me or the TA if you have any confusion. Here is a <a href = "https://hunglvosu.github.io/res/PA1-sol.py">sample solution</a>.
 
 # Lectures
 <ol>
