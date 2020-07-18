@@ -1,0 +1,55 @@
+<h1 align="center">Programming Assignment 4 Instructions</h1>
+<h2>Due by March 25, 2019 11:55 pm</h2>
+<br>
+<br>
+<b>Goal:</b> In this assignment, we learn how to factorize the utility matrix to build recommender systems. We will use the  <a href = "https://grouplens.org/datasets/movielens/100k/">MovieLens 100k Dataset</a>. This dataset contains about 100k ratings from <font face="Verdana,Arial,Helvetica" size="3" color="blue">n = 943</font> users and <font face="Verdana,Arial,Helvetica" size="3" color="blue">m = 1682</font> movies. We will factorize the utility matrix into two matrices U, V of dimensions <font face="Verdana,Arial,Helvetica" size="3" color="blue">nxd</font> and <font face="Verdana,Arial,Helvetica" size="3" color="blue">dxm</font>, respectively, where <font face="Verdana,Arial,Helvetica" size="3" color="blue">d = 20</font>.
+<br>
+<br>
+<b>Input File:</b> Dowload file <a href = "http://files.grouplens.org/datasets/movielens/ml-100k.zip">ml-100k.zip</a>, look for the file name <font face="Verdana,Arial,Helvetica" size="3" color="blue">u.data</font>. We only use data in this file to do factorization. DO NOT assume that users and movies are indexed from 0 to <font face="Verdana,Arial,Helvetica" size="3" color="blue">n</font> and <font face="Verdana,Arial,Helvetica" size="3" color="blue">m</font>, respectively.
+<br>
+<br>
+<b>Input Format:</b> Each row has four tab-separated columns of the form:
+<br>
+        <center><font face="Courier" size="3" color="blue">UserId  &#9; MovieId &#9; Rating &#9; Timestamp</font></center>
+For example, the first line is:
+<center><font face="Courier" size="3" color="blue">196  &#9;   242 &#9;    3  &#9;   881250949</font></center>
+which means that user 196 gave a rating of 3 to  movie 242 at timestamp 881250949. For the matrix factorization approach, we will ignore the timestamp feature. It may be helpful to look at the <a href = "https://hunglvosu.github.io/res/toy_rating.data">toy dataset</a>.
+<br>
+<br>
+<br>
+<b>Output Format:</b> Two files, named <font face="Verdana,Arial,Helvetica" size="3" color="blue">UT.tsv</font> and <font face="Verdana,Arial,Helvetica" size="3" color="blue">VT.tsv</font>, correspond to two matrices U and V:
+
+<ul> <li><font face="Verdana,Arial,Helvetica" size="3" color="blue">UT.tsv</font>: Each row of the file correspond to each row of the matrix U where the first column is the <font face="Courier" size="3" color="blue">UserId</font> and <font face="Verdana,Arial,Helvetica" size="3" color="blue">d</font> (20 in this assignment) following columns represent the corresponding row of the user in U.
+</li>
+<li><font face="Verdana,Arial,Helvetica" size="3" color="blue">VT.tsv</font>: Each row of the file correspond to each <font color = "red">column</font> of the matrix V where the first column is the <font face="Courier" size="3" color="blue">MovieId</font> and <font face="Verdana,Arial,Helvetica" size="3" color="blue">d</font> (20 in this assignment) following columns represent the corresponding <font color = "red">column</font> of the movie in V.
+</li>
+</ul>
+See <a href = "https://hunglvosu.github.io/res/UT.tsv">UT.tsv</a> and <a href = "https://hunglvosu.github.io/res/VT.tsv">VT.tsv</a> for sample outputs of the toy dataset with <font face="Verdana,Arial,Helvetica" size="3" color="blue">d = 2</font>.
+<br>
+<br>
+<br>
+There is only one question worth 50 points.
+<br>
+<br>
+<b>Question (50 points): </b> Factorize the utility matrix into two matrix U and V. You should run your algorithm with <font face="Verdana,Arial,Helvetica" size="3" color="blue">T = 20</font> iterations. For full score, your algorithm must run in <b>less than 5 minutes</b> with RMSE less than <font face="Verdana,Arial,Helvetica" size="3" color="blue">0.62</font>.
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<b>Note 1:</b> Submit your code and output data to the Connex
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1 align="center">FAQ</h1>
+<br>
+<b>Q1:</b> How do I initialize matrices U and V?
+<br>
+<b>Answer:</b> I initialize entries of U and V by randomly selecting numbers from [0,1] using <font face="Courier" size="3" color="blue">numpy.random.random_sample()</font>.
+<br>
+<br>
+<br>
+Want to go back to the course overview, click <a href = "https://hunglvosu.github.io/DMW19.html">here</a>.

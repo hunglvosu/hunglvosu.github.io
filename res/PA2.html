@@ -1,0 +1,67 @@
+<h1 align="center">Programming Assignment 2 Instructions</h1>
+<h2>Due by February 11, 2019 11:55 pm</h2>
+<h2>Please note that <a href = "https://hunglvosu.github.io/res/HW2.pdf">written homework 2 is up</a>.</h2>
+<br>
+<b>Goal:</b> In this assignment, we will experiment with three different algorithms to train a linear regression models: solving normal equations, batch gradient descent, stochastic gradient descent.
+<br>
+<br>
+<b>Input Format:</b> The datasets are given in tvs (tab-separated) format. The file format is:
+<ul> <li>1st row: the numer of data points N.</li>
+    <li>2nd row: the number of features D.</li>
+    <li>3rd row: the first column is the label, and following columns are feature names.</li>
+    <li>N following rows: each has (D+1) columns where the the first column is the label and following D columns are features.</li>
+</ul>
+An example file can be found <a href = "https://hunglvosu.github.io/res/pa2-sample.tsv">here</a>. There are two dataset that we will work with in this assignment.
+<ol> <li><font face="Verdana,Arial,Helvetica" size="3" color="blue">data_10k_100.tsv</font>: This dataset contains 10,000 points, each with 100 features.</li>
+     <li><font face="Verdana,Arial,Helvetica" size="3" color="blue">data_100k_300.tsv</font>: This dataset contains 100,000 points, each with 300 features.</li>
+    </ol>
+The dataset can be downloaded from <a href = "https://hunglvosu.github.io/res/pa2-data.zip">here</a>.
+<br>
+<br>
+<b>Output Format:</b> output must be given in tsv format, with (D+1) columns and two rows:
+<ul> <li>The first row is the coefficient names of the linear regression model. The first D columns contain <font face="Courier" size="3" color="blue">w1</font>, <font face="Courier" size="3" color="blue">w2</font> up to <font face="Courier" size="3" color="blue">wD</font>, where <font face="Courier" size="3" color="blue">wi</font> is the coefficient of the i-th feature.    The bias term, named <font face="Courier" size="3" color="blue">w0</font>, is in the last column. </li>
+    <li>The second row contains values corresponding to the coefficents of the regression model.</li>
+</ul>
+The sample output for the sample dataset above can be downloaded <a href = "https://hunglvosu.github.io/res/pa2-sample_model.tsv">here</a>.
+
+<br>
+There are three questions in this assigment. The first and second question are worth 10 points each where the third question is worth 30 points, all of 50 points total.
+<br>
+<br>
+<b>Question 1 (10 points): </b> Implement the algoithm that solves the normal equation to learn linear regression models. For full score, your algorithm must run in <b>less than 1 minutes</b> on the dataset <font face="Verdana,Arial,Helvetica" size="3" color="blue">data_100k_300.tsv</font>, with the loss function value less than 70.
+<br>
+<br>
+<b>Question 2 (10 points):</b> Implement the batch gradient descent algorithm, with T = 200 epochs, learning rate &#951; = 0.000001 (this is 10<sup>-6</sup>). For full score, your algorithm must run in <b>less than 5 minutes</b> on the dataset <font face="Verdana,Arial,Helvetica" size="3" color="blue">data_10k_100.tsv</font> with loss value less than 270,000 (this is 27x10<sup>4</sup>).
+<br>
+<br>
+<b>Question 3 (30 points):</b> Implement the stochastic gradient descent algorithm with:
+    <ol> <li>T = 20 epochs, learning rate &#951; = 0.000001 (this is 10<sup>-6</sup>) and batch size m = 1 on the dataset <font face="Verdana,Arial,Helvetica" size="3" color="blue">data_10k_100.tsv</font>. For full score, your algorithm must run in <b>less than 1 minutes</b> with loss value less than 30.</li>
+        <li>T = 12 epochs, learning rate &#951; = 0.0000001 (this is 10<sup>-7</sup>) and batch size m = 1 on the dataset <font face="Verdana,Arial,Helvetica" size="3" color="blue">data_100k_300.tsv</font>. For full score, your algorithm must run in <b>less than 10 minutes</b>  with loss value less than 70.</li>
+</ol>
+Each part in question 3 is worth 15 points.
+<br>
+<br>
+<b>Note 1:</b> Submit your code and output data to the Connex
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1 align="center">FAQ</h1>
+<br>
+<b>Q1:</b> Can I use libarary for computing matrix inversion in Question 1.
+<br>
+<b>Answer:</b> Yes. You are allowed Numpy in question 1. You can also use Numpy for other questions as well.
+<br>
+<br>
+<b>Q2:</b> How do I initiate the weight vector for gradient descent?
+<br>
+<b>Answer:</b> I initiat the weight vector randomly where each component is drawn from [0,1] randomly using <font face="Courier" size="3" color="blue">numpy.random.random_sample()</font>
+<br>
+<br>
+<b>Q3:</b> What loss function should I use?
+<br>
+<b>Answer:</b> For all questions, you should use this loss function: <img src="https://hunglvosu.github.io/res/loss-PA2.png" width="145" height="50">
+<br>
+<br>
+Want to go back to the course overview, click <a href = "https://hunglvosu.github.io/DMW19.html">here</a>.
