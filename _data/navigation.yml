@@ -1,0 +1,12 @@
+# main links links
+main:
+  - title: "Publications"
+    url: "/Publications"
+
+  - title: "Teaching"
+    url: "/Teaching"
+
+  - title: "Services"
+    url: "/Services"
+  - title: "Miscellanea"
+    url: "/Misc"
