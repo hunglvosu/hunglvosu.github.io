@@ -3,8 +3,9 @@
 - Conference Reviews: 
     - STOC:  [2020](http://acm-stoc.org/stoc2020/), and [2018](http://acm-stoc.org/stoc2018/), and  [2016](http://acm-stoc.org/stoc2016/).
     - FOCS: [2020](https://focs2020.cs.duke.edu), and [2018](https://www.irif.fr/~focs2018/), and  [2017](http://focs17.simons.berkeley.edu/).
-    - SODA: [2020](https://www.siam.org/Conferences/CM/Conference/soda20), and [2019](https://www.siam.org/conferences/CM/Main/soda19), and [2015](http://www.siam.org/meetings/da15/).
-    - ICALP:  [2018](https://iuuk.mff.cuni.cz/~icalp2018/), and [2017](http://icalp17.mimuw.edu.pl/).
+    - SODA: [2021](https://www.siam.org/conferences/cm/conference/soda21), and [2020](https://www.siam.org/Conferences/CM/Conference/soda20), and [2019](https://www.siam.org/conferences/CM/Main/soda19), and [2015](http://www.siam.org/meetings/da15/).
+    - ISSAC: [2020](https://issac-conference.org/2020/) (2 papers).
+    - ICALP:  [2018](https://iuuk.mff.cuni.cz/~icalp2018/) (3 papers), and [2017](http://icalp17.mimuw.edu.pl/).
     - ESA: [2020](http://algo2020.di.unipi.it/ESA2020/index.html), and [2014](http://algo2014.ii.uni.wroc.pl/). 
     - PODC: [2019](https://www.podc.org).
     - SoCG: [2019](http://eecs.oregonstate.edu/socg19/).
