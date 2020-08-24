@@ -1,4 +1,34 @@
 
+- **A Unified and Fine-Grained Approach for Light Spanners**
+  <br>
+**Hung Le** and Shay Solomon
+  <br>
+  Preprint
+  <br>[PDF coming soon]<br>
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  Seminal works on light spanners from recent years provide near-optimal tradeoffs between the stretch and lightness of spanners in general graphs, minor-free graphs and doubling metrics.   In FOCS'19 the authors provided a <i>``truly optimal''</i> tradeoff (i.e., including the $\epsilon$-dependency, where $\epsilon$ appears in both the stretch and lightness) for Euclidean low-dimensional spaces. Some of these papers employ inherently different techniques than others (e.g., the technique of Chechik and Wulff-Nilsen [SODA20] requires large stretch while others are naturally suitable to stretch $1+\epsilon$). Moreover, the runtime of these constructions is rather high.<br>
+  
+  In this work we present a unified and fine-grained approach for light spanners.
+  Besides the obvious theoretical importance of unification, we demonstrate the power of our approach in obtaining (1) stronger lightness bounds, and (2) faster construction times. Our results include:
+  <ul><li> $K_r$-minor-free graphs:
+  <ul> <li> <i>A <b> truly optimal</b> spanner.</i> We provide a  $(1+\epsilon)$-spanner with lightness $\tilde{O}_{r,\epsilon}( \frac{r}{\epsilon} + \frac{1}{\epsilon^2})$, where $\tilde{O}_{r,\epsilon}$ suppresses $\mathsf{polylog}$ factors of $1/\epsilon$ and $r$, improving the lightness bound $\tilde{O}_{r,\epsilon}( \frac{r}{\epsilon^3})$ of Borradaile, Le and Wulff-Nilsen [FOCS17]. We complement our upper bound with a highly nontrivial lower bound construction, for which any $(1+\epsilon)$-spanner must have lightness $\Omega(\frac{r}{\epsilon} + \frac{1}{\epsilon^2})$.</li>
+  <li><i>A <b> fast </b> construction.</i> Increasing the lightness bound by an additive term of $O(\frac{1}{\epsilon^4})$ allows us to achieve a runtime of $\tilde{O}_r(n r \alpha(nr, n))$, where $\alpha(.,.)$ is the inverse Ackermann function. The previous state-of-the-art runtime is  $O(n^2 r)$.</li>
+  </ul>
+  </li>
+  <li>General graphs:
+  <ul><li> <i>A <b>truly optimal</b> spanner--- almost</i>. We provide a $(2k-1)(1+\epsilon)$-spanner (for any $k \geq 2, \epsilon < 1$) with lightness $O(\frac{g(n,k)}{\epsilon})$, where $g(n,k)$ is the minimum sparsity of $n$-vertex graphs with girth $2k+1$. (Recall that $g(n,k) = O(n^{1/k})$  and Erdos' girth conjecture is that $g(n,k) = \Theta(n^{1/k})$.)  The previous state-of-the-art lightness by Chechik and Wulff-Nilsen [SODA20] is $O(n^{1/k}\epsilon^{-(3+\frac{1}{k})})$.</li>
+  <li><i> A <b>fast</b> construction.</i> A $(2k-1)(1+\epsilon)$-spanner with lightness $O_{\epsilon}(n^{1/k})$ can be constructed in $O_{\epsilon}(m \alpha(m,n))$ time; the lightness bound is optimal up to the $\epsilon$-dependency and assuming Erdos' girth conjecture. In particular, when $m = \Omega(n \log^* n)$, the runtime is <i>linear</i> in $m$. The previous state-of-the-art runtime of such a spanner is super-quadratic in $n$.</li>
+  </ul>
+  </li>
+  <li>Low dimensional Euclidean spaces: For any point set in $\mathbb{R}^d$ and constant $d\geq 3$, we construct a Euclidean $(1+\epsilon)$-spanner with lightness $\tilde{O}_{\epsilon}(\epsilon^{-(d+1)/2})$  using \emph{Steiner points}. Our result implies that Steiner points help in reducing the lightness of Euclidean $(1+\epsilon)$-spanners almost quadratically. Previously, this fact was only known for point sets with small spread [LS,ESA20].</li>
+  <li>High dimensional Euclidean and normed spaces:
+  We provide a construction of spanners that improves the previous state-of-the-art lightness and size.</li>
+  </ul>
+  </font>
+  </details>
+
+
 - **On Light Spanners, Low-treewidth Embeddings and Efficient Traversing in Minor-free Graphs**
   <br>
 Vincent Cohen-Addad and  Arnold Filtser and Philip N. Klein and **Hung Le**
@@ -50,7 +80,7 @@ Vincent Cohen-Addad and  Arnold Filtser and Philip N. Klein and **Hung Le**
 - **Truly Optimal Euclidean Spanners.**
     <br>**Hung Le** and Shay Solomon
     <br> The 60th Annual IEEE Symposium on Foundations of Computer Science. **FOCS 2019**.
-    <br>[[PDF](https://arxiv.org/pdf/1904.12042.pdf)][[ICERM Talk](https://icerm.brown.edu/video_archive/?play=1909)][FOCS Talk](https://www.youtube.com/watch?v=W1_ORIqZGFE&list=PL3DbynX8gwfLXOsziSLaVmiLKKjedlvks&index=73)][[Oded's choices](http://www.wisdom.weizmann.ac.il/~oded/MC/281.html)]<br>[<font color = "red"><b>Invited to SICOMP Special Issue</b></font>][<font color = "red"><b>Invited to HALG 2020</b></font>]
+    <br>[[PDF](https://arxiv.org/pdf/1904.12042.pdf)][[ICERM Talk](https://icerm.brown.edu/video_archive/?play=1909)][[FOCS Talk](https://www.youtube.com/watch?v=W1_ORIqZGFE&list=PL3DbynX8gwfLXOsziSLaVmiLKKjedlvks&index=73)][[Oded's choices](http://www.wisdom.weizmann.ac.il/~oded/MC/281.html)]<br>[<font color = "red"><b>Invited to SICOMP Special Issue</b></font>][<font color = "red"><b>Invited to HALG 2020</b></font>]
     <details><summary style="color:#7C4700">Abstract</summary>
     <font color = "#7C4700">Euclidean spanners are important geometric structures, having found numerous applications over the years. Cornerstone results in this area from the late 80s and early 90s state that for any $d$-dimensional $n$-point Euclidean space, there exists a $(1+\epsilon)$-spanner with $ O(n\epsilon^{-d+1})$ edges and lightness (normalized weight) $O(\epsilon^{-2d})$. Surprisingly, the fundamental question of whether or not these dependencies on $\epsilon$ and $d$ for small $d$ can be improved  has remained elusive, even for $d = 2$.
     This question naturally arises in any application of Euclidean spanners where precision is a necessity (thus $\epsilon$ is tiny). In the most extreme case $\epsilon$ is inverse polynomial in $n$, and then one could potentially improve the size and lightness bounds by factors that are polynomial in $n$. <br><br>
