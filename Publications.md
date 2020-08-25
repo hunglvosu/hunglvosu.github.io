@@ -4,7 +4,7 @@
 **Hung Le** and Shay Solomon
   <br>
   Preprint
-  <br>[PDF coming soon]<br>
+  <br>[[PDF](https://arxiv.org/pdf/2008.10582.pdf)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
   Seminal works on light spanners from recent years provide near-optimal tradeoffs between the stretch and lightness of spanners in general graphs, minor-free graphs and doubling metrics.   In FOCS'19 the authors provided a <i>``truly optimal''</i> tradeoff (i.e., including the $\epsilon$-dependency, where $\epsilon$ appears in both the stretch and lightness) for Euclidean low-dimensional spaces. Some of these papers employ inherently different techniques than others (e.g., the technique of Chechik and Wulff-Nilsen [SODA20] requires large stretch while others are naturally suitable to stretch $1+\epsilon$). Moreover, the runtime of these constructions is rather high.<br>
