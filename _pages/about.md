@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am interested in Theoretical Computer Science in general and Graph Algorithms in particular. Before coming to Umass, I was a <a href = "http://www.pims.math.ca/scientific/postdoctoral/postdoctoral-fellows#pdf-2018">PIMS</a> postdoc at the Compter Science Department, University of Victoria, hosted by <a href = "http://webhome.cs.uvic.ca/~val/">Valerie King</a>.  I received a Ph.D. in Computer Science from Oregon State University. I am fortunate enough to have <a href="http://blogs.oregonstate.edu/glencora/">Cora Borradaile</a> as my advisor. Long time ago, I got a B.S. degree in Computer Science (honors program) from <a href="http://en.hust.edu.vn/home">Hanoi University of Science and Technology</a>.
+I am interested in Theoretical Computer Science in general and Graph Algorithms in particular. I am associated with [Umass Theory Group](https://www.cics.umass.edu/research/area/theoretical-computer-science). Before coming to Umass, I was a <a href = "http://www.pims.math.ca/scientific/postdoctoral/postdoctoral-fellows#pdf-2018">PIMS</a> postdoc at the Compter Science Department, University of Victoria, hosted by <a href = "http://webhome.cs.uvic.ca/~val/">Valerie King</a>.  I received a Ph.D. in Computer Science from Oregon State University. I am fortunate enough to have <a href="http://blogs.oregonstate.edu/glencora/">Cora Borradaile</a> as my advisor. Long time ago, I got a B.S. degree in Computer Science (honors program) from <a href="http://en.hust.edu.vn/home">Hanoi University of Science and Technology</a>.
 
 If you are a student interested in working with me, check out [here](/posts/2020/09/ProsStudents/).
 
