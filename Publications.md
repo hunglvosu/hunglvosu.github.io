@@ -52,7 +52,7 @@ Vincent Cohen-Addad and  Arnold Filtser and Philip N. Klein and **Hung Le**
   **Hung Le** and Shay Solomon
   <br>
   To appear in the 28th Annual European Symposium on Algorithms. **ESA 2020**.
-  <br>[[PDF](https://arxiv.org/pdf/2007.11636.pdf)][[Official version](https://drops.dagstuhl.de/opus/frontdoor.php?source_opus=12933)][[Slides](http://hunglvosu.github.io/files/ESA20-talk.pdf)[Talk video](https://www.youtube.com/watch?v=mg-GFukfhUQ)]<br>
+  <br>[[PDF](https://arxiv.org/pdf/2007.11636.pdf)][[Official version](https://drops.dagstuhl.de/opus/frontdoor.php?source_opus=12933)][[Slides](http://hunglvosu.github.io/files/ESA20-talk.pdf)][[Talk video](https://www.youtube.com/watch?v=mg-GFukfhUQ)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "#7C4700">The FOCS'19 paper of Le and Solomon, culminating a long line of research on Euclidean spanners, proves that the lightness  (normalized weight) of the greedy $(1+\epsilon)$-spanner in $\mathbb{R}^d$ is   $\tilde{O}(\epsilon^{-d})$ for any $d = O(1)$ and any $\epsilon = \Omega(n^{-\frac{1}{d-1}})$  (where $\tilde{O}$ hides polylogarithmic factors of $\frac{1}{\epsilon}$),  and also shows the existence of point sets in $\mathbb{R}^d$ for which any $(1+\epsilon)$-spanner must have lightness $\Omega(\epsilon^{-d})$. Given this tight bound on the lightness, a natural arising question is whether a better lightness bound can be achieved using <i>Steiner points</i>.<br><br>
 
