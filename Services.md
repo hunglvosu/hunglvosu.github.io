@@ -15,7 +15,7 @@
     - SIROCCO: [2020](https://sirocco2020.cs.uni-paderborn.de/index.html).
     - CCCGG: [2020](http://vga.usask.ca/cccg2020/).
     - SOFSEM: [2020](https://cyprusconferences.org/sofsem2020/)
-    - STAC: [2021]](https://stacs2021.saarland-informatics-campus.de)
+    - STAC: [2021](https://stacs2021.saarland-informatics-campus.de)
 -  Journal Reviewers: 
     - [ACM Transactions on Algorithms](http://talg.acm.org/): 5 papers.
     - [SIAM Journal on Computing](https://www.siam.org/publications/journals/siam-journal-on-computing-sicomp): 1 paper.
