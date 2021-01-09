@@ -9,9 +9,8 @@ title: "Misc"
 - [PhD Rants and Raves (Be afraid. Be very afraid.)](https://people.cs.umass.edu/~yannis/phd-slides.pdf) by Yannis Smaragdakis.
 
 ## Links
-- [How things were found](https://hunglvosu.github.io/how-things-found.html).
-- [My blog](http://giaithuatlaptrinh.com/) in Vietnamese.
 - [How to do math](http://www.cs.cmu.edu/~odonnell/toolkit13/how-to-do-math-and-tcs.pdf).
 - [TCS blog aggregator](http://cstheory-feed.org).
+- [A history of the PCP Theorem](https://courses.cs.washington.edu/courses/cse533/05au/pcp-history.pdf)
 
 
