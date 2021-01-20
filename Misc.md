@@ -12,5 +12,6 @@ title: "Misc"
 - [How to do math](http://www.cs.cmu.edu/~odonnell/toolkit13/how-to-do-math-and-tcs.pdf).
 - [TCS blog aggregator](http://cstheory-feed.org).
 - [A history of the PCP Theorem](https://courses.cs.washington.edu/courses/cse533/05au/pcp-history.pdf)
+- [Understanding the inverse Ackermann function](http://cgi.di.uoa.gr/~ewcg06/invited/Seidel.pdf)
 
 

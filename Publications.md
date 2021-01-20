@@ -1,3 +1,18 @@
+- **Reliable Spanners: Locality-Sensitive Orderings Strike Back.**
+<br>
+Arnold Filtser and **Hung Le**
+<br>
+Preprint
+<br>[[PDF](https://arxiv.org/pdf/2101.07428.pdf)]<br>
+<details><summary style="color:#7C4700"> Abstract</summary>
+<font color = "#7C4700">A highly desirable property of networks is robustness to failures. Consider a metric space $(X,d_X)$, a graph $H$ over $X$ is a $\vartheta$-reliable $t$-spanner if, for every set of failed vertices $B\subset X$, there is a superset $B^+\superseteq B$ such that the induced subgraph $H[X\setminus B]$ preserves all the distances between points in $X\setminus B^+$ up to a stretch factor $t$, while the expected size of $B^+$ is as most $(1+\vartheta)|B|$. Such a spanner could withstand a catastrophe: failure of even 90% of the network. Buchin, Har-Peled, and Ol{á}h [2019,2020], constructed very sparse reliable spanners with stretch $1+\epsilon$ for Euclidean space using locality-sensitive orderings. Har-Peled and Ol{á}h [2020] constructed reliable spanners for various non-Euclidean metric spaces using sparse covers. However, this second approach has an inherent dependency on the aspect ratio (a.k.a. spread) and gives sub-optimal stretch and sparsity parameters. 
+
+Our contribution is twofold: 
+<ul> <li>We construct a locality-sensitive ordering for doubling metrics with a small number of orderings. As a corollary, we obtain reliable spanners for doubling metrics matching the sparsity parameters of known reliable spanners for Euclidean space.</li>
+<li>We introduce new types of locality-sensitive orderings suitable for non-Euclidean metrics and construct such orderings for various metric families. We then construct reliable spanners from the newly introduced locality-sensitive orderings via reliable $2$-hop spanners for paths. The number of edges in our spanner has no dependency on the spread.</li>
+</ul></font>
+</details>
+
 
 - **A Unified and Fine-Grained Approach for Light Spanners**
   <br>
@@ -100,7 +115,7 @@ Vincent Cohen-Addad and  Arnold Filtser and Philip N. Klein and **Hung Le**
     <li> We then complement our negative result for the size of spanners with a  rather counterintuitive positive result: Steiner points lead to a quadratic improvement in the size of spanners! Our bound for the size of Steiner spanners is tight as well (up to lower-order terms). </li>
     </ul></font>
     </details>
- 
+
 - **Engineering a PTAS for Minimum Feedback Vertex Set in Planar Graphs**
   <br>
   Glencora Borradaile and **Hung Le** and Baigong Zheng
@@ -120,7 +135,7 @@ Vincent Cohen-Addad and  Arnold Filtser and Philip N. Klein and **Hung Le**
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "#7C4700">We show that the greedy spanner algorithm constructs a $(1+\epsilon)$-spanner of weight $\epsilon^{-O(d)}w(\mathrm{MST})$ for a point set in metrics of doubling dimension $d$, resolving an open problem posed by Gottlieb [FOCS 15]. Our result generalizes the result by Narasimhan and Smid who showed that a point set in $d$-dimension Euclidean space has a $(1+\epsilon)$-spanner of weight at most $\epsilon^{-O(d)}w(\mathrm{MST})$. Our proof only uses  the packing property of doubling metrics and greatly simplifies the proof of the same result in Euclidean space. </font>
   </details>
- 
+
 - **Local Search is a PTAS for Feedback Vertex Set in Minor-free Graphs**
   <br>**Hung Le** and Baigong Zheng
   <br> The 25th International Computing and Combinatorics Conference. **COCOON 2019**.
