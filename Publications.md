@@ -1,4 +1,4 @@
-- **A Unified and Fine-Grained Approach for Light Spanners**
+- **Reliable Spanners: Locality-Sensitive Orderings Strike Back**
   <br>
   Arnold Filtser and **Hung Le**
   <br>
