@@ -13,5 +13,6 @@ title: "Misc"
 - [TCS blog aggregator](http://cstheory-feed.org).
 - [A history of the PCP Theorem](https://courses.cs.washington.edu/courses/cse533/05au/pcp-history.pdf)
 - [Understanding the inverse Ackermann function](http://cgi.di.uoa.gr/~ewcg06/invited/Seidel.pdf)
+- [On our duties as scientists](http://www.wisdom.weizmann.ac.il/~oded/PDF/duties.pdf)
 
 
