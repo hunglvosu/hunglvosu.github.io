@@ -3,7 +3,7 @@
   Arnold Filtser and **Hung Le**
   <br>
   Preprint
-  <br>[[PDF](https://arxiv.org/pdf/2101.07428.pdf)]<br>
+  <br>[[PDF](https://arxiv.org/pdf/2101.07428.pdf)][[Slides](http://hunglvosu.github.io/files/Reliable-Spanners.pdf)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
   A highly desirable property of networks is robustness to failures. Consider a metric space $(X,d_X)$, a graph $H$ over $X$ is a $\vartheta$-reliable $t$-spanner if, for every set of failed vertices $B\subset X$, there is a superset $B^+\supseteq B$ such that the induced subgraph $H[X\setminus B]$ preserves all the distances between points in $X\setminus B^+$ up to a stretch factor $t$, while the expected size of $B^+$ is as most $(1+\vartheta)|B|$. Such a spanner could withstand a catastrophe: failure of even 90% of the network. Buchin, Har-Peled, and Ol{á}h [2019,2020], constructed very sparse reliable spanners with stretch $1+\epsilon$ for Euclidean space using locality-sensitive orderings. Har-Peled and Ol{á}h [2020] constructed reliable spanners for various non-Euclidean metric spaces using sparse covers. However, this second approach has an inherent dependency on the aspect ratio (a.k.a. spread) and gives sub-optimal stretch and sparsity parameters. 
