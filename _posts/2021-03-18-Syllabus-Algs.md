@@ -40,9 +40,9 @@ We will use Moodle for general logistics, Campuswire for dicussion and Gradescop
 - TAs:
     - TBA
 
-# Academic Honesty and Collaboration Policy Inclusivity
+# Diversity
 
-Please read the CICS [inclusivity statement](https://www.cics.umass.edu/diversity), copied here:
+Please read the CICS [diversity statement](https://www.cics.umass.edu/diversity), copied here:
 
 The College of Computer and Information Sciences shares UMass Amherst’s commitment to diversity. We celebrate the diversity in our community and actively seek to include and listen to voices that are often silenced in the computing world. We welcome all individuals regardless of age, background, citizenship, disability, sex, education, ethnicity, family status, gender, gender identity, geographical origin, language, military experience, political views, race, religion, sexual orientation, socioeconomic status, and work experience. 
 
