@@ -28,7 +28,7 @@ permalink: /posts/2021/03/Syllabus-Algs/
 
 **Platforms:**
 
-We will use Moodle for general logistics, Campuswire for dicussion and Gradescopes for homeowork assignments.
+We will use Moodle for general logistics, Campuswire for dicussion and Gradescopes for homework assignments.
 
 
 # Teaching Staffs
