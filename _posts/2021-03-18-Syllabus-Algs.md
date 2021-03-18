@@ -12,7 +12,7 @@ permalink: /posts/2021/03/Syllabus-Algs/
 - Randomized Algorithms (3 lectures)
 - Network Flow (3 lectures)
 - Linear Programming (3 lectures)
-- NP-Completeness (3lectures)
+- NP-Completeness (3 lectures)
 - Approximtion Algorithms (3 lectures)
 
 **Required Textbook:** Lectures will be based on [Jeff Erickson notes](http://jeffe.cs.illinois.edu/teaching/algorithms/).  Slides will be posted on Moodle.  
@@ -34,9 +34,9 @@ We will use Moodle for general logistics, Campuswire for dicussion and Gradescop
 # Teaching Staffs
 
 - Instructor: Hung Le.
-   - Email: hungle@uvic.ca
+    - Email: hungle@cs.umss.du
    - Office: 332 CS Building
-   - Weekly Office Hours: TOBA
+   - Weekly Office Hours: TBA
 - TAs:
     - TBA
 
