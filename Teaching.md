@@ -4,6 +4,10 @@
 <br>[[Syllabus](/posts/2021/03/Syllabus-Algs/)]
 
 
+- **Introduction to Algorithms**. (Spring 2020)
+<br>CMPSCI 311
+<br>University of Massachusetts Amherst
+<br>[[Syllabus](https://people.cs.umass.edu/~marius/class/cs311/)]
 
 
 - **Data Mining**. (Fall 2018)
