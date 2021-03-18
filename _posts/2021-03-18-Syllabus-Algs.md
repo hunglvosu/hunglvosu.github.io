@@ -18,13 +18,19 @@ permalink: /posts/2021/03/Syllabus-Algs/
 **Required Textbook:** Lectures will be based on [Jeff Erickson notes](http://jeffe.cs.illinois.edu/teaching/algorithms/).  Slides will be posted on Moodle.  
 
 **Optional Textbook:**
-    -  Introduction to Algorithms by Cormen, Leiserson, Rivest, and Stein.
-    - Algorithm Design by Kleinberg and Tardos.
-    - Algorithms by Dasgupta, Papadimitriou, Vazirani.
-    - Randomized Algorithms by Motwani and Raghavan.
-    - Probability and Computing by Mitzenmacher and Upfal.
-    - Approximation Algorithms by Vazirani.
-    
+   
+-  Introduction to Algorithms by Cormen, Leiserson, Rivest, and Stein.
+- Algorithm Design by Kleinberg and Tardos.
+- Algorithms by Dasgupta, Papadimitriou, Vazirani.
+- Randomized Algorithms by Motwani and Raghavan.
+- Probability and Computing by Mitzenmacher and Upfal.
+- Approximation Algorithms by Vazirani.
+
+**Platforms:**
+
+We will use Moodle for general logistics, Campuswire for dicussion and Gradescopes for homeowork assignments.
+
+
 # Teaching Staffs
 
 - Instructor: Hung Le.
@@ -33,3 +39,13 @@ permalink: /posts/2021/03/Syllabus-Algs/
    - Weekly Office Hours: TOBA
 - TAs:
     - TBA
+
+# Academic Honesty and Collaboration Policy Inclusivity
+
+Please read the CICS [inclusivity statement](https://www.cics.umass.edu/diversity), copied here:
+
+The College of Computer and Information Sciences shares UMass Amherst’s commitment to diversity. We celebrate the diversity in our community and actively seek to include and listen to voices that are often silenced in the computing world. We welcome all individuals regardless of age, background, citizenship, disability, sex, education, ethnicity, family status, gender, gender identity, geographical origin, language, military experience, political views, race, religion, sexual orientation, socioeconomic status, and work experience. 
+
+# Accomodations for Disabilities
+
+If you have a disability and would like to request accommodations, please contact Disability Services, located in 161 Whitmore Hall, (413) 545-0892. If you are eligible, they will grant you accommodations and notify the instructors.
