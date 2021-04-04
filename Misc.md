@@ -16,5 +16,6 @@ title: "Misc"
 - [Understanding the inverse Ackermann function](http://cgi.di.uoa.gr/~ewcg06/invited/Seidel.pdf)
 - [On our duties as scientists](http://www.wisdom.weizmann.ac.il/~oded/PDF/duties.pdf)
 - Get a paper rejected with a strange review? You are not alone, look at [these giants](https://www.destroyallsoftware.com/misc/reject.pdf).
+- [Tufte-Latex](https://tufte-latex.github.io/tufte-latex/); a very nice Latex package for books and notes.
 
 
