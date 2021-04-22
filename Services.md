@@ -1,5 +1,6 @@
 
 - Co-chair: [SOSA 2021](https://www.siam.org/conferences/cm/conference/sosa21).
+- PC Member: [WAOA 2021](http://algo2021.tecnico.ulisboa.pt/WAOA2021/)
 - Conference Reviews: 
     - STOC:  [2021](http://acm-stoc.org/stoc2021/) (2 papers), and [2020](http://acm-stoc.org/stoc2020/), and [2018](http://acm-stoc.org/stoc2018/), and  [2016](http://acm-stoc.org/stoc2016/).
     - FOCS: [2020](https://focs2020.cs.duke.edu), and [2018](https://www.irif.fr/~focs2018/), and  [2017](http://focs17.simons.berkeley.edu/).
