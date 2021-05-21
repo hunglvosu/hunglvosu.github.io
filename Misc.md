@@ -19,5 +19,6 @@ title: "Misc"
 - [On our duties as scientists](http://www.wisdom.weizmann.ac.il/~oded/PDF/duties.pdf)
 - Get a paper rejected with a strange review? You are not alone, look at [these giants](https://www.destroyallsoftware.com/misc/reject.pdf).
 - [Tufte-Latex](https://tufte-latex.github.io/tufte-latex/); a very nice Latex package for books and notes.
+- [Knuth's lectures on math writing](https://www.youtube.com/playlist?list=PLOdeqCXq1tXihn5KmyB2YTOqgxaUkcNYG)
 
 
