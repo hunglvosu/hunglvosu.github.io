@@ -5,6 +5,7 @@ title: "Misc"
 
 ## Advices
 
+- [Some materials for new grad students (and their mentors)](http://web.engr.oregonstate.edu/~rosulekm/advising.html) collected by Mike Rosulek.
 - [Should I feel bad to not know how to answer a very hard challenging problem that my professors ask?](https://www.quora.com/Should-I-feel-bad-to-not-know-how-to-answer-a-very-hard-challenging-problem-that-my-professors-ask/answer/Jeff-Erickson), answered by Jeff Erickson.
 - [The importance of stupidity in scientific research](https://jcs.biologists.org/content/121/11/1771) by Martin A. Schwartz. 
 - [The Awesomest 7-Year Postdoc or: How I Learned to Stop Worrying and Love the Tenure-Track Faculty Life](https://blogs.scientificamerican.com/guest-blog/the-awesomest-7-year-postdoc-or-how-i-learned-to-stop-worrying-and-love-the-tenure-track-faculty-life/) by Radhika Nagpal.
