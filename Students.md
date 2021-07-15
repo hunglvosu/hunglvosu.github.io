@@ -1,6 +1,6 @@
 **PhD Students**
 
-- Cuong Than (Summer 2021)
+- [Cuong Than](https://thanvietcuong.github.io) (Summer 2021)
 - An La (Fall 2021)
 
 **Undergraduate Students**
