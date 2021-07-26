@@ -11,6 +11,7 @@ title: "Misc"
 - [The Awesomest 7-Year Postdoc or: How I Learned to Stop Worrying and Love the Tenure-Track Faculty Life](https://blogs.scientificamerican.com/guest-blog/the-awesomest-7-year-postdoc-or-how-i-learned-to-stop-worrying-and-love-the-tenure-track-faculty-life/) by Radhika Nagpal.
 - [PhD Rants and Raves (Be afraid. Be very afraid.)](https://people.cs.umass.edu/~yannis/phd-slides.pdf) by Yannis Smaragdakis.
 - [Doing (mathematical) research](https://cameroncounts.wordpress.com/2009/11/11/doing-research/) by Peter Cameron.
+- [Four golden lessons](https://www.nature.com/articles/426389a.pdf) by Steven Weinberg.
 
 ## Links
 - [How to do math](http://www.cs.cmu.edu/~odonnell/toolkit13/how-to-do-math-and-tcs.pdf).
