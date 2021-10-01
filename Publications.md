@@ -1,15 +1,41 @@
+- **Dynamic Matching Algorithms Under Vertex Updates**
+  <br>
+  **Hung Le** and Lazar Milenkovic and Shay Solomon and Virginia Vassilevska Williams
+  <br>
+  Preprint
+  <br>[<font style="color:red;">PDF Coming soon</font>]<br>
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700"> 
+  Dynamic graph matching algorithms have been extensively studied, but mostly under  edge updates. This paper concerns dynamic matching algorithms under vertex updates, where in each update step a single vertex is either inserted or deleted along with its incident edges.  <br><br>
+  
+  A basic setting arising in {\em online  algorithms} and studied by Bosek et~al. [FOCS'14] and Bernstein et al. [SODA'18] is that of dynamic approximate maximum cardinality matching (MCM) in bipartite graphs in which one side is fixed and vertices on the other side either arrive or depart via vertex updates. In the \texttt{BASIC-incremental} setting, vertices only arrive, while in the \texttt{BASIC-decremental} setting vertices only depart. When vertices can both arrive and depart, we have the \texttt{BASIC-dynamic} setting. In this paper we also consider the setting in which both sides of the bipartite graph are dynamic. We call this the \texttt{MEDIUM-dynamic} setting, and \texttt{MEDIUM-decremental} is the restriction when vertices can only depart. The \texttt{GENERAL-dynamic} setting is when the graph is not necessarily bipartite and the vertices can both depart and arrive. <br><br>
+  
+  Denote by $K$ the total number of edges  inserted and deleted to and from the graph throughout the entire update sequence. A well-studied measure, the {\em recourse} of a dynamic matching algorithm is the number of changes made to the matching per step. <bt><br>
+  
+  We largely focus on Maximal Matching (MM) which is a $2$-approximation to the MCM. Our main results are as follows.
+  
+  <ul> <li>In the \texttt{BASIC-dynamic} setting, there is a straightforward algorithm for maintaining a MM, with a total runtime of $O(K)$ and constant worst-case recourse. In fact, this algorithm never removes an edge from the matching; we refer to such an algorithm as irrevocable. </li>
+  <li>For the \texttt{MEDIUM-dynamic} setting we give a strong conditional lower bound that even holds in the \texttt{MEDIUM-decremental} setting: if for any fixed $\eta>0$, there is an irrevocable decremental MM algorithm with a total runtime of $O(K \cdot n^{1-\eta})$, this would refute the OMv conjecture; a similar (but weaker) hardness result can be achieved via a reduction from the Triangle Detection conjecture. </li>
+  <li>Next, we consider the \texttt{GENERAL-dy\-nam\-ic} setting, and  design an MM algorithm with a total runtime of $O(K)$ and constant worst-case recourse. We achieve this result via a \emph{1-revocable} algorithm, which may remove just one edge per update step. As argued above, an irrevocable algorithm with such a runtime is not likely to exist.</li>
+  <li>Finally, back to the \texttt{BASIC-dynamic} setting, we present an algorithm with a total runtime of $O(K)$, which provides an $(\frac{e}{e-1})$-approximation to the MCM.  To this end, we build on the classic "ranking" online algorithm by Karp et al. [STOC'90]. </li>
+  </ul>
+  
+  Beyond the concrete results, our work draws connections between the areas of dynamic graph algorithms and online algorithms, and it proposes several open questions that seem to be overlooked thus far. 
+  </font>
+  </details>
+
 - **Near-Optimal Spanners for General Graphs in (Nearly) Linear Time**
   <br>
   **Hung Le** and Shay Solomon
   <br>
   Preprint
-  <br>[[PDF](https://arxiv.org/pdf/2107.14221.pdf)]<br>
+  <br>[[PDF](https://arxiv.org/pdf/2108.00102.pdf)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700"> 
   Let $G = (V,E,w)$ be a weighted undirected graph on $|V| = n$ vertices and $|E| = m$ edges, let $k \ge 1$ be any integer, and let $\epsilon < 1$ be any parameter. We present the following results on fast constructions of spanners with {near-optimal} sparsity and lightness,\footnote{The sparsity (respectively, lightness) is a normalized notion of size (resp., weight), where we divide the size (resp., weight)  by the size $n-1$ of a spanning tree (resp., the weight $w(\mathrm{MST})$ of a minimum spanning tree $\mathrm{mst}$).} which culminate a long line of work in this area. (By  near-optimal we mean optimal under Erdos' girth conjecture and disregarding the $\epsilon$-dependencies.)<br>
   
-  <ul> <li>There are (deterministic) algorithms for constructing $(2k-1)(1+\epsilon)$-spanners for $G$ with a near-optimal sparsity of $O(n^{1/k} \cdot \log(1/\epsilon)/\epsilon))$. The first algorithm can be implemented in the pointer-machine model within time $O(m\alpha(m,n) \cdot \log(1/\epsilon)/\epsilon) + \srt(m))$, where $\alpha(\cdot,\cdot)$ is the two-parameter inverse-Ackermann function and $\srt(m)$ is the time needed to sort $m$ integers. The second algorithm can be implemented  in the \rdrm model  within time $O(m \log(1/\epsilon)/\epsilon))$. </li>
-  <li>There is a (deterministic)  algorithm for constructing a $(2k-1)(1+\epsilon)$-spanner for $G$ that achieves a near-optimal bound of $O(n^{1/k} \cdot \mathrm{poly}(1/\epsilon))$ on both sparsity and lightness. This algorithm can be implemented in the pointer-machine model within time $O(m\alpha(m,n) \cdot \mathrm{poly}(1/\epsilon) + \srt(m))$ and in the \rdrm model within time $O(m \alpha(m,n) \cdot \mathrm{poly}(1/\epsilon))$.</li>
+  <ul> <li>There are (deterministic) algorithms for constructing $(2k-1)(1+\epsilon)$-spanners for $G$ with a near-optimal sparsity of $O(n^{1/k} \cdot \log(1/\epsilon)/\epsilon))$. The first algorithm can be implemented in the pointer-machine model within time $O(m\alpha(m,n) \cdot \log(1/\epsilon)/\epsilon) + \mathrm{SORT}(m))$, where $\alpha(\cdot,\cdot)$ is the two-parameter inverse-Ackermann function and $\mathrm{SORT}(m)$ is the time needed to sort $m$ integers. The second algorithm can be implemented  in the \rdrm model  within time $O(m \log(1/\epsilon)/\epsilon))$. </li>
+  <li>There is a (deterministic)  algorithm for constructing a $(2k-1)(1+\epsilon)$-spanner for $G$ that achieves a near-optimal bound of $O(n^{1/k} \cdot \mathrm{poly}(1/\epsilon))$ on both sparsity and lightness. This algorithm can be implemented in the pointer-machine model within time $O(m\alpha(m,n) \cdot \mathrm{poly}(1/\epsilon) + \mathrm{SORT}(m))$ and in the \rdrm model within time $O(m \alpha(m,n) \cdot \mathrm{poly}(1/\epsilon))$.</li>
   </ul>
   
   The previous fastest constructions of $(2k-1)(1+\epsilon)$-spanners with near-optimal sparsity incur a runtime of is $O(\min\{m(n^{1+1/k}) + n\log n,k \cdot n^{2+1/k}\})$, even regardless of the lightness.  Importantly, the  greedy spanner for stretch $2k-1$ has sparsity $O(n^{1/k})$ --- with no $\epsilon$-dependence whatsoever, but its runtime is $O(m(n^{1+1/k} + n\log n))$. Moreover, the   state-of-the-art lightness bound of any $(2k-1)$-spanner (including the greedy spanner) is poor, even regardless of the sparsity and runtime.
