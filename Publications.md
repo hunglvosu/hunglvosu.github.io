@@ -1,3 +1,25 @@
+- **Towards a Unified Theory of Light Spanners I: Fast (Yet Optimal) Constructions**
+  <br>
+  **Hung Le** and Shay Solomon
+  <br>
+  Preprint
+  <br>[[PDF](https://arxiv.org/pdf/2106.15596.pdf)]<br>
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  Seminal works on light spanners over the years provide spanners with optimal or near-optimal lightness in various graph classes, such as in general graphs, Euclidean spanners, and minor-free graphs. Two shortcomings of all previous works on light spanners are: (1) The techniques are ad hoc per graph class, and thus can't be applied broadly (e.g., some require large stretch and are thus suitable to general graphs, while others are naturally suitable to stretch $1 + \epsilon$). (2) The runtimes of these constructions are almost always sub-optimal, and usually far from optimal. 
+  
+  This work aims at initiating a unified theory of light spanners by presenting a single framework that can be used to construct light spanners in a variety of graph classes.  This theory is developed in two papers. The current paper is the first of the two --- it   lays the foundations of the theory of light spanners and then applies it to design  constructions with  optimal lightness for several graph classes. Our new constructions are significantly faster than the state-of-the-art for every examined graph class; moreover, our runtimes are near-linear and usually optimal. 
+  
+  Specifically, this paper includes the following results (for simplicity assume $\epsilon> 0$ is fixed):
+  
+  <ul> <li>In general graphs: A nearly linear-time algorithm for constructing light spanners. Specifically, for any $k \ge 2$, we construct a $(2k-1)(1+\epsilon)$-spanner with lightness $O(n^{1/k})$  in $O(m \alpha(m,n))$ time, where $\alpha(\cdot,\cdot)$ is the inverse-Ackermann function; the lightness bound is optimal assuming Erd\H{o}s' girth conjecture (up to the $\epsilon$-dependency). Since $O(m\alpha(m,n)) = O(m + n\log^{*}n)$, the runtime is \emph{linear} in $m$ when ${m = \Omega(n \log^* n)}$. The previous state-of-the-art runtime of such a spanner is super-quadratic in $n$. </li>
+  <li>In low-dimensional Euclidean spaces: An $O(n\log n)$-time construction  of $(1+\eps)$-spanners with lightness and degree both bounded by constants in the basic algebraic computation tree (ACT) model. This construction is optimal (up to dependencies on $\epsilon$ and the dimension) with respect to all the involved quality measures --- runtime, lightness and degree --- and it resolves a major   problem in the area of geometric spanners, which was open for three decades.</li>
+  <li>In unit-disk graphs in $\mathbb R^2$: An $O(n\log n)$-time construction of $(1+\epsilon)$-spanners with constant lightness and degree, in the ACT model. This construction too is optimal with respect to all the involved quality measures. This is the first $o(n^2)$-time spanner construction for unit disk graphs with a nontrivial lightness bound.</li>
+  <li>In minor-free graphs: A linear-time algorithm for constructing $(1+\epsilon)$-spanners with constant lightness.  This is the first $o(n^2)$-time spanner construction for minor-free graphs (and even for some of its sub-classes, such as bounded treewidth graphs), with a nontrivial lightness bound. </li>
+  </ul>
+  </font>
+  </details>
+  
 - **Reliable Spanners: Locality-Sensitive Orderings Strike Back**
   <br>
   Arnold Filtser and **Hung Le**
@@ -14,6 +36,20 @@
   </ul>
   </font>
   </details>
+  
+- **Optimal Approximate Distance Oracle for Planar Graphs**
+  <br>
+  **Hung Le** and Christian Wulff-Nilsen
+  <br>
+  To appear in the 62st Annual Symposium on Foundations of Computer Science. **FOCS 2021**.
+  <br>[Coming soon]<br>
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  A $(1+\epsilon)$-approximate distance oracle of an edge-weighted graph is a data structure that returns an approximate shortest path distance between any two query vertices up to a $(1+\epsilon)$ factor. Thorup (FOCS 2001, JACM 2004) and Klein (SODA 2002) independently constructed a $(1+\epsilon)$-approximate distance oracle with $O(n\log n)$ space, measured in number of words, and $O(1)$ query time when $G$ is an undirected planar graph with $n$ vertices and $\epsilon$ is a fixed constant. Many follow-up works gave $(1+\epsilon)$-approximate distance oracles with various trade-offs between space and query time. However, improving $O(n\log n)$ space bound without sacrificing query time remains an open problem for almost two decades. In this work, we resolve this problem affirmatively by constructing a $(1+\epsilon)$-approximate distance oracle with optimal $O(n)$ space and $O(1)$ query time for undirected planar graphs and fixed $\epsilon$.
+  
+  We also make substantial progress for planar digraphs with non-negative edge weights. For fixed $\epsilon > 0$, we give a $(1+\epsilon)$-approximate distance oracle with space $o(n\log(Nn))$ and $O(\log\log(Nn)$ query time; here $N$ is the ratio between the largest and smallest positive edge weight. This improves Thorup's (FOCS 2001, JACM 2004) $O(n\log(Nn)\log n)$ space bound by more than a logarithmic factor while matching the query time of his structure. This is the first improvement for planar digraphs in two decades, both in the weighted and unweighted setting.
+  </font>
+  </details>  
   
 - **A Unified and Fine-Grained Approach for Light Spanners**
   <br>
@@ -48,7 +84,7 @@
     <br>
     Arnold Filtser and **Hung Le**
     <br>
-    To appear in the 53rd Annual ACM Symposium on Theory of Computing. **STOC 2021**.
+    The 53rd Annual ACM Symposium on Theory of Computing. **STOC 2021**.
     <br>[PDF](https://arxiv.org/pdf/2101.01146.pdf)<br>
     <details><summary style="color:#7C4700">Abstract</summary>
     <font color = "7C4700">
@@ -62,7 +98,7 @@
   <br>
 Vincent Cohen-Addad and  Arnold Filtser and Philip N. Klein and **Hung Le**
   <br>
-  To appear in the 61st Annual Symposium on Foundations of Computer Science. **FOCS 2020**.
+  The 61st Annual Symposium on Foundations of Computer Science. **FOCS 2020**.
   <br>[[PDF](https://arxiv.org/abs/2009.05039)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">Understanding the structure of minor-free metrics, namely shortest path metrics obtained
