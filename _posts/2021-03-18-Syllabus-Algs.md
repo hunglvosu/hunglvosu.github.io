@@ -97,7 +97,7 @@ The following tentative schedule might suffer changes.
 | 05 Oct          | Nuts and Bolts, Quicksort                       | [Erickson's note on Randomized Algs](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/02-nutsbolts.pdf) |
 | 07 Oct          | Midterm 1                                       | Covering D&C, DP, and Greedy                                 |
 | 12 Oct          | Balls and Bins, Chernoff's Bounds               | [Erickson's note on Hashing](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/05-hashing.pdf) |
-| 14 Oct          | Bloom Filter, Identity Testing                  | Instructor's notes                                           |
+| 14 Oct          | Bloom Filter                  | [Erickson's note on filtering and streaming](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/06-bloom.pdf)                                        |
 | 19 Oct          | Maxflow-Mincut                                  | [Erickson's note on Maxflow](http://jeffe.cs.illinois.edu/teaching/algorithms/book/10-maxflow.pdf) |
 | 21 Oct          | Applications of Maxflow                         | [Erickson's note on Applications of Maxflow](http://jeffe.cs.illinois.edu/teaching/algorithms/book/11-maxflowapps.pdf) |
 | 26 Oct          | Maxflow in Strongly PolyTime                    | [Erickson's note on Maxflow](http://jeffe.cs.illinois.edu/teaching/algorithms/book/10-maxflow.pdf) |
