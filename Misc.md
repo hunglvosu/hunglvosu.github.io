@@ -5,6 +5,8 @@ title: "Misc"
 
 ## Advices
 
+- [How should I deal with becoming discouraged as a graduate student?](https://academia.stackexchange.com/questions/2219/how-should-i-deal-with-becoming-discouraged-as-a-graduate-student) by Aru Ray. See the answer by Jeff Erickson.
+
 - [Some materials for new grad students (and their mentors)](http://web.engr.oregonstate.edu/~rosulekm/advising.html) collected by Mike Rosulek.
 - [Should I feel bad to not know how to answer a very hard challenging problem that my professors ask?](https://www.quora.com/Should-I-feel-bad-to-not-know-how-to-answer-a-very-hard-challenging-problem-that-my-professors-ask/answer/Jeff-Erickson), answered by Jeff Erickson.
 - [The importance of stupidity in scientific research](https://jcs.biologists.org/content/121/11/1771) by Martin A. Schwartz. 
