@@ -12,6 +12,8 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 ## News
 
+- **[Oct 2021]** Two papers: "Near-Optimal Spanners for General Graphs in (Nearly) Linear Time" and "Greedy Spanners in Euclidean Spaces Admit Sublinear Separators" accepted to [SODA 2022](https://www.siam.org/conferences/cm/conference/soda22). Congratulations to my PhD student Cuowng Than for the first SODA paper.
+
 - **[Sept 2021]** Our paper "Optimal Approximate Distance Oracle for Planar Graphs"  accepted to [FOCS2021](https://focs2021.cs.colorado.edu/focs-2021-accepted-papers/). Several preprints were uploaded to Arxiv. 
 
 - **[May 2021]** Recieved an [NSF grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) to work on spanners for the next 3 years. Thanks, NSF!
