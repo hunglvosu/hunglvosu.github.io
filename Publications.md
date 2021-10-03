@@ -28,7 +28,7 @@
   <br>
   **Hung Le** and Shay Solomon
   <br>
-  To appear in the 33rd Annual ACM-SIAM Symposium on Discrete Algorithms. **SODA 2021**.
+  To appear in the 33rd Annual ACM-SIAM Symposium on Discrete Algorithms. **SODA 2022**.
   <br>[[PDF](https://arxiv.org/pdf/2108.00102.pdf)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700"> 
@@ -69,7 +69,7 @@
   <br>
   **Hung Le** and Cuong Than
   <br>
-  To appear in the 33rd Annual ACM-SIAM Symposium on Discrete Algorithms. **SODA 2021**.
+  To appear in the 33rd Annual ACM-SIAM Symposium on Discrete Algorithms. **SODA 2022**.
   <br>[[PDF](https://arxiv.org/pdf/2107.06490.pdf)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
