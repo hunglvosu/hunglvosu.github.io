@@ -12,6 +12,8 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 ## News
 
+- **[Nov 2021]** Our paper "Dynamic Matching Algorithms Under Vertex Updates" is accepted to [ITCS 2022](http://itcs-conf.org/index.html).
+
 - **[Oct 2021]** Two papers: "Near-Optimal Spanners for General Graphs in (Nearly) Linear Time" and "Greedy Spanners in Euclidean Spaces Admit Sublinear Separators" accepted to [SODA 2022](https://www.siam.org/conferences/cm/conference/soda22). Congratulations to my PhD student Cuong Than for the first SODA paper.
 
 - **[Sept 2021]** Our paper "Optimal Approximate Distance Oracle for Planar Graphs"  accepted to [FOCS2021](https://focs2021.cs.colorado.edu/focs-2021-accepted-papers/). Several preprints were uploaded to Arxiv. 
@@ -26,7 +28,6 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 - **[August 2020]** New preprint "A Unified and Fine-Grained Approach for Light Spanners" is uploaded to [Arxiv](https://arxiv.org/pdf/2008.10582.pdf).
 
-- **[July 2020]** Our paper "On Light Spanners, Low-treewidth Embeddings and Efficient Traversing in Minor-free Graphs" accepted to [FOCS 2020](https://focs2020.cs.duke.edu).
 
     
 

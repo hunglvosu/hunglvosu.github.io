@@ -2,7 +2,7 @@
   <br>
   **Hung Le** and Lazar Milenkovic and Shay Solomon and Virginia Vassilevska Williams
   <br>
-  Preprint
+  To appear in The 13th Innovations in Theoretical Computer Science. **ITCS 2022**
   <br>[<font style="color:red;">PDF Coming soon</font>]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700"> 
@@ -21,6 +21,7 @@
   </ul>
   
   Beyond the concrete results, our work draws connections between the areas of dynamic graph algorithms and online algorithms, and it proposes several open questions that seem to be overlooked thus far. 
+  <br>
   </font>
   </details>
 
