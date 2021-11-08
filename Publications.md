@@ -5,14 +5,15 @@
   To appear in The 13th Innovations in Theoretical Computer Science. **ITCS 2022**
   <br>[<font style="color:red;">PDF Coming soon</font>]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
-  <font color = "7C4700"> 
+  <font color = "7C4700">
   Dynamic graph matching algorithms have been extensively studied, but mostly under  edge updates. This paper concerns dynamic matching algorithms under vertex updates, where in each update step a single vertex is either inserted or deleted along with its incident edges.  <br><br>
   
   A basic setting arising in online  algorithms and studied by Bosek et al. [FOCS'14] and Bernstein et al. [SODA'18] is that of dynamic approximate maximum cardinality matching (MCM) in bipartite graphs in which one side is fixed and vertices on the other side either arrive or depart via vertex updates. In the BASIC-incremental setting, vertices only arrive, while in the BASIC-decremental setting vertices only depart. When vertices can both arrive and depart, we have the BASIC-dynamic setting. In this paper we also consider the setting in which both sides of the bipartite graph are dynamic. We call this the MEDIUM-dynamic setting, and MEDIUM-decremental is the restriction when vertices can only depart. The GENERAL-dynamic setting is when the graph is not necessarily bipartite and the vertices can both depart and arrive. <br><br>
   
-  Denote by $K$ the total number of edges  inserted and deleted to and from the graph throughout the entire update sequence. A well-studied measure, the  recourse of a dynamic matching algorithm is the number of changes made to the matching per step. <bt><br>
+  Denote by $K$ the total number of edges  inserted and deleted to and from the graph throughout the entire update sequence. A well-studied measure, the  recourse of a dynamic matching algorithm is the number of changes made to the matching per step. <bt><br> 
   
   We largely focus on Maximal Matching (MM) which is a $2$-approximation to the MCM. Our main results are as follows.
+    
   
   <ul> <li>In the BASIC-dynamic setting, there is a straightforward algorithm for maintaining a MM, with a total runtime of $O(K)$ and constant worst-case recourse. In fact, this algorithm never removes an edge from the matching; we refer to such an algorithm as irrevocable. </li>
   <li>For the MEDIUM-dynamic setting we give a strong conditional lower bound that even holds in the MEDIUM-decremental setting: if for any fixed $\eta>0$, there is an irrevocable decremental MM algorithm with a total runtime of $O(K \cdot n^{1-\eta})$, this would refute the OMv conjecture; a similar (but weaker) hardness result can be achieved via a reduction from the Triangle Detection conjecture. </li>
@@ -21,7 +22,6 @@
   </ul>
   
   Beyond the concrete results, our work draws connections between the areas of dynamic graph algorithms and online algorithms, and it proposes several open questions that seem to be overlooked thus far. 
-  <br>
   </font>
   </details>
 
@@ -123,7 +123,7 @@
   **Hung Le** and Christian Wulff-Nilsen
   <br>
   To appear in the 62st Annual Symposium on Foundations of Computer Science. **FOCS 2021**.
-  <br>[<font style="color:red;">PDF Coming soon</font>]<br>
+  <br>[[PDF](https://arxiv.org/pdf/2111.03560.pdf)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
   A $(1+\epsilon)$-approximate distance oracle of an edge-weighted graph is a data structure that returns an approximate shortest path distance between any two query vertices up to a $(1+\epsilon)$ factor. Thorup (FOCS 2001, JACM 2004) and Klein (SODA 2002) independently constructed a $(1+\epsilon)$-approximate distance oracle with $O(n\log n)$ space, measured in number of words, and $O(1)$ query time when $G$ is an undirected planar graph with $n$ vertices and $\epsilon$ is a fixed constant. Many follow-up works gave $(1+\epsilon)$-approximate distance oracles with various trade-offs between space and query time. However, improving $O(n\log n)$ space bound without sacrificing query time remains an open problem for almost two decades. In this work, we resolve this problem affirmatively by constructing a $(1+\epsilon)$-approximate distance oracle with optimal $O(n)$ space and $O(1)$ query time for undirected planar graphs and fixed $\epsilon$.
