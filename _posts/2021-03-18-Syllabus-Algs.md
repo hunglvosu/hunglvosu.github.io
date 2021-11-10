@@ -39,7 +39,7 @@ permalink: /posts/2021/03/Syllabus-Algs/
 - Midterm 2 (15%): **Tue, Nov 16**. Midterm 2 will cover randomized algorithms, network flow, and linear programming.
 - Final (20%): Scheduled by the university and will be comprehensive.
 
-
+**Attendance policies:** Attendance is not optional. If you do not attend a lecture, you are responsible for learning the materials covered in the leccture yourself.
 
 **Academic Honesty and Collaboration Policy:**
 
@@ -54,6 +54,8 @@ If you cheat in a course, you are taking away from your own opportunity to learn
 As faculty, we pledge to use academic policies designed for fairness, avoiding situations that are conducive to violating academic honesty, as well as unreasonable or unusual procedures that assume dishonesty. We will follow the university's [Academic Honesty Policy and Procedures](https://www.umass.edu/honesty/). This means we will report instances of dishonesty, which may lead to formal sanction and/or failing the course.
 
 **Late Policy:** You have **one late day** on any HW of your choice. Late submissions otherwise will not be graded unless you have a good medical reason. Try your best to honor the deadlines. 
+
+**Exam Make-up Policies:** f you have a conflict exam with another class, you should [contact University Registrar's Office](https://www.umass.edu/registrar/i-have-two-midtermfinal-exams-scheduled-same-time-what-do-i-do). If you cannot attend the exam for a medical reason, please notify the instructor at least one week before the exam. If you have a medical emergency, contact the instructor as soon as possible. You need to provide a document for the medical reason.  
 
 **Posting Policy:**  You are not allowed to post any material in this course to public websites  without the permission of the instructor. 
 
