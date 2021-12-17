@@ -1,3 +1,21 @@
+- **Sparse Euclidean Spanners with Tiny Diameter: A Tight Lower Bound**
+  <br>
+  **Hung Le** and Lazar Milenkovic and Shay Solomon
+  <br>
+  Preprint
+  <br>[[PDF](https://arxiv.org/pdf/2112.09124.pdf)]<br>
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  In STOC'95 Arya et al.\ showed that any set of $n$ points in $\mathbb R^d$ admits a $(1+\epsilon)$-spanner with hop-diameter at most 2 (respectively, 3) and $O(n \log n)$ edges (resp., $O(n \log \log n)$ edges). They also gave a general upper bound tradeoff of hop-diameter at most $k$ and $O(n \alpha_k(n))$ edges, for any $k \geq 2$.
+  
+  The function $\alpha_k$ is the inverse of a certain Ackermann-style function at the $\lfloor k/2 \rfloor$th level of the primitive recursive hierarchy, where $\alpha_0(n) = \lceil n/2 \rceil, \alpha_1(n) = \left\lceil \sqrt{n} \right\rceil, \alpha_2(n) = \lceil \log{n} \rceil, \alpha_3(n) = \lceil \log\log{n} \rceil, \alpha_4(n) = \log^* n, \alpha_5(n) = \lfloor \frac{1}{2} \log^*n \rfloor$, \ldots. Roughly speaking, for $k \geq 2$ the function $\alpha_{k}$ is close to $\lfloor \frac{k-2}{2} \rfloor$-iterated log-star function, i.e., $\log$ with $\lfloor \frac{k-2}{2} \rfloor$ stars.<br><br>
+  
+  Whether or not this tradeoff is tight has remained open, even for the cases $k = 2$ and $k = 3$. Two lower bounds are known: The first applies only to spanners with stretch 1 and the second is sub-optimal and applies only to sufficiently large (constant) values of $k$. In this paper we prove a tight lower bound for any constant $k$: For any fixed  $\epsilon > 0$, any $(1+\epsilon)$-spanner for the uniform line metric with hop-diameter at most $k$ must have at least $\Omega(n \alpha_k(n))$ edges.
+  
+  </font>
+  </details>
+  
+
 - **A Unified Framework of Light Spanners II: Fine-Grained Optimality**
   <br>
   **Hung Le** and Shay Solomon
@@ -10,7 +28,7 @@
   
   This work aims at addressing these shortcomings by presenting  a unified framework of light spanners in a variety of graph classes. Informally, the framework boils down to a  transformation from sparse spanners to light spanners; since the state-of-the-art for sparse spanners is much more advanced than that for light spanners, such a transformation is powerful. Our framework is developed in two papers. The current paper is the second of the two ---  it  builds on the basis of the unified framework laid in the first paper,  and then strengthens it to achieve more refined optimality bounds for several graph classes, i.e., the bounds remain optimal when taking into account a wider range of involved parameters, most notably $\epsilon$, but also others such as the dimension (in Euclidean spaces) or the minor size (in minor-free graphs).  Our new constructions are significantly better than the state-of-the-art {\em for every examined graph class}. Among various applications and implications of our framework, we highlight the following:<br><br>
   
-  For $K_r$-minor-free graphs, we provide a  $(1+\epsilon)$-spanner with lightness $\tilde{O}_{r,\epsilon}( \frac{r}{\epsilon} + \frac{1}{\epsilon^2})$, where $\tilde{O}_{r,\epsilon}$ suppresses $\mathsf{polylog}$ factors of $1/\epsilon$ and $r$, improving the lightness bound $\tilde{O}_{r,\epsilon}( \frac{r}{\epsilon^3})$ of Borradaile, Le and Wulff-Nilsen. We complement our upper bound with a highly nontrivial lower bound construction, for which any $(1+\epsilon)$-spanner must have lightness $\Omega(\frac{r}{\epsilon} + \frac{1}{\epsilon^2})$. Interestingly, our lower bound is realized by a geometric graph in $\mathbb{R}^2$. We note that the quadratic dependency on $1/\epsilon$ we proved here is surprising, as the prior work suggested that the dependency on $\eps$ should be around $1/\epsilon$.  Indeed, for minor-free graphs there is a known upper bound of lightness $O(\log(n)/\epsilon)$, whereas subclasses of minor-free graphs, primarily graphs of genus bounded by $g$, are long known to admit spanners of lightness $O(g/\epsilon)$.  
+  For $K_r$-minor-free graphs, we provide a  $(1+\epsilon)$-spanner with lightness $\tilde{O}_{r,\epsilon}( \frac{r}{\epsilon} + \frac{1}{\epsilon^2})$, where $\tilde{O}_{r,\epsilon}$ suppresses $\mathsf{polylog}$ factors of $1/\epsilon$ and $r$, improving the lightness bound $\tilde{O}_{r,\epsilon}( \frac{r}{\epsilon^3})$ of Borradaile, Le and Wulff-Nilsen. We complement our upper bound with a highly nontrivial lower bound construction, for which any $(1+\epsilon)$-spanner must have lightness $\Omega(\frac{r}{\epsilon} + \frac{1}{\epsilon^2})$. Interestingly, our lower bound is realized by a geometric graph in $\mathbb{R}^2$. We note that the quadratic dependency on $1/\epsilon$ we proved here is surprising, as the prior work suggested that the dependency on $\epsilon$ should be around $1/\epsilon$.  Indeed, for minor-free graphs there is a known upper bound of lightness $O(\log(n)/\epsilon)$, whereas subclasses of minor-free graphs, primarily graphs of genus bounded by $g$, are long known to admit spanners of lightness $O(g/\epsilon)$.  
   </font>
   </details>
   
@@ -36,8 +54,7 @@
   <li>Next, we consider the GENERAL-dynamic setting, and  design an MM algorithm with a total runtime of $O(K)$ and constant worst-case recourse. We achieve this result via a 1-revocable algorithm, which may remove just one edge per update step. As argued above, an irrevocable algorithm with such a runtime is not likely to exist.</li>
   <li>Finally, back to the BASIC-dynamic setting, we present an algorithm with a total runtime of $O(K)$, which provides an $(\frac{e}{e-1})$-approximation to the MCM.  To this end, we build on the classic "ranking" online algorithm by Karp et al. [STOC'90]. </li>
   </ul>
-  
-  Beyond the concrete results, our work draws connections between the areas of dynamic graph algorithms and online algorithms, and it proposes several open questions that seem to be overlooked thus far. 
+  Beyond the concrete results, our work draws connections between the areas of dynamic graph algorithms and online algorithms, and it proposes several open questions that seem to be overlooked thus far. <br>
   </font>
   </details>
 
@@ -113,7 +130,7 @@
   Among various applications and implications of our framework, we highlight here the following (for simplicity assume $\epsilon> 0$ is fixed):
   
   <ul> <li>In low-dimensional Euclidean spaces, we present an $O(n\log n)$-time construction  of $(1+\epsilon)$-spanners with lightness and degree both bounded by constants in the algebraic computation tree (ACT) (or real-RAM) model, which is the basic model used in Computational Geometry. The previous state-of-the-art runtime in this model for constant lightness (even for unbounded degree) was $O(n \log^2 n / \log\log n)$, whereas $O(n \log n)$-time spanner constructions with constant degree (and  $O(n)$ edges) are known for years. Our construction is optimal with respect to all the involved quality measures --- runtime, lightness and degree --- and it resolves a major problem in the area of geometric spanners, which was open for three decades. </li>
-  <li>In general graphs, we present a nearly linear-time algorithm for constructing light spanners. Specifically, for any $k \ge 2$, we construct a $(2k-1)(1+\epsilon)$-spanner with lightness $O(n^{1/k})$  in $O(m \alpha(m,n))$ time, where $\alpha(\cdot,\cdot)$ is the inverse-Ackermann function; the lightness bound is optimal assuming Erd\H{o}s' girth conjecture (up to the $\eps$-dependency). Since $O(m\alpha(m,n)) = O(m + n\log^{*}(n)$, the runtime is linear in $m$ when ${m = \Omega(n \log^{*}n)}$. The previous state-of-the-art runtime of such a spanner is super-quadratic in $n$. This result for light spanners in general weighted graphs is   surprising, as it outperforms the analog one for sparse spanners.</li>
+  <li>In general graphs, we present a nearly linear-time algorithm for constructing light spanners. Specifically, for any $k \ge 2$, we construct a $(2k-1)(1+\epsilon)$-spanner with lightness $O(n^{1/k})$  in $O(m \alpha(m,n))$ time, where $\alpha(\cdot,\cdot)$ is the inverse-Ackermann function; the lightness bound is optimal assuming Erd\H{o}s' girth conjecture (up to the $\epsilon$-dependency). Since $O(m\alpha(m,n)) = O(m + n\log^{*}(n)$, the runtime is linear in $m$ when ${m = \Omega(n \log^{*}n)}$. The previous state-of-the-art runtime of such a spanner is super-quadratic in $n$. This result for light spanners in general weighted graphs is   surprising, as it outperforms the analog one for sparse spanners.</li>
   </ul>
   </font>
   </details>
