@@ -1,3 +1,19 @@
+- **A Unified Framework of Light Spanners II: Fine-Grained Optimality**
+  <br>
+  **Hung Le** and Shay Solomon
+  <br>
+  Preprint
+  <br>[[PDF](https://arxiv.org/pdf/2106.15596.pdf)]<br>
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  Seminal works on light spanners over the years provide spanners with optimal lightness in various graph classes, such as in general graphs, Euclidean spanners and minor-free graphs. Three shortcomings of previous works on light spanners are: (1) The techniques are ad hoc per graph class, and thus can't be applied broadly.  (2) The runtimes of these constructions are almost always sub-optimal, and usually far from optimal. (3) These constructions are optimal in the standard and crude sense, but not in a refined sense that takes into account a wider range of involved parameters.<br><br>
+  
+  This work aims at addressing these shortcomings by presenting  a unified framework of light spanners in a variety of graph classes. Informally, the framework boils down to a  transformation from sparse spanners to light spanners; since the state-of-the-art for sparse spanners is much more advanced than that for light spanners, such a transformation is powerful. Our framework is developed in two papers. The current paper is the second of the two ---  it  builds on the basis of the unified framework laid in the first paper,  and then strengthens it to achieve more refined optimality bounds for several graph classes, i.e., the bounds remain optimal when taking into account a wider range of involved parameters, most notably $\epsilon$, but also others such as the dimension (in Euclidean spaces) or the minor size (in minor-free graphs).  Our new constructions are significantly better than the state-of-the-art {\em for every examined graph class}. Among various applications and implications of our framework, we highlight the following:<br><br>
+  
+  For $K_r$-minor-free graphs, we provide a  $(1+\epsilon)$-spanner with lightness $\tilde{O}_{r,\epsilon}( \frac{r}{\epsilon} + \frac{1}{\epsilon^2})$, where $\tilde{O}_{r,\epsilon}$ suppresses $\mathsf{polylog}$ factors of $1/\epsilon$ and $r$, improving the lightness bound $\tilde{O}_{r,\epsilon}( \frac{r}{\epsilon^3})$ of Borradaile, Le and Wulff-Nilsen. We complement our upper bound with a highly nontrivial lower bound construction, for which any $(1+\epsilon)$-spanner must have lightness $\Omega(\frac{r}{\epsilon} + \frac{1}{\epsilon^2})$. Interestingly, our lower bound is realized by a geometric graph in $\mathbb{R}^2$. We note that the quadratic dependency on $1/\epsilon$ we proved here is surprising, as the prior work suggested that the dependency on $\eps$ should be around $1/\epsilon$.  Indeed, for minor-free graphs there is a known upper bound of lightness $O(\log(n)/\epsilon)$, whereas subclasses of minor-free graphs, primarily graphs of genus bounded by $g$, are long known to admit spanners of lightness $O(g/\epsilon)$.  
+  </font>
+  </details>
+  
 - **Dynamic Matching Algorithms Under Vertex Updates**
   <br>
   **Hung Le** and Lazar Milenkovic and Shay Solomon and Virginia Vassilevska Williams
@@ -82,7 +98,7 @@
   </font>
   </details>
   
-- **Towards a Unified Theory of Light Spanners I: Fast (Yet Optimal) Constructions**
+- **A Unified Framework of Light Spanners I: Fast (Yet Optimal) Constructions**
   <br>
   **Hung Le** and Shay Solomon
   <br>
@@ -90,16 +106,14 @@
   <br>[[PDF](https://arxiv.org/pdf/2106.15596.pdf)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
-  Seminal works on light spanners over the years provide spanners with optimal or near-optimal lightness in various graph classes, such as in general graphs, Euclidean spanners, and minor-free graphs. Two shortcomings of all previous works on light spanners are: (1) The techniques are ad hoc per graph class, and thus can't be applied broadly (e.g., some require large stretch and are thus suitable to general graphs, while others are naturally suitable to stretch $1 + \epsilon$). (2) The runtimes of these constructions are almost always sub-optimal, and usually far from optimal.<br> <br>
+  Seminal works on light spanners over the years provide spanners with optimal lightness in various graph classes, such as in general graphs, Euclidean spanners and minor-free graphs. Three shortcomings of previous works on light spanners are: (1) The techniques are ad hoc per graph class, and thus can't be applied broadly.  (2) The runtimes of these constructions are almost always sub-optimal, and usually far from optimal. (3) These constructions are optimal in the standard and crude sense, but not in a refined sense that takes into account a wider range of involved parameters.<br><br>
   
-  This work aims at initiating a unified theory of light spanners by presenting a single framework that can be used to construct light spanners in a variety of graph classes.  This theory is developed in two papers. The current paper is the first of the two --- it   lays the foundations of the theory of light spanners and then applies it to design  constructions with  optimal lightness for several graph classes. Our new constructions are significantly faster than the state-of-the-art for every examined graph class; moreover, our runtimes are near-linear and usually optimal.<br><br>
+  This work aims at addressing these shortcomings by presenting  a unified framework of light spanners in a variety of graph classes. Informally, the framework boils down to a transformation from sparse spanners to light spanners; since the state-of-the-art for sparse spanners is much more advanced than that for light spanners, such a transformation is powerful. Our framework is developed in two papers. The current paper is the first of the two --- it   lays the basis of the unified framework and then applies it to design fast constructions with optimal lightness for several graph classes.  Our new constructions are significantly faster than the state-of-the-art for every examined graph class; our runtimes are near-linear and usually optimal.<br><br> 
   
-  Specifically, this paper includes the following results (for simplicity assume $\epsilon> 0$ is fixed):
+  Among various applications and implications of our framework, we highlight here the following (for simplicity assume $\epsilon> 0$ is fixed):
   
-  <ul> <li>In general graphs: A nearly linear-time algorithm for constructing light spanners. Specifically, for any $k \ge 2$, we construct a $(2k-1)(1+\epsilon)$-spanner with lightness $O(n^{1/k})$  in $O(m \alpha(m,n))$ time, where $\alpha(\cdot,\cdot)$ is the inverse-Ackermann function; the lightness bound is optimal assuming Erd\H{o}s' girth conjecture (up to the $\epsilon$-dependency). Since $O(m\alpha(m,n)) = O(m + n\log^{*}n)$, the runtime is \emph{linear} in $m$ when ${m = \Omega(n \log^* n)}$. The previous state-of-the-art runtime of such a spanner is super-quadratic in $n$. </li>
-  <li>In low-dimensional Euclidean spaces: An $O(n\log n)$-time construction  of $(1+\epsilon)$-spanners with lightness and degree both bounded by constants in the basic algebraic computation tree (ACT) model. This construction is optimal (up to dependencies on $\epsilon$ and the dimension) with respect to all the involved quality measures --- runtime, lightness and degree --- and it resolves a major   problem in the area of geometric spanners, which was open for three decades.</li>
-  <li>In unit-disk graphs in $\mathbb R^2$: An $O(n\log n)$-time construction of $(1+\epsilon)$-spanners with constant lightness and degree, in the ACT model. This construction too is optimal with respect to all the involved quality measures. This is the first $o(n^2)$-time spanner construction for unit disk graphs with a nontrivial lightness bound.</li>
-  <li>In minor-free graphs: A linear-time algorithm for constructing $(1+\epsilon)$-spanners with constant lightness.  This is the first $o(n^2)$-time spanner construction for minor-free graphs (and even for some of its sub-classes, such as bounded treewidth graphs), with a nontrivial lightness bound. </li>
+  <ul> <li>In low-dimensional Euclidean spaces, we present an $O(n\log n)$-time construction  of $(1+\epsilon)$-spanners with lightness and degree both bounded by constants in the algebraic computation tree (ACT) (or real-RAM) model, which is the basic model used in Computational Geometry. The previous state-of-the-art runtime in this model for constant lightness (even for unbounded degree) was $O(n \log^2 n / \log\log n)$, whereas $O(n \log n)$-time spanner constructions with constant degree (and  $O(n)$ edges) are known for years. Our construction is optimal with respect to all the involved quality measures --- runtime, lightness and degree --- and it resolves a major problem in the area of geometric spanners, which was open for three decades. </li>
+  <li>In general graphs, we present a nearly linear-time algorithm for constructing light spanners. Specifically, for any $k \ge 2$, we construct a $(2k-1)(1+\epsilon)$-spanner with lightness $O(n^{1/k})$  in $O(m \alpha(m,n))$ time, where $\alpha(\cdot,\cdot)$ is the inverse-Ackermann function; the lightness bound is optimal assuming Erd\H{o}s' girth conjecture (up to the $\eps$-dependency). Since $O(m\alpha(m,n)) = O(m + n\log^{*}(n)$, the runtime is linear in $m$ when ${m = \Omega(n \log^{*}n)}$. The previous state-of-the-art runtime of such a spanner is super-quadratic in $n$. This result for light spanners in general weighted graphs is   surprising, as it outperforms the analog one for sparse spanners.</li>
   </ul>
   </font>
   </details>
@@ -132,34 +146,6 @@
   </font>
   </details>  
   
-- **A Unified and Fine-Grained Approach for Light Spanners**
-  <br>
-**Hung Le** and Shay Solomon
-  <br>
-  Preprint
-  <br>[[PDF](https://arxiv.org/pdf/2008.10582.pdf)]<br>
-  <details><summary style="color:#7C4700">Abstract</summary>
-  <font color = "7C4700">
-  Seminal works on light spanners from recent years provide near-optimal tradeoffs between the stretch and lightness of spanners in general graphs, minor-free graphs and doubling metrics.   In FOCS'19 the authors provided a <i>``truly optimal''</i> tradeoff (i.e., including the $\epsilon$-dependency, where $\epsilon$ appears in both the stretch and lightness) for Euclidean low-dimensional spaces. Some of these papers employ inherently different techniques than others (e.g., the technique of Chechik and Wulff-Nilsen [SODA20] requires large stretch while others are naturally suitable to stretch $1+\epsilon$). Moreover, the runtime of these constructions is rather high.<br>
-  
-  In this work we present a unified and fine-grained approach for light spanners.
-  Besides the obvious theoretical importance of unification, we demonstrate the power of our approach in obtaining (1) stronger lightness bounds, and (2) faster construction times. Our results include:
-  <ul><li> $K_r$-minor-free graphs:
-  <ul> <li> <i>A <b> truly optimal</b> spanner.</i> We provide a  $(1+\epsilon)$-spanner with lightness $\tilde{O}_{r,\epsilon}( \frac{r}{\epsilon} + \frac{1}{\epsilon^2})$, where $\tilde{O}_{r,\epsilon}$ suppresses $\mathsf{polylog}$ factors of $1/\epsilon$ and $r$, improving the lightness bound $\tilde{O}_{r,\epsilon}( \frac{r}{\epsilon^3})$ of Borradaile, Le and Wulff-Nilsen [FOCS17]. We complement our upper bound with a highly nontrivial lower bound construction, for which any $(1+\epsilon)$-spanner must have lightness $\Omega(\frac{r}{\epsilon} + \frac{1}{\epsilon^2})$.</li>
-  <li><i>A <b> fast </b> construction.</i> Increasing the lightness bound by an additive term of $O(\frac{1}{\epsilon^4})$ allows us to achieve a runtime of $\tilde{O}_r(n r \alpha(nr, n))$, where $\alpha(.,.)$ is the inverse Ackermann function. The previous state-of-the-art runtime is  $O(n^2 r)$.</li>
-  </ul>
-  </li>
-  <li>General graphs:
-  <ul><li> <i>A <b>truly optimal</b> spanner--- almost</i>. We provide a $(2k-1)(1+\epsilon)$-spanner (for any $k \geq 2, \epsilon < 1$) with lightness $O(\frac{g(n,k)}{\epsilon})$, where $g(n,k)$ is the minimum sparsity of $n$-vertex graphs with girth $2k+1$. (Recall that $g(n,k) = O(n^{1/k})$  and Erdos' girth conjecture is that $g(n,k) = \Theta(n^{1/k})$.)  The previous state-of-the-art lightness by Chechik and Wulff-Nilsen [SODA20] is $O(n^{1/k}\epsilon^{-(3+\frac{1}{k})})$.</li>
-  <li><i> A <b>fast</b> construction.</i> A $(2k-1)(1+\epsilon)$-spanner with lightness $O_{\epsilon}(n^{1/k})$ can be constructed in $O_{\epsilon}(m \alpha(m,n))$ time; the lightness bound is optimal up to the $\epsilon$-dependency and assuming Erdos' girth conjecture. In particular, when $m = \Omega(n \log^* n)$, the runtime is <i>linear</i> in $m$. The previous state-of-the-art runtime of such a spanner is super-quadratic in $n$.</li>
-  </ul>
-  </li>
-  <li>Low dimensional Euclidean spaces: For any point set in $\mathbb{R}^d$ and constant $d\geq 3$, we construct a Euclidean $(1+\epsilon)$-spanner with lightness $\tilde{O}_{\epsilon}(\epsilon^{-(d+1)/2})$  using \emph{Steiner points}. Our result implies that Steiner points help in reducing the lightness of Euclidean $(1+\epsilon)$-spanners almost quadratically. Previously, this fact was only known for point sets with small spread [LS,ESA20].</li>
-  <li>High dimensional Euclidean and normed spaces:
-  We provide a construction of spanners that improves the previous state-of-the-art lightness and size.</li>
-  </ul>
-  </font>
-  </details>
 
 - **Clan Embeddings into Trees, and Low Treewidth Graphs**
     <br>
