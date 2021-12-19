@@ -21,7 +21,7 @@
   **Hung Le** and Shay Solomon
   <br>
   Preprint
-  <br>[[PDF](https://arxiv.org/pdf/2106.15596.pdf)]<br>
+  <br>[[PDF](https://arxiv.org/pdf/2111.13748.pdf)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
   Seminal works on light spanners over the years provide spanners with optimal lightness in various graph classes, such as in general graphs, Euclidean spanners and minor-free graphs. Three shortcomings of previous works on light spanners are: (1) The techniques are ad hoc per graph class, and thus can't be applied broadly.  (2) The runtimes of these constructions are almost always sub-optimal, and usually far from optimal. (3) These constructions are optimal in the standard and crude sense, but not in a refined sense that takes into account a wider range of involved parameters.<br><br>
