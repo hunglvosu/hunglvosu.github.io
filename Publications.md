@@ -37,7 +37,7 @@
   **Hung Le** and Lazar Milenkovic and Shay Solomon and Virginia Vassilevska Williams
   <br>
   To appear in The 13th Innovations in Theoretical Computer Science. **ITCS 2022**
-  <br>[<font style="color:red;">[Official version](https://drops.dagstuhl.de/opus/volltexte/2022/15692/pdf/LIPIcs-ITCS-2022-96.pdf)</font>]<br>
+  <br>[[Official version](https://drops.dagstuhl.de/opus/volltexte/2022/15692/pdf/LIPIcs-ITCS-2022-96.pdf)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
   Dynamic graph matching algorithms have been extensively studied, but mostly under  edge updates. This paper concerns dynamic matching algorithms under vertex updates, where in each update step a single vertex is either inserted or deleted along with its incident edges.  <br><br>
