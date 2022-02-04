@@ -12,6 +12,8 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 ## News
 
+- **[Feb 2022]** Our paper "Reliable Spanners: Locality-Sensitive Orderings Strike Back" is accepted to [STOC 2022](http://acm-stoc.org/stoc2022/).
+
 - **[Nov 2021]** Our paper "Dynamic Matching Algorithms Under Vertex Updates" is accepted to [ITCS 2022](http://itcs-conf.org/index.html).
 
 - **[Oct 2021]** Two papers: "Near-Optimal Spanners for General Graphs in (Nearly) Linear Time" and "Greedy Spanners in Euclidean Spaces Admit Sublinear Separators" accepted to [SODA 2022](https://www.siam.org/conferences/cm/conference/soda22). Congratulations to my PhD student Cuong Than for the first SODA paper.
@@ -24,9 +26,6 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
  
 -  **[Feb 2021]** Our paper "Clan Embeddings into Trees, and Low Treewidth Graphs"  accepted to [STOC2021](http://acm-stoc.org/stoc2021/).
 
-- **[Jan 2021]** New preprint "Reliable Spanners: Locality-Sensitive Orderings Strike Back" is uploaded to [Arxiv](https://arxiv.org/pdf/2101.07428.pdf).
-
-- **[August 2020]** New preprint "A Unified and Fine-Grained Approach for Light Spanners" is uploaded to [Arxiv](https://arxiv.org/pdf/2008.10582.pdf).
 
 
     
