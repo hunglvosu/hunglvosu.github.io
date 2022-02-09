@@ -12,6 +12,8 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 ## News
 
+- **[Feb 2022]** Our paper "Sparse Euclidean Spanners with Tiny Diameter: A Tight Lower Bound" is accepted to [SoCG 2022](https://www.inf.fu-berlin.de/inst/ag-ti/socg22/socg.html).
+
 - **[Feb 2022]** Our paper "Reliable Spanners: Locality-Sensitive Orderings Strike Back" is accepted to [STOC 2022](http://acm-stoc.org/stoc2022/).
 
 - **[Nov 2021]** Our paper "Dynamic Matching Algorithms Under Vertex Updates" is accepted to [ITCS 2022](http://itcs-conf.org/index.html).

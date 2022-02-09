@@ -16,7 +16,7 @@
   <br>
   **Hung Le** and Lazar Milenkovic and Shay Solomon
   <br>
-  Preprint
+  To appear in the 38th International Symposium on Computational Geometry. **SoCG 2022**
   <br>[[PDF](https://arxiv.org/pdf/2112.09124.pdf)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
