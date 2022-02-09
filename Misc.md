@@ -5,6 +5,8 @@ title: "Misc"
 
 ## Advices
 
+- [Advice for the budding theorist](https://windowsontheory.org/2015/11/03/advice-for-the-budding-theorist/) by Boaz Barak.
+
 - [How should I deal with becoming discouraged as a graduate student?](https://academia.stackexchange.com/questions/2219/how-should-i-deal-with-becoming-discouraged-as-a-graduate-student) by Aru Ray. See the answer by Jeff Erickson.
 
 - [Some materials for new grad students (and their mentors)](http://web.engr.oregonstate.edu/~rosulekm/advising.html) collected by Mike Rosulek.
