@@ -155,7 +155,7 @@
   **Hung Le** and Christian Wulff-Nilsen
   <br>
   To appear in the 62st Annual Symposium on Foundations of Computer Science. **FOCS 2021**.
-  <br>[[PDF](https://arxiv.org/pdf/2111.03560.pdf)]<br>
+  <br>[[PDF](https://arxiv.org/pdf/2111.03560.pdf)][[Talk](https://www.youtube.com/watch?v=GpjHrJoSI8k)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
   A $(1+\epsilon)$-approximate distance oracle of an edge-weighted graph is a data structure that returns an approximate shortest path distance between any two query vertices up to a $(1+\epsilon)$ factor. Thorup (FOCS 2001, JACM 2004) and Klein (SODA 2002) independently constructed a $(1+\epsilon)$-approximate distance oracle with $O(n\log n)$ space, measured in number of words, and $O(1)$ query time when $G$ is an undirected planar graph with $n$ vertices and $\epsilon$ is a fixed constant. Many follow-up works gave $(1+\epsilon)$-approximate distance oracles with various trade-offs between space and query time. However, improving $O(n\log n)$ space bound without sacrificing query time remains an open problem for almost two decades. In this work, we resolve this problem affirmatively by constructing a $(1+\epsilon)$-approximate distance oracle with optimal $O(n)$ space and $O(1)$ query time for undirected planar graphs and fixed $\epsilon$.
