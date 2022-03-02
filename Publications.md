@@ -1,4 +1,4 @@
-- **Reliable Spanners: Locality-Sensitive Orderings Strike Back**
+- **Locality-Sensitive Orderings and Applications to Reliable Spanners**
   <br>
   Arnold Filtser and **Hung Le**
   <br>
@@ -6,7 +6,7 @@
   <br>[[PDF](https://arxiv.org/pdf/2101.07428.pdf)][[Slides](http://hunglvosu.github.io/files/Reliable-Spanners.pdf)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
-  Chan, Har-Peled, and Jones [2020] recently developed locality-sensitive ordering (LSO), a new tool that allows one to reduce problems in the Euclidean space $\mathbb{R}^d$ to the $1$-dimensional line. They used LSO's to solve a host of problems.  Later, Buchin, Har-Peled, and Ol{\'{a}}h [2019,2020] used the LSO of Chan {\em et al. } to construct very sparse \emph{reliable spanners} for the Euclidean space. A highly desirable feature of a reliable spanner is its ability to withstand a massive failure: the network remains functioning even if 90\% of the nodes fail.  In a follow-up work, Har-Peled, Mendel, and Ol{\'{a}}h [2021] constructed reliable spanners for general and topologically structured metrics. Their construction used a different approach, and is based on sparse covers.<br><br>
+  Chan, Har-Peled, and Jones [2020] recently developed locality-sensitive ordering (LSO), a new tool that allows one to reduce problems in the Euclidean space $\mathbb{R}^d$ to the $1$-dimensional line. They used LSO's to solve a host of problems.  Later, Buchin, Har-Peled, and Oláh [2019,2020] used the LSO of Chan et al. to construct very sparse reliable spanners for the Euclidean space. A highly desirable feature of a reliable spanner is its ability to withstand a massive failure: the network remains functioning even if 90\% of the nodes fail.  In a follow-up work, Har-Peled, Mendel, and Oláh [2021] constructed reliable spanners for general and topologically structured metrics. Their construction used a different approach, and is based on sparse covers.<br><br>
   
   In this paper, we develop the theory of LSO's to non-Euclidean metrics by introducing new types of LSO's suitable for general and topologically structured metrics. We then construct such LSO's, as well as constructing considerably improved LSO's for doubling metrics. Afterwards, we use our new LSO's to construct reliable spanners with improved stretch and sparsity parameters.  Most prominently, we construct $\tilde{O}(n)$-size reliable spanners for trees and planar graphs with the optimal stretch of $2$. Along the way to the construction of LSO's and reliable spanners, we introduce and construct ultrametric covers, and construct $2$-hop reliable spanners for the line.
   </font>
