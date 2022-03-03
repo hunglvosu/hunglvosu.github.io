@@ -16,6 +16,7 @@ title: "Misc"
 - [PhD Rants and Raves (Be afraid. Be very afraid.)](https://people.cs.umass.edu/~yannis/phd-slides.pdf) by Yannis Smaragdakis.
 - [Doing (mathematical) research](https://cameroncounts.wordpress.com/2009/11/11/doing-research/) by Peter Cameron.
 - [Four golden lessons](https://www.nature.com/articles/426389a.pdf) by Steven Weinberg.
+- [Writing Research Statement for Academic Job](https://let-all.com/assets/slides/How-to-COLT-Rocco.pdf) by Rocco Servedio.
 
 ## Links
 - [How to do math](http://www.cs.cmu.edu/~odonnell/toolkit13/how-to-do-math-and-tcs.pdf).
