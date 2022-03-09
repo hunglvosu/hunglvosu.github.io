@@ -12,6 +12,8 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 ## News
 
+ - **[March 2021]** I will be a PC member of STOC 2023. I'm looking forward to reading your papers!
+
 - **[Feb 2022]** Our paper "Sparse Euclidean Spanners with Tiny Diameter: A Tight Lower Bound" is accepted to [SoCG 2022](https://www.inf.fu-berlin.de/inst/ag-ti/socg22/socg.html).
 
 - **[Feb 2022]** Our paper "Locality-Sensitive Orderings and Applications to Reliable Spanners" is accepted to [STOC 2022](http://acm-stoc.org/stoc2022/).
