@@ -13,6 +13,8 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 ## News
 
  - **[March 2021]** I will be a PC member of STOC 2023. I'm looking forward to reading your papers!
+ 
+ - **[March 2021]** Our paper "Greedy Spanners in Euclidean Spaces Admit Sublinear Separators" is invited to the special issue of ACM Transactions on Algorithms (TALG) devoted to top papers in SODA 2022.
 
 - **[Feb 2022]** Our paper "Sparse Euclidean Spanners with Tiny Diameter: A Tight Lower Bound" is accepted to [SoCG 2022](https://www.inf.fu-berlin.de/inst/ag-ti/socg22/socg.html).
 
@@ -28,7 +30,6 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
  - **[April 2021]** I will be a PC member of <a href = "http://algo2021.tecnico.ulisboa.pt/WAOA2021/">Workshop on Approximation and Online Algorithms (WAOA21)</a>. I'm looking forward to reading your papers!
  
--  **[Feb 2021]** Our paper "Clan Embeddings into Trees, and Low Treewidth Graphs"  accepted to [STOC2021](http://acm-stoc.org/stoc2021/).
 
 
 

@@ -118,7 +118,7 @@
   **Hung Le** and Cuong Than
   <br>
   The 33rd Annual ACM-SIAM Symposium on Discrete Algorithms. **SODA 2022**.
-  <br>[[PDF](https://arxiv.org/pdf/2107.06490.pdf)]<br>
+  <br>[[PDF](https://arxiv.org/pdf/2107.06490.pdf)]<br>[<font color = "red"><b>Invited to TALG Special Issue</b></font>]
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
   The greedy spanner in a low dimensional Euclidean space is a fundamental geometric construction that has been extensively studied over three decades as it possesses the two most basic properties of a good spanner: constant maximum degree and constant lightness.  Recently, Eppstein and Khodabandeh showed that the greedy spanner in $\mathbb{R}^2$ admits a sublinear separator in a strong sense: any subgraph of $k$ vertices of the greedy spanner in $\mathbb{R}^2$ has a separator of size $O(\sqrt{k})$.  Their technique is inherently planar and is not extensible to higher dimensions. They left  showing the existence of a small separator for the greedy spanner  in $\mathbb{R}^d$ for any constant $d\geq 3$  as an open problem. <br><br>
