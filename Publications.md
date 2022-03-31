@@ -1,3 +1,19 @@
+- **Low Treewidth Embeddings of Planar and Minor-Free Metrics**
+  <br>
+  Arnold Filtser and **Hung Le**
+  <br>
+  Preprint.
+  <br>[[PDF](https://arxiv.org/pdf/2203.15627.pdf)]<br>
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  Cohen-Addad, Filtser, Klein and Le [FOCS'20] constructed a stochastic embedding of minor-free graphs of diameter $D$ into graphs of treewidth $O_{\epsilon}(\log n)$ with expected additive distortion $+\epsilonilon D$. Cohen-Addad  \etal then used the embedding  to design the first quasi-polynomial time approximation scheme (QPTAS) for the capacitated vehicle routing problem. Filtser and Le [STOC'21] used the embedding (in a different way) to design a QPTAS for the metric Baker's problems in minor-free graphs. In this work, we devise a new embedding technique to improve the treewidth bound of  Cohen-Addad  \etal exponentially to $O_{\epsilon}(\log\log n)^2$. As a corollary, we obtain the first efficient PTAS for the capacitated vehicle routing problem in minor-free graphs. We also significantly improve the running time of the QPTAS for the metric Baker's problems in minor-free graphs from   $n^{O_{\epsilon}(\log(n))}$ to  $n^{O_{\epsilon}(\log\log(n))^3}$.<br><br>
+  
+  Applying our embedding technique to planar graphs, we obtain a deterministic embedding of planar graphs of diameter $D$ into graphs of treewidth $O((\log\log n)^2)/\epsilon)$ and  additive distortion $+\epsilonilon D$ that can be constructed in nearly linear time.  Important corollaries of our result  include a bicriteria PTAS for metric Baker's problems and a PTAS for the vehicle routing problem with bounded capacity in planar graphs, both run in \emph{almost-linear} time. The running time of our algorithms is significantly better than previous algorithms that require quadratic time.<br><bt>
+  
+  A key idea in our embedding is the construction of an (exact) emulator  for tree metrics with treewidth $O(\log\log n)$ and hop-diameter $O(\log \log n)$. This result may be of independent interest.
+  </font>
+  </details>
+  
 - **Locality-Sensitive Orderings and Applications to Reliable Spanners**
   <br>
   Arnold Filtser and **Hung Le**
