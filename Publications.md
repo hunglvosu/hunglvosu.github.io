@@ -1,3 +1,25 @@
+- **Can't See The Forest for the Trees: Navigating Metric Spaces by Bounded Hop-Diameter Spanners**
+  <br>
+  Omri Kahalon and **Hung Le** and Lazar Milenkovic and Shay Solomon
+  <br>
+  To appear in the 41st ACM Symposium on Principles of Distributed Computing.  **PODC 2022**
+  <br>[[PDF](https://arxiv.org/pdf/2107.14221.pdf)]<br>
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  Spanners for metric spaces have been extensively studied, both in general metrics and in restricted classes, perhaps most notably in low-dimensional Euclidean spaces--- due to their numerous applications.   Euclidean spanners can be viewed as means of compressing the $\binom{n}{2}$ pairwise distances of a $d$-dimensional Euclidean space into $O(n) = O_{\epsilon,d}(n)$ spanner edges, so that the spanner distances preserve the original distances to within a factor of $1+\epsilon$, for any $\epsilon > 0$. Moreover, one can compute such spanners in optimal $O(n \log n)$ time. Once the spanner has been computed, it serves as a "proxy" overlay network, on which the computation can proceed, which gives rise to huge savings in space and other important quality measures. <br><br>
+  
+  On the negative side, by working on the spanner rather than the original metric, one loses the key property of being able to efficiently "navigate" between pairs of points. While in the original metric, one can go from any point  to any other via a direct edge, it is unclear how to efficiently navigate in the spanner: How can we translate the existence of a "good" path into an efficient algorithm finding it?  Moreover, usually by "good" path we mean a path whose weight approximates the original distance between its endpoints --- but a priori the number of edges (or "hops") in the path could be huge.  To control the hop-length of paths, one can try to upper bound the spanner's hop-diameter, but naturally bounded hop-diameter spanners are more complex than spanners with unbounded hop-diameter, which might render the algorithmic task of efficiently finding good paths more challenging.<br><br>
+  
+  The original metric enables us to navigate optimally --- a single hop (for any two points) with the exact distance, but the price is high --- $\Theta(n^2)$ edges. Is it possible to efficiently navigate, on a sparse spanner, using $k$ hops and approximate distances, for $k$ approaching 1 (say $k=2$)? Surprisingly, this fundamental question has been overlooked despite the long line of work on spanners in metric spaces.<br><br>
+  
+  We answer this question in the affirmative via a surprisingly simple observation on bounded hop-diameter spanners for tree metrics, which we apply on top of known {\em tree cover theorems}. Beyond its simplicity, the strength of our approach is two-fold:
+  
+  <ul> <li>Applicable: We present a variety of applications of our efficient navigation scheme, including a 2-hop routing scheme in Euclidean spaces with stretch $1+\epsilon$ using $O(\log^2 n)$ bits of memory for labels and routing tables --- to the best of our knowledge, all known routing schemes prior to this work use $\Omega(\log n)$ hops.</li>
+  <li>General: Our results extend beyond Euclidean spaces to doubling, planar and general metrics.</li>
+  </ul>
+  </font>
+  </details>
+
 - **Low Treewidth Embeddings of Planar and Minor-Free Metrics**
   <br>
   Arnold Filtser and **Hung Le**
@@ -107,29 +129,6 @@
   </font>
   </details>
   
-
-- **Can't See The Forest for the Trees: Navigating Metric Spaces by Bounded Hop-Diameter Spanners**
-  <br>
-  Omri Kahalon and **Hung Le** and Lazar Milenkovic and Shay Solomon
-  <br>
-  Preprint
-  <br>[[PDF](https://arxiv.org/pdf/2107.14221.pdf)]<br>
-  <details><summary style="color:#7C4700">Abstract</summary>
-  <font color = "7C4700">
-  Spanners for metric spaces have been extensively studied, both in general metrics and in restricted classes, perhaps most notably in low-dimensional Euclidean spaces--- due to their numerous applications.   Euclidean spanners can be viewed as means of compressing the $\binom{n}{2}$ pairwise distances of a $d$-dimensional Euclidean space into $O(n) = O_{\epsilon,d}(n)$ spanner edges, so that the spanner distances preserve the original distances to within a factor of $1+\epsilon$, for any $\epsilon > 0$. Moreover, one can compute such spanners in optimal $O(n \log n)$ time. Once the spanner has been computed, it serves as a "proxy" overlay network, on which the computation can proceed, which gives rise to huge savings in space and other important quality measures. <br><br>
-  
-  On the negative side, by working on the spanner rather than the original metric, one loses the key property of being able to efficiently "navigate" between pairs of points. While in the original metric, one can go from any point  to any other via a direct edge, it is unclear how to efficiently navigate in the spanner: How can we translate the existence of a "good" path into an efficient algorithm finding it?  Moreover, usually by "good" path we mean a path whose weight approximates the original distance between its endpoints --- but a priori the number of edges (or "hops") in the path could be huge.  To control the hop-length of paths, one can try to upper bound the spanner's hop-diameter, but naturally bounded hop-diameter spanners are more complex than spanners with unbounded hop-diameter, which might render the algorithmic task of efficiently finding good paths more challenging.<br><br>
-  
-  The original metric enables us to navigate optimally --- a single hop (for any two points) with the exact distance, but the price is high --- $\Theta(n^2)$ edges. Is it possible to efficiently navigate, on a sparse spanner, using $k$ hops and approximate distances, for $k$ approaching 1 (say $k=2$)? Surprisingly, this fundamental question has been overlooked despite the long line of work on spanners in metric spaces.<br><br>
-  
-  We answer this question in the affirmative via a surprisingly simple observation on bounded hop-diameter spanners for tree metrics, which we apply on top of known {\em tree cover theorems}. Beyond its simplicity, the strength of our approach is two-fold:
-  
-  <ul> <li>Applicable: We present a variety of applications of our efficient navigation scheme, including a 2-hop routing scheme in Euclidean spaces with stretch $1+\epsilon$ using $O(\log^2 n)$ bits of memory for labels and routing tables --- to the best of our knowledge, all known routing schemes prior to this work use $\Omega(\log n)$ hops.</li>
-  <li>General: Our results extend beyond Euclidean spaces to doubling, planar and general metrics.</li>
-  </ul>
-  </font>
-  </details>
-
 - **Greedy Spanners in Euclidean Spaces Admit Sublinear Separators**
   <br>
   **Hung Le** and Cuong Than

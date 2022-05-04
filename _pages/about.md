@@ -12,6 +12,8 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 ## News
 
+ - **[May 2021]** Our paper "Can’t See The Forest for the Trees: Navigating Metric Spaces by Bounded Hop-Diameter Spanners" is accepted to [PODC 2022](https://www.podc.org).
+ 
  - **[March 2021]** I will be a PC member of STOC 2023. I'm looking forward to reading your papers!
  
  - **[March 2021]** Our paper "Greedy Spanners in Euclidean Spaces Admit Sublinear Separators" is invited to the special issue of ACM Transactions on Algorithms (TALG) devoted to top papers in SODA 2022.
@@ -27,8 +29,6 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 - **[Sept 2021]** Our paper "Optimal Approximate Distance Oracle for Planar Graphs"  accepted to [FOCS2021](https://focs2021.cs.colorado.edu/focs-2021-accepted-papers/). Several preprints were uploaded to Arxiv. 
 
 - **[May 2021]** Recieved an [NSF grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) to work on spanners for the next 3 years. Thanks, NSF!
-
- - **[April 2021]** I will be a PC member of <a href = "http://algo2021.tecnico.ulisboa.pt/WAOA2021/">Workshop on Approximation and Online Algorithms (WAOA21)</a>. I'm looking forward to reading your papers!
  
 
 
