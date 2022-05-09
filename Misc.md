@@ -4,6 +4,7 @@ title: "Misc"
 ---
 
 ## Advices
+- [Laziness Does Not Exist](https://humanparts.medium.com/laziness-does-not-exist-3af27e312d01) by Devon Price.
 
 - [Advice for the budding theorist](https://windowsontheory.org/2015/11/03/advice-for-the-budding-theorist/) by Boaz Barak.
 
