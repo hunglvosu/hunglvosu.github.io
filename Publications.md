@@ -1,30 +1,10 @@
-- **Can't See The Forest for the Trees: Navigating Metric Spaces by Bounded Hop-Diameter Spanners**
-  <br>
-  Omri Kahalon and **Hung Le** and Lazar Milenkovic and Shay Solomon
-  <br>
-  To appear in the 41st ACM Symposium on Principles of Distributed Computing.  **PODC 2022**
-  <br>[[PDF](https://arxiv.org/pdf/2107.14221.pdf)]<br>
-  <details><summary style="color:#7C4700">Abstract</summary>
-  <font color = "7C4700">
-  Spanners for metric spaces have been extensively studied, both in general metrics and in restricted classes, perhaps most notably in low-dimensional Euclidean spaces--- due to their numerous applications.   Euclidean spanners can be viewed as means of compressing the $\binom{n}{2}$ pairwise distances of a $d$-dimensional Euclidean space into $O(n) = O_{\epsilon,d}(n)$ spanner edges, so that the spanner distances preserve the original distances to within a factor of $1+\epsilon$, for any $\epsilon > 0$. Moreover, one can compute such spanners in optimal $O(n \log n)$ time. Once the spanner has been computed, it serves as a "proxy" overlay network, on which the computation can proceed, which gives rise to huge savings in space and other important quality measures. <br><br>
-  
-  On the negative side, by working on the spanner rather than the original metric, one loses the key property of being able to efficiently "navigate" between pairs of points. While in the original metric, one can go from any point  to any other via a direct edge, it is unclear how to efficiently navigate in the spanner: How can we translate the existence of a "good" path into an efficient algorithm finding it?  Moreover, usually by "good" path we mean a path whose weight approximates the original distance between its endpoints --- but a priori the number of edges (or "hops") in the path could be huge.  To control the hop-length of paths, one can try to upper bound the spanner's hop-diameter, but naturally bounded hop-diameter spanners are more complex than spanners with unbounded hop-diameter, which might render the algorithmic task of efficiently finding good paths more challenging.<br><br>
-  
-  The original metric enables us to navigate optimally --- a single hop (for any two points) with the exact distance, but the price is high --- $\Theta(n^2)$ edges. Is it possible to efficiently navigate, on a sparse spanner, using $k$ hops and approximate distances, for $k$ approaching 1 (say $k=2$)? Surprisingly, this fundamental question has been overlooked despite the long line of work on spanners in metric spaces.<br><br>
-  
-  We answer this question in the affirmative via a surprisingly simple observation on bounded hop-diameter spanners for tree metrics, which we apply on top of known {\em tree cover theorems}. Beyond its simplicity, the strength of our approach is two-fold:
-  
-  <ul> <li>Applicable: We present a variety of applications of our efficient navigation scheme, including a 2-hop routing scheme in Euclidean spaces with stretch $1+\epsilon$ using $O(\log^2 n)$ bits of memory for labels and routing tables --- to the best of our knowledge, all known routing schemes prior to this work use $\Omega(\log n)$ hops.</li>
-  <li>General: Our results extend beyond Euclidean spaces to doubling, planar and general metrics.</li>
-  </ul>
-  </font>
-  </details>
+My research has been generously supported by an [NSF grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952). 
 
 - **Low Treewidth Embeddings of Planar and Minor-Free Metrics**
   <br>
   Arnold Filtser and **Hung Le**
   <br>
-  Preprint.
+  To appear in the 63rd Annual Symposium on Foundations of Computer Science. **FOCS 2022**.
   <br>[[PDF](https://arxiv.org/pdf/2203.15627.pdf)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
@@ -37,12 +17,34 @@
   </font>
   </details>
   
+- **Can't See The Forest for the Trees: Navigating Metric Spaces by Bounded Hop-Diameter Spanners**
+  <br>
+  Omri Kahalon and **Hung Le** and Lazar Milenkovic and Shay Solomon
+  <br>
+  To appear in the 41st ACM Symposium on Principles of Distributed Computing.  **PODC 2022**
+  <br>[[PDF](https://arxiv.org/pdf/2107.14221.pdf)]<br>
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  Spanners for metric spaces have been extensively studied, perhaps most notably in low-dimensional Euclidean spaces  --- due to their numerous applications. Euclidean spanners can be viewed as means of compressing the ${\binom{n}{2}}$ pairwise distances of a $d$-dimensional Euclidean space into $O(n) = O_{\epsilon,d}(n)$ spanner edges, so that the spanner distances preserve the original distances to within a factor of $1+\epsilon$, for any $\epsilon > 0$. Moreover, one can compute such spanners efficiently in the standard centralized and distributed settings. Once the spanner has been computed, it serves as a ``proxy'' overlay network, on which the computation can proceed, which gives rise to huge savings in space and other important quality measures. <br><br>
+  
+  The original metric enables us to "navigate" optimally --- a single hop (for any two points) with the exact distance, but the price is high --- $\Theta(n^2)$ edges. Is it possible to efficiently navigate, on a sparse spanner, using $k$ hops and approximate distances, for $k$ close to 1 (say $k=2$)? Surprisingly, this fundamental question has been overlooked in Euclidean spaces, as well as in other classes of metrics, despite the long line of work on spanners in metric spaces.<br><br>
+  
+  We answer this question in the affirmative via a surprisingly simple observation on bounded hop-diameter spanners for tree metrics, which we apply on top of known, as well as new, tree cover theorems. Beyond its simplicity, the strength of our approach is three-fold:
+  
+  <ul> <li>**Applicable**: We present a variety of applications of our efficient navigation scheme, including a 2-hop routing scheme in Euclidean spaces with stretch $1+\epsilon$ using $O(\log^2 n)$ bits of memory for labels and routing tables --- to the best of our knowledge, all known routing schemes prior to this work use $\Omega(\log n)$ hops.</li>
+  <li>**Unified**: Our navigation scheme and applications extend beyond Euclidean spaces to any class of metrics that admits an efficient tree cover theorem; currently this includes doubling, planar and general metrics, but our approach is unified.</li>
+  <li>**Fault-Tolerant**: In Euclidean and doubling metrics, we strengthen all our results to achieve fault-tolerance. To this end, we first design a new construction of fault-tolerant spanners of bounded hop-diameter, which, in turn, relies on a new tree cover theorem for doubling metrics --- hereafter the "Robust Tree Cover" Theorem, which generalizes the classic "Dumbbell Tree" Theorem [Arya et al., STOC'95] in Euclidean spaces. </li>
+  </ul>
+  </font>
+  </details>
+
+  
 - **Locality-Sensitive Orderings and Applications to Reliable Spanners**
   <br>
   Arnold Filtser and **Hung Le**
   <br>
-  To appear in the 54th Annual ACM Symposium on Theory of Computing. **STOC 2022**.
-  <br>[[PDF](https://arxiv.org/pdf/2101.07428.pdf)][[Slides](http://hunglvosu.github.io/files/Reliable-Spanners.pdf)]<br>
+  The 54th Annual ACM Symposium on Theory of Computing. **STOC 2022**.
+  <br>[[Official version](https://dl.acm.org/doi/pdf/10.1145/3519935.3520042)][[PDF](https://arxiv.org/pdf/2101.07428.pdf)][[Slides](http://hunglvosu.github.io/files/Reliable-Spanners.pdf)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
   Chan, Har-Peled, and Jones [2020] recently developed locality-sensitive ordering (LSO), a new tool that allows one to reduce problems in the Euclidean space $\mathbb{R}^d$ to the $1$-dimensional line. They used LSO's to solve a host of problems.  Later, Buchin, Har-Peled, and Oláh [2019,2020] used the LSO of Chan et al. to construct very sparse reliable spanners for the Euclidean space. A highly desirable feature of a reliable spanner is its ability to withstand a massive failure: the network remains functioning even if 90\% of the nodes fail.  In a follow-up work, Har-Peled, Mendel, and Oláh [2021] constructed reliable spanners for general and topologically structured metrics. Their construction used a different approach, and is based on sparse covers.<br><br>
@@ -55,8 +57,8 @@
   <br>
   **Hung Le** and Lazar Milenkovic and Shay Solomon
   <br>
-  To appear in the 38th International Symposium on Computational Geometry. **SoCG 2022**
-  <br>[[PDF](https://arxiv.org/pdf/2112.09124.pdf)]<br>
+  The 38th International Symposium on Computational Geometry. **SoCG 2022**
+  <br>[[Official version](https://drops.dagstuhl.de/opus/volltexte/2022/16062/pdf/LIPIcs-SoCG-2022-54.pdf)][[PDF](https://arxiv.org/pdf/2112.09124.pdf)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
   In STOC'95 Arya et al. showed that any set of $n$ points in $\mathbb R^d$ admits a $(1+\epsilon)$-spanner with hop-diameter at most 2 (respectively, 3) and $O(n \log n)$ edges (resp., $O(n \log \log n)$ edges). They also gave a general upper bound tradeoff of hop-diameter at most $k$ and $O(n \alpha_k(n))$ edges, for any $k \geq 2$.
@@ -89,7 +91,7 @@
   <br>
   **Hung Le** and Lazar Milenkovic and Shay Solomon and Virginia Vassilevska Williams
   <br>
-  To appear in The 13th Innovations in Theoretical Computer Science. **ITCS 2022**
+  The 13th Innovations in Theoretical Computer Science. **ITCS 2022**
   <br>[[Official version](https://drops.dagstuhl.de/opus/volltexte/2022/15692/pdf/LIPIcs-ITCS-2022-96.pdf)][[Video by Lazar](https://www.youtube.com/watch?v=nHOW2PnAdzg)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
