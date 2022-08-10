@@ -4,7 +4,7 @@ date: 2022-03-24
 permalink: /posts/2022/03/Syllabus-Algs/
 ---
 
-
+<span style="color:red">Last Updated: August 09 2022</span>.
 
 **Objectives**: This course provides students with skills in designing efficient algorithms. After completing this course, students are expected to be able to formulate an algorithmic problem,  design an algorithm for the problem, prove  the correctness, and analyze the running time. This course will illustrate these skills through various algorithmic problems and important design techniques. 
 
@@ -24,13 +24,13 @@ permalink: /posts/2022/03/Syllabus-Algs/
 
  **Grading**
 
-- Homework (40%): Homework is **bi-weekly** and includes 6 assignments. The lowest assignment will be weighted 50% only.
-- Weekly Quizzes (10%): We will have 11 quizzes total, and the lowest quiz will be drop. 
-- Midterm 1 (15%): 
+- Homework (40%): Homework is **bi-weekly** and includes 6 assignments. The lowest assignment will be dropped.
+- Weekly Quizzes (10%): We will have 11 quizzes total, and the lowest quiz will be dropped. 
+- Midterm 1 (15%)
 - Midterm 2 (15%)
 - Final (20%): Scheduled by the university and will be comprehensive.
 
-**Attendance policies:** Attendance is not optional. If you do not attend a lecture, you are responsible for learning the materials covered in the leccture yourself.
+**Attendance policies:** Attendance is not optional. If you do not attend a lecture, you are responsible for learning the materials covered in the leccture yourself. A small percentage point will be given to those who attend the lectures.
 
 **Academic Honesty and Collaboration Policy:**
 
@@ -44,22 +44,22 @@ If you cheat in a course, you are taking away from your own opportunity to learn
 
 As faculty, we pledge to use academic policies designed for fairness, avoiding situations that are conducive to violating academic honesty, as well as unreasonable or unusual procedures that assume dishonesty. We will follow the university's [Academic Honesty Policy and Procedures](https://www.umass.edu/honesty/). This means we will report instances of dishonesty, which may lead to formal sanction and/or failing the course.
 
-**Late Policy:** You have **one late day** on any HW of your choice. Late submissions otherwise will not be graded unless you have a good medical reason. Try your best to honor the deadlines. 
+**Late Policy:** You have **one late day** on any HW of your choice. For other HWs, each one hour late within 24 hours incurs 2 points of penalty. Submission of more than 24 hours late will not be graded unless you have a good medical reason. Try your best to honor the deadlines. 
 
-**Exam Make-up Policies:** f you have a conflict exam with another class, you should [contact University Registrar's Office](https://www.umass.edu/registrar/i-have-two-midtermfinal-exams-scheduled-same-time-what-do-i-do). If you cannot attend the exam for a medical reason, please notify the instructor at least one week before the exam. If you have a medical emergency, contact the instructor as soon as possible. You need to provide a document for the medical reason.  
+**Exam Make-up Policies:** If you have a conflict exam with another class, you should [contact University Registrar's Office](https://www.umass.edu/registrar/i-have-two-midtermfinal-exams-scheduled-same-time-what-do-i-do). If you cannot attend the exam for a medical reason, please notify the instructor at least one week before the exam. If you have a medical emergency, contact the instructor as soon as possible. You need to provide a document for the medical reason.  
 
 **Posting Policy:**  You are not allowed to post any material in this course to public websites  without the permission of the instructor. 
 
 **Tentative topics:**
 
-- Divide and Conquer (3 lectures)
-- Dynamic Programming (3 lectures)
+- Divide and Conquer (2 lectures)
+- Dynamic Programming (2 lectures)
 - Greedy Algorithms (3 lectures)
-- Randomized Algorithms (3 lectures)
+- Randomized Algorithms (2 lectures)
 - Network Flow (3 lectures)
 - Linear Programming (3 lectures)
 - NP-Completeness (2 lectures)
-- Approximation Algorithms (3 lectures)
+- Approximation Algorsithms (3 lectures)
 
 **Required Textbook:** Lectures will be based on [Jeff Erickson notes](http://jeffe.cs.illinois.edu/teaching/algorithms/).  Slides will be posted on Moodle.  
 
