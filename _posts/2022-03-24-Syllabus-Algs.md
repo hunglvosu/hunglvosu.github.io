@@ -68,8 +68,7 @@ The following tentative schedule might suffer changes.
 | 04 Oct         | Problem Solving Session                | |
 | 06 Oct          | Balls and Bins     | [Erickson's note on Hashing](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/05-hashing.pdf)|
 | 11 Oct          | Bloom Filter                  | [Erickson's note on filtering and streaming](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/06-bloom.pdf)|
-| 03 Oct          | Midterm 1                                       | Covering D&C, DP, and Greedy                                 |
-                                       |
+| 13 Oct          | Midterm 1                                       | Covering D&C, DP, and Greedy                                 |
 | 18 Oct          | Maxflow-Mincut                                  | [Erickson's note on Maxflow](http://jeffe.cs.illinois.edu/teaching/algorithms/book/10-maxflow.pdf) |
 | 20 Oct          | Maxflow in Strongly PolyTime                    | [Erickson's note on Maxflow](http://jeffe.cs.illinois.edu/teaching/algorithms/book/10-maxflow.pdf) |
 | 25 Oct          | Applications of Maxflow                         | [Erickson's note on Applications of Maxflow](http://jeffe.cs.illinois.edu/teaching/algorithms/book/11-maxflowapps.pdf) |
