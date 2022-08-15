@@ -51,6 +51,44 @@ permalink: /posts/2022/03/Syllabus-Algs/
 - NP-Completeness (2 lectures)
 - Approximation Algorsithms (3 lectures)
 
+**Schedule:**
+
+The following tentative schedule might suffer changes.
+
+| Date            | Topics                                          | Readings                                                     |
+| --------------- | ----------------------------------------------- | ------------------------------------------------------------ |
+| 06 Sept         | Intro, Master theorem, Mergesort                | [Erickson's note on recursion](http://jeffe.cs.illinois.edu/teaching/algorithms/book/01-recursion.pdf) |
+| 08 Sept         | Closest Pair, Matrix Multiplication             | [DPV's chapter 2](https://people.eecs.berkeley.edu/~vazirani/algorithms/chap2.pdf) |
+| 13 Sept         | Problem Solving Session                          | |
+| 15 Sept         | Intro Greedy, Job Scheduling                    | [Erickson's note on geedy algs](http://jeffe.cs.illinois.edu/teaching/algorithms/book/04-greedy.pdf) |
+| 20 Sept         | Minimum Spanning Tree                           | [Erickson's note on MST](http://jeffe.cs.illinois.edu/teaching/algorithms/book/07-mst.pdf) |
+| 22 Sept         | Matroid                                         | [Erickson's note on matroid](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/E-matroids.pdf) |
+| 27 Sept         | Subset Sum, Optimal BST                         | [Erickson's note on DP](http://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf) |
+| 29 Sept         | SSSP and TSP                                 | [Erickson's note on SSSP](http://jeffe.cs.illinois.edu/teaching/algorithms/book/08-sssp.pdf) and [APSP](http://jeffe.cs.illinois.edu/teaching/algorithms/book/09-apsp.pdf) |
+| 04 Oct         | Problem Solving Session                | |
+| 06 Oct          | Balls and Bins     | [Erickson's note on Hashing](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/05-hashing.pdf)|
+| 11 Oct          | Bloom Filter                  | [Erickson's note on filtering and streaming](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/06-bloom.pdf)|
+| 03 Oct          | Midterm 1                                       | Covering D&C, DP, and Greedy                                 |
+                                       |
+| 18 Oct          | Maxflow-Mincut                                  | [Erickson's note on Maxflow](http://jeffe.cs.illinois.edu/teaching/algorithms/book/10-maxflow.pdf) |
+| 20 Oct          | Maxflow in Strongly PolyTime                    | [Erickson's note on Maxflow](http://jeffe.cs.illinois.edu/teaching/algorithms/book/10-maxflow.pdf) |
+| 25 Oct          | Applications of Maxflow                         | [Erickson's note on Applications of Maxflow](http://jeffe.cs.illinois.edu/teaching/algorithms/book/11-maxflowapps.pdf) |
+| 27 Oct          | Problem Solving Session                         |  |
+| 01 Nov          | Introduction to Linear Programming              | [Erickson's note on LP](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/H-lp.pdf) |
+| 03 Nov          | LP Duality                                      | [Erickson's note on LP](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/H-lp.pdf) |
+| 08 Nov          | Simplex Algorithm                               | [Erickson's note on Simplex Algorithm](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/I-simplex.pdf) |
+| 10 Nov          | P vs NP                                         | [Erickson's note on NP-hardness](http://jeffe.cs.illinois.edu/teaching/algorithms/book/12-nphard.pdf) |
+| 15 Nov          | NP-complete Problems                            | [Erickson's note on NP-hardness](http://jeffe.cs.illinois.edu/teaching/algorithms/book/12-nphard.pdf) |
+| 17 Nov          | Midterm 2                                       | Covering Randomized Algorithms, Maxflow, and LP              |
+| 22 Nov          | Holiday                                    | |
+| 24 Nov          | Vertex Cover,Set Cover                          | [Erickson's note on approximation algorithms](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/J-approx.pdf) |                                               |
+| 29 Nov          | TSP, $k$-Center                                 | [Erickson's note on approximation algorithms](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/J-approx.pdf) |
+| 01 Dec          | Subset Sum                                      | [Erickson's note on approximation algorithms](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/J-approx.pdf) |
+| 06 Oct          | Problem Solving Session                         |  |
+| 08 Dec          | Review                                          |                                                              |
+| 14 Oct - 20 Oct | Final Exam (exact date will be announced later) | Covering everything                                          |
+
+
 
  **Grading**
 
@@ -102,7 +140,7 @@ This course is for all of us. We will all learn from each other. Welcome!
 
 **Names & Pronouns:** Everyone has the right to be addressed by the name and pronouns that they use for themselves. You can indicate your preferred/chosen first name and pronouns on SPIRE, which appear on class rosters. I am committed to ensuring that I address you with your chosen name and pronouns. Please let me know what name and pronouns I should use for you if they are not on the roster. Please remember: A student’s chosen name and pronouns are to be respected at all times in the classroom.
 
-**Title IX Statement:** UMass is committed to fostering a safe learning environment by responding promptly and effectively to complaints of all kinds of sexual misconduct. If you have been the victim of sexual violence, gender discrimination, or sexual harassment, the university can provide you with a variety of support resources and accommodations If you experience or witness sexual misconduct and wish to report the incident, please contact the UMass Amherst Equal Opportunity (EO) Office  (413-545-3464 | [equalopportunity@admin.umass.edu](equalopportunity@admin.umass.edu)) to request an intake meeting with EO staff. Members of the CICS community can also contact Erika Lynn Dawson Head, director of diversity and inclusive community development ([erikahead@cics.umass.edu](erikahead@cics.umass.edu) | 860-770-4770).
+**Title IX Statement:** UMass is committed to fostering a safe learning environment by responding promptly and effectively to complaints of all kinds of sexual misconduct. If you have been the victim of sexual violence, gender discrimination, or sexual harassment, the university can provide you with a variety of support resources and accommodations If you experience or witness sexual misconduct and wish to report the incident, please contact the UMass Amherst Equal Opportunity (EO) Office  (413-545-3464, [equalopportunity@admin.umass.edu](mailto:equalopportunity@admin.umass.edu)) to request an intake meeting with EO staff. Members of the CICS community can also contact Erika Lynn Dawson Head, director of diversity and inclusive community development ([erikahead@cics.umass.edu](mailto:erikahead@cics.umass.edu), 860-770-4770).
 
 
 
