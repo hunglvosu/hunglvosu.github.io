@@ -15,12 +15,21 @@ permalink: /posts/2022/03/Syllabus-Algs/
 - Instructor: Hung Le.
   - Email: hungle@cs.umss.du
   - Office: 332 CS Building
+  - Office hours: Monday 11:00 AM - 12:00 PM, and Friday 3:00 PM - 4:00 PM, CS Building Room 332.
   
-- TAs: TBA
+- TAs
+  - Cuong Than, email: cthan@cs.umass.edu, office hours: TBA
+  - Samer Nashed, email: snashed@cs.umass.edu, office hours: TBA
+
+- Graders
+  - Roshitha Bezawada, email: rbezawada@umass.edu
+  - akhila jetty, email: ajetty@umass.edu
+  - Vinitha Maheswaran, email: vmaheswaran@umass.edu
+  - Veda Sree Bojanapally, email: vbojanapally@umass.edu
+
+
 
 **Class Meetings:** Tue/Thu 2:30 PM - 3:45 PM every week at Hasbrouck Lab Room 134.
-
-**Office Hours**: Monday 11:00 AM - 12:00 PM, and Friday 3:00 PM - 4:00 PM, CS Building Room 332. TA office hours will be announced later.
 
 
 **Objectives**: This course provides students with skills in designing efficient algorithms. We will go through a variety of algorithm design techniques, including greedy, divide and conquer, dynamic programming, network flow, linear programming, randomized algorithms, and approximation algorithms. We will illustrate these design techniques in solving different algorithmic problems. The emphasis of this course is on the mathematical aspects of designing algorithms. 
