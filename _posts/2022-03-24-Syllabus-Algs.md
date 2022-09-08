@@ -94,7 +94,7 @@ The following tentative schedule might suffer changes.
 | 01 Dec          | Subset Sum                                      | [Erickson's note on approximation algorithms](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/J-approx.pdf) |
 | 06 Oct          | Problem Solving Session                         |  |
 | 08 Dec          | Review                                          |                                                              |
-| 14 Oct - 20 Oct | Final Exam (exact date will be announced later) | Covering everything                                          |
+| 14 Dec | Final Exam 3:30-5:3- PM (at the classroom) | Covering everything                                          |
 
 
 
