@@ -4,7 +4,7 @@ My research has been generously supported by an [NSF grant](https://www.nsf.gov/
   <br>
   **Hung Le**
   <br>
-  Preprint.
+  To appear in the 34th Annual ACM-SIAM Symposium on Discrete Algorithms. **SODA 2023**.
   <br>[[PDF](https://arxiv.org/pdf/2207.05659.pdf)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
