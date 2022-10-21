@@ -1,3 +1,10 @@
+
+- **Advanced Algorithms**. (Spring 2023)
+<br>CMPSCI 611 
+<br>University of Massachusetts Amherst
+<br>[[Syllabus](/posts/2022/10/Syllabus-Algs/)]
+
+
 - **Advanced Algorithms**. (Fall 2022)
 <br>CMPSCI 611 
 <br>University of Massachusetts Amherst
