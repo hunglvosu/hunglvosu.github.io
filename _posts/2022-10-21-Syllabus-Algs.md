@@ -4,7 +4,7 @@ date: 2022-10-21
 permalink: /posts/2022/10/Syllabus-Algs/
 ---
 
-<span style="color:red">Last Updated: October 21 2022</span>.
+<span style="color:red">Last Updated: January 15 2023</span>.
 
 **Credit Hours:** 3
 
@@ -44,27 +44,61 @@ permalink: /posts/2022/10/Syllabus-Algs/
 - Divide and Conquer (2 lectures)
 - Dynamic Programming (2 lectures)
 - Greedy Algorithms (3 lectures)
-- Randomized Algorithms (2 lectures)
+- Randomized Algorithms (3 lectures)
 - Network Flow (3 lectures)
-- Linear Programming (3 lectures)
+- Linear Programming (2 lectures)
 - NP-Completeness (2 lectures)
 - Approximation Algorsithms (3 lectures)
 
-**Schedule:** TBA
+**Schedule:** 
+
+
+| Date            | Topics                                          | Readings                                                     |
+| --------------- | ----------------------------------------------- | ------------------------------------------------------------ |
+| 07 Feb         | Intro, Master theorem, Mergesort                | [Erickson's note on recursion](http://jeffe.cs.illinois.edu/teaching/algorithms/book/01-recursion.pdf) |
+| 09 Feb         | Closest Pair, Matrix Multiplication             | [DPV's chapter 2](https://people.eecs.berkeley.edu/~vazirani/algorithms/chap2.pdf) |
+| 14 Feb         | Problem Solving Session                          | |
+| 16 Feb         | Intro Greedy, Job Scheduling                    | [Erickson's note on geedy algs](http://jeffe.cs.illinois.edu/teaching/algorithms/book/04-greedy.pdf) |
+| 21 Feb         | Minimum Spanning Tree                           | [Erickson's note on MST](http://jeffe.cs.illinois.edu/teaching/algorithms/book/07-mst.pdf) |
+| 23 Feb         | Matroid                                         | [Erickson's note on matroid](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/E-matroids.pdf) |
+| 28 Feb         | Subset Sum, Optimal BST                         | [Erickson's note on DP](http://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf) |
+| 02 March         | SSSP and TSP                                 | [Erickson's note on SSSP](http://jeffe.cs.illinois.edu/teaching/algorithms/book/08-sssp.pdf) and [APSP](http://jeffe.cs.illinois.edu/teaching/algorithms/book/09-apsp.pdf) |
+| 07 March         | Problem Solving Session                | |
+| 09 March          | Balls and Bins     | [Erickson's note on Hashing](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/05-hashing.pdf)|
+| 21 March          | Midterm 1                                       | Covering D&C, DP, and Greedy                                 |
+| 23 March          | Bloom Filter                  | [Erickson's note on filtering and streaming](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/06-bloom.pdf)|
+| 28 March          | Randomized Mincut                 | [Erickson's note on randomized mincut](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/08-mincut.pdf)|
+| 30 March          | Maxflow-Mincut                                  | [Erickson's note on Maxflow](http://jeffe.cs.illinois.edu/teaching/algorithms/book/10-maxflow.pdf) |
+| 04 April          | Maxflow in Strongly PolyTime                    | [Erickson's note on Maxflow](http://jeffe.cs.illinois.edu/teaching/algorithms/book/10-maxflow.pdf) |
+| 06 April          | Applications of Maxflow                         | [Erickson's note on Applications of Maxflow](http://jeffe.cs.illinois.edu/teaching/algorithms/book/11-maxflowapps.pdf) |
+| 11 April          | Problem Solving Session                         |  |
+| 13 April          | Introduction to Linear Programming              | [Erickson's note on LP](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/H-lp.pdf) |
+| 20 April          | LP Duality                                      | [Erickson's note on LP](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/H-lp.pdf) |
+| 25 April          | P vs NP                                         | [Erickson's note on NP-hardness](http://jeffe.cs.illinois.edu/teaching/algorithms/book/12-nphard.pdf) |
+| 27 April          | Midterm 2                                       | Covering Randomized Algorithms, Maxflow, and LP              |
+| 02 May          | NP-complete Problems                            | [Erickson's note on NP-hardness](http://jeffe.cs.illinois.edu/teaching/algorithms/book/12-nphard.pdf) |
+| 04 May          | Vertex Cover,Set Cover                          | [Erickson's note on approximation algorithms](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/J-approx.pdf) |                                               |
+| 09 May          | TSP                               | [Erickson's note on approximation algorithms](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/J-approx.pdf) |
+| 11 May          | Problem Solving Session                         |  |
+| 16 May          | Review                                          |                                                              |
+| 19 May - 25 May | Final exam scheduled by the university | Covering everything                                          |
+
 
  **Grading**
 
-- Homework (40%): Homework is **bi-weekly** and includes 6 assignments. The lowest assignment will be dropped.
-- Weekly Quizzes (10%): We will have 11 quizzes total, and the lowest quiz will be dropped. 
+- Homework (40%): Homework is **bi-weekly** and includes 5 assignments and 1 bonus assignment. The grade of the bonus assignment could be used to replace the lowest grade of any 5 regular assignments.
+- Weekly Quizzes (10%): We will have 4 quizzes, and two bonus quizzes. The grades of two bonus quizzes could be used to replace the lowest grade of any two other quizzes. 
 - Midterm 1 (15%)
 - Midterm 2 (15%)
 - Final (20%): Scheduled by the university and will be comprehensive.
 
 **Grading Scale:** A (100-90), A- (89-84), B+ (83-78), B (77-72), B- (71-66), C+ (65-60), C (59-54), F (53-0)
 
-**Late Policy:** You have **one late day** on any HW of your choice. For other HWs, each one hour late within 24 hours incurs 2 points of penalty. Submission of more than 24 hours late will not be graded unless you have a good medical reason. Try your best to honor the deadlines. 
+**Late Policy:** You have **one late day** on any HW of your choice, and you have to decide applying the late day to a homework before the deadline. For other HWs, each one hour late within 24 hours incurs 2 points of penalty. Submission of more than 24 hours late will not be graded unless you have a good medical reason. Try your best to honor the deadlines. 
 
 **Exam Make-up Policies:** If you have a conflict exam with another class, you should [contact University Registrar's Office](https://www.umass.edu/registrar/i-have-two-midtermfinal-exams-scheduled-same-time-what-do-i-do). If you cannot attend the exam for a medical reason, please notify the instructor at least one week before the exam. If you have a medical emergency, contact the instructor as soon as possible. You need to provide a document for the medical reason.  
+
+**SAT/UNSAT**: Any request for SAT/UNSAT must be made before the final exam. SAT/UNSAT option will not be given to anyone committing academic dishonesty.
 
 **Platforms:** We will use Moodle for general logistics, Campuswire for discussion and Gradescopes for homework assignments.
 
