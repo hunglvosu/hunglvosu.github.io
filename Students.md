@@ -5,6 +5,12 @@
 
 **Undergraduate Students**
 
+- Kabeera Singh (ERSP 2021)
+- Ruchira Sharma (ERSP 2021)
+- Julianna Nazzaro (ERSP 2021)
+- Aadit Bhatia (ERSP 2021)
+- Jacob Urisman (Independent Study)
+- Pranav garg (Independent Study)
 - Akash Munjial (Independent Study)
 - Anushree Jana (Independent Study)
 
