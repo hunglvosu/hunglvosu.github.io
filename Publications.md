@@ -1,5 +1,19 @@
 My research has been generously supported by an [NSF grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952). 
 
+- **Tuning the Tail Latency of Distributed Queries Using Replication**
+  <br>
+  Nathan Ng and **Hung Le** and Marco Serafini.
+  <br>
+  Authors ordered by contribution, I contributed least to this paper.
+  <br>
+  Manuscript.
+  <br>[[PDF](https://arxiv.org/abs/2212.10387)]<br>
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  Querying graph data with low latency is an important requirement in application domains such as social networks and knowledge graphs. Graph queries perform multiple hops between vertices. When data is partitioned and stored across multiple servers, queries executing at one server often need to hop to vertices stored by another server. Such distributed traversals represent a performance bottleneck for low-latency queries. To reduce query latency, one can replicate remote data to make distributed traversals unnecessary, but replication is expensive and should be minimized. In this paper, we introduce the problem of finding data replication schemes that satisfy arbitrary user-defined query latency constraints with minimal replication cost. We propose a novel workload model to express data access causality, propose a family of heuristics, and introduce non-trivial sufficient conditions for their correctness. Our evaluation on two representative benchmarks show that our algorithms enable fine-tuning query latency with data replication and can find sweet spots in the latency/replication design space.
+  </font>
+  </details>
+  
 - **Approximate Distance Oracles for Planar Graphs with Subpolynomial Error Dependency**
   <br>
   **Hung Le**
