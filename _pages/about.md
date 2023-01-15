@@ -20,6 +20,11 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 ## News
 
+
+ - **[Dec 2022]** My proposal "CAREER: Geometric Techniques for Topological Graph Algorithms" is recommended for funding.
+
+ - **[Dec 2022]** Our paper "Tuning the Tail Latency of Distributed Queries Using Replication " is submitted to [Arxiv](https://arxiv.org/abs/2212.10387).
+
  - **[Oct 2022]** Our paper "Approximate Distance Oracles for Planar Graphs with Subpolynomial Error Dependency" is accepted to [SODA 2023](https://www.siam.org/conferences/cm/conference/soda23).
  
  - **[July 2022]** Our paper "Low Treewidth Embeddings of Planar and Minor-Free Metrics " is accepted to [FOCS 2022](https://focs2022.eecs.berkeley.edu).
@@ -35,10 +40,6 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 - **[Feb 2022]** Our paper "Locality-Sensitive Orderings and Applications to Reliable Spanners" is accepted to [STOC 2022](http://acm-stoc.org/stoc2022/).
 
 - **[Nov 2021]** Our paper "Dynamic Matching Algorithms Under Vertex Updates" is accepted to [ITCS 2022](http://itcs-conf.org/index.html).
-
-- **[Oct 2021]** Two papers: "Near-Optimal Spanners for General Graphs in (Nearly) Linear Time" and "Greedy Spanners in Euclidean Spaces Admit Sublinear Separators" accepted to [SODA 2022](https://www.siam.org/conferences/cm/conference/soda22). Congratulations to my PhD student Cuong Than for the first SODA paper.
-
-- **[Sept 2021]** Our paper "Optimal Approximate Distance Oracle for Planar Graphs"  accepted to [FOCS2021](https://focs2021.cs.colorado.edu/focs-2021-accepted-papers/). Several preprints were uploaded to Arxiv. 
 
 
 

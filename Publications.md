@@ -4,7 +4,7 @@ My research has been generously supported by an [NSF grant](https://www.nsf.gov/
   <br>
   Nathan Ng and **Hung Le** and Marco Serafini.
   <br>
-  Authors ordered by contribution, I contributed least to this paper.
+  Authors ordered by contribution; I contributed least to this paper.
   <br>
   Manuscript.
   <br>[[PDF](https://arxiv.org/abs/2212.10387)]<br>
