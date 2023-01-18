@@ -15,14 +15,12 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 <br> Check out our FOCS 2022 workshop "[Advances on Metric Embeddings](https://hackmd.io/@3S70qBUwTR6_CErLY2dm4A/SJfp46KGi)" I co-organize with [Arnold Filtser](https://arnold.filtser.com).
 <br>
-<br>
-  <font color = "red">I am looking for new PhD students. See <a href = "https://hunglvosu.github.io/posts/2022/08/ProsStudents/">this</a> for details.</font>
 
 ## News
 
 
- - **[Dec 2022]** My proposal "CAREER: Geometric Techniques for Topological Graph Algorithms" is recommended for funding.
-
+ - **[Dec 2022]** My CAREER proposal "Geometric Techniques for Topological Graph Algorithms" got funded by NSF.
+ 
  - **[Dec 2022]** Our paper "Tuning the Tail Latency of Distributed Queries Using Replication " is submitted to [Arxiv](https://arxiv.org/abs/2212.10387).
 
  - **[Oct 2022]** Our paper "Approximate Distance Oracles for Planar Graphs with Subpolynomial Error Dependency" is accepted to [SODA 2023](https://www.siam.org/conferences/cm/conference/soda23).
