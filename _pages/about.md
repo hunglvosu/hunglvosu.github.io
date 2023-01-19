@@ -19,7 +19,7 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 ## News
 
 
- - **[Dec 2022]** My CAREER proposal "Geometric Techniques for Topological Graph Algorithms" got funded by NSF.
+ - **[Dec 2022]** My CAREER proposal [Geometric Techniques for Topological Graph Algorithms](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288) got funded by NSF.
  
  - **[Dec 2022]** Our paper "Tuning the Tail Latency of Distributed Queries Using Replication " is submitted to [Arxiv](https://arxiv.org/abs/2212.10387).
 
