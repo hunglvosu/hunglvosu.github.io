@@ -4,7 +4,7 @@ date: 2022-10-21
 permalink: /posts/2022/10/Syllabus-Algs/
 ---
 
-<span style="color:red">Last Updated: January 15 2023</span>.
+<span style="color:red">Last Updated: January 27 2023</span>.
 
 **Credit Hours:** 3
 
@@ -81,7 +81,7 @@ permalink: /posts/2022/10/Syllabus-Algs/
 | 09 May          | TSP                               | [Erickson's note on approximation algorithms](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/J-approx.pdf) |
 | 11 May          | Problem Solving Session                         |  |
 | 16 May          | Review                                          |                                                              |
-| 19 May - 25 May | Final exam scheduled by the university | Covering everything                                          |
+| May 19 | Final exam from 8:00 AM -  10:00 AM at classroom | Covering everything                                          |
 
 
  **Grading**
