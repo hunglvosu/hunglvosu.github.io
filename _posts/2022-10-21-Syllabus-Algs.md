@@ -4,7 +4,7 @@ date: 2022-10-21
 permalink: /posts/2022/10/Syllabus-Algs/
 ---
 
-<span style="color:red">Last Updated: January 27 2023</span>.
+<span style="color:red">Last Updated: January 31 2023</span>.
 
 **Credit Hours:** 3
 
@@ -19,7 +19,7 @@ permalink: /posts/2022/10/Syllabus-Algs/
   
 - TAs: TBA
 
-**Class Meetings:** Tue/Thu 10:00 AM - 11:45 AM from Feb 06 - May 17
+**Class Meetings:** Tue/Thu 10:00 AM - 11:15 AM from Feb 06 - May 17
 
 
 **Objectives**: This course provides students with skills in designing efficient algorithms. We will go through a variety of algorithm design techniques, including greedy, divide and conquer, dynamic programming, network flow, linear programming, randomized algorithms, and approximation algorithms. We will illustrate these design techniques in solving different algorithmic problems. The emphasis of this course is on the mathematical aspects of designing algorithms. 
@@ -87,7 +87,8 @@ permalink: /posts/2022/10/Syllabus-Algs/
  **Grading**
 
 - Homework (40%): Homework is **bi-weekly** and includes 5 assignments and 1 bonus assignment. The grade of the bonus assignment could be used to replace the lowest grade of any 5 regular assignments.
-- Weekly Quizzes (10%): We will have 4 quizzes, and two bonus quizzes. The grades of two bonus quizzes could be used to replace the lowest grade of any two other quizzes. 
+- Weekly Quizzes (8%): We will have 4 quizzes, and two bonus quizzes. The grades of two bonus quizzes could be used to replace the lowest grade of any two other quizzes. 
+- Attendance (2%)
 - Midterm 1 (15%)
 - Midterm 2 (15%)
 - Final (20%): Scheduled by the university and will be comprehensive.
