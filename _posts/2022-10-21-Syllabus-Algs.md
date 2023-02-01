@@ -1,5 +1,5 @@
 ---
-title: 'CMPSCI 611 : Advanced Algorithms'
+title: 'CMPSCI 611 : Advanced Algorithms Spring 2023'
 date: 2022-10-21
 permalink: /posts/2022/10/Syllabus-Algs/
 ---
