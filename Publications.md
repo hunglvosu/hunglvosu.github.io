@@ -1,9 +1,8 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
-- **A Unified Framework for Light Spanners **
+- **A Unified Framework for Light Spanners**
   <br>
   **Hung Le** and Shay Solomon.
-  <br>
   <br>
   To appear in The 55th Annual ACM Symposium on Theory of Computing. **STOC 2023**.
   <br>This paper is a merge of [arXiv:2111.13748](https://arxiv.org/pdf/2111.13748.pdf) and [arXiv:2106.15596](https://arxiv.org/abs/2106.15596)<br>
@@ -119,23 +118,6 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   </font>
   </details>
   
-
-- **A Unified Framework of Light Spanners II: Fine-Grained Optimality**
-  <br>
-  **Hung Le** and Shay Solomon
-  <br>
-  Preprint
-  <br>[[PDF](https://arxiv.org/pdf/2111.13748.pdf)]<br>
-  <details><summary style="color:#7C4700">Abstract</summary>
-  <font color = "7C4700">
-  Seminal works on light spanners over the years provide spanners with optimal lightness in various graph classes, such as in general graphs, Euclidean spanners and minor-free graphs. Three shortcomings of previous works on light spanners are: (1) The techniques are ad hoc per graph class, and thus can't be applied broadly.  (2) The runtimes of these constructions are almost always sub-optimal, and usually far from optimal. (3) These constructions are optimal in the standard and crude sense, but not in a refined sense that takes into account a wider range of involved parameters.<br><br>
-  
-  This work aims at addressing these shortcomings by presenting  a unified framework of light spanners in a variety of graph classes. Informally, the framework boils down to a  transformation from sparse spanners to light spanners; since the state-of-the-art for sparse spanners is much more advanced than that for light spanners, such a transformation is powerful. Our framework is developed in two papers. The current paper is the second of the two ---  it  builds on the basis of the unified framework laid in the first paper,  and then strengthens it to achieve more refined optimality bounds for several graph classes, i.e., the bounds remain optimal when taking into account a wider range of involved parameters, most notably $\epsilon$, but also others such as the dimension (in Euclidean spaces) or the minor size (in minor-free graphs).  Our new constructions are significantly better than the state-of-the-art {\em for every examined graph class}. Among various applications and implications of our framework, we highlight the following:<br><br>
-  
-  For $K_r$-minor-free graphs, we provide a  $(1+\epsilon)$-spanner with lightness $\tilde{O}_{r,\epsilon}( \frac{r}{\epsilon} + \frac{1}{\epsilon^2})$, where $\tilde{O}_{r,\epsilon}$ suppresses $\mathsf{polylog}$ factors of $1/\epsilon$ and $r$, improving the lightness bound $\tilde{O}_{r,\epsilon}( \frac{r}{\epsilon^3})$ of Borradaile, Le and Wulff-Nilsen. We complement our upper bound with a highly nontrivial lower bound construction, for which any $(1+\epsilon)$-spanner must have lightness $\Omega(\frac{r}{\epsilon} + \frac{1}{\epsilon^2})$. Interestingly, our lower bound is realized by a geometric graph in $\mathbb{R}^2$. We note that the quadratic dependency on $1/\epsilon$ we proved here is surprising, as the prior work suggested that the dependency on $\epsilon$ should be around $1/\epsilon$.  Indeed, for minor-free graphs there is a known upper bound of lightness $O(\log(n)/\epsilon)$, whereas subclasses of minor-free graphs, primarily graphs of genus bounded by $g$, are long known to admit spanners of lightness $O(g/\epsilon)$.  
-  </font>
-  </details>
-  
 - **Dynamic Matching Algorithms Under Vertex Updates**
   <br>
   **Hung Le** and Lazar Milenkovic and Shay Solomon and Virginia Vassilevska Williams
@@ -195,27 +177,6 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   Our technique naturally extends to doubling metrics. We use the $\tau$-lanky characterization to show that there exists a $(1+\epsilon)$-spanner for doubling metrics of dimension $d$ with a constant maximum degree and  a separator of size $O(n^{1-\frac{1}{d}})$;  this result resolves an open problem posed by Abam and Har-Peled a decade ago. We then introduce another simple characterization for a graph in doubling metrics of dimension $d$ to have a sublinear separator. We use the new characterization to show that the greedy spanner of an $n$-point metric space of doubling dimension $d$  has a separator of  size $O((n^{1-\frac{1}{d}}) + \log\Delta)$ where $\Delta$ is the spread of the metric; the factor $\log(\Delta)$ is tightly connected to the fact that, unlike its Euclidean counterpart, the greedy spanner in doubling metrics has unbounded maximum degree. Finally, we discuss algorithmic implications of our results.
   </font>
   </details>
-  
-- **A Unified Framework of Light Spanners I: Fast (Yet Optimal) Constructions**
-  <br>
-  **Hung Le** and Shay Solomon
-  <br>
-  Preprint
-  <br>[[PDF](https://arxiv.org/pdf/2106.15596.pdf)][[Solving Open Problem 22](https://people.scs.carleton.ca/~michiel/SpannerBook/openproblems.html)]<br>
-  <details><summary style="color:#7C4700">Abstract</summary>
-  <font color = "7C4700">
-  Seminal works on light spanners over the years provide spanners with optimal lightness in various graph classes, such as in general graphs, Euclidean spanners and minor-free graphs. Three shortcomings of previous works on light spanners are: (1) The techniques are ad hoc per graph class, and thus can't be applied broadly.  (2) The runtimes of these constructions are almost always sub-optimal, and usually far from optimal. (3) These constructions are optimal in the standard and crude sense, but not in a refined sense that takes into account a wider range of involved parameters.<br><br>
-  
-  This work aims at addressing these shortcomings by presenting  a unified framework of light spanners in a variety of graph classes. Informally, the framework boils down to a transformation from sparse spanners to light spanners; since the state-of-the-art for sparse spanners is much more advanced than that for light spanners, such a transformation is powerful. Our framework is developed in two papers. The current paper is the first of the two --- it   lays the basis of the unified framework and then applies it to design fast constructions with optimal lightness for several graph classes.  Our new constructions are significantly faster than the state-of-the-art for every examined graph class; our runtimes are near-linear and usually optimal.<br><br> 
-  
-  Among various applications and implications of our framework, we highlight here the following (for simplicity assume $\epsilon> 0$ is fixed):
-  
-  <ul> <li>In low-dimensional Euclidean spaces, we present an $O(n\log n)$-time construction  of $(1+\epsilon)$-spanners with lightness and degree both bounded by constants in the algebraic computation tree (ACT) (or real-RAM) model, which is the basic model used in Computational Geometry. The previous state-of-the-art runtime in this model for constant lightness (even for unbounded degree) was $O(n \log^2 n / \log\log n)$, whereas $O(n \log n)$-time spanner constructions with constant degree (and  $O(n)$ edges) are known for years. Our construction is optimal with respect to all the involved quality measures --- runtime, lightness and degree --- and it resolves a major problem in the area of geometric spanners, which was open for three decades. </li>
-  <li>In general graphs, we present a nearly linear-time algorithm for constructing light spanners. Specifically, for any $k \ge 2$, we construct a $(2k-1)(1+\epsilon)$-spanner with lightness $O(n^{1/k})$  in $O(m \alpha(m,n))$ time, where $\alpha(\cdot,\cdot)$ is the inverse-Ackermann function; the lightness bound is optimal assuming Erd\H{o}s' girth conjecture (up to the $\epsilon$-dependency). Since $O(m\alpha(m,n)) = O(m + n\log^{*}(n)$, the runtime is linear in $m$ when ${m = \Omega(n \log^{*}n)}$. The previous state-of-the-art runtime of such a spanner is super-quadratic in $n$. This result for light spanners in general weighted graphs is   surprising, as it outperforms the analog one for sparse spanners.</li>
-  </ul>
-  </font>
-  </details>
-  
   
 - **Optimal Approximate Distance Oracle for Planar Graphs**
   <br>
