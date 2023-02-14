@@ -1,5 +1,20 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
+- **Sparse Euclidean Spanners with Optimal Diameter: A General Robust Lower Bound Via a Concave Inverse-Ackermann Function**
+  <br>
+  **Hung Le** and Lazar Milenkovic and Shay Solomon
+  <br>
+  To appear in The 39th International Symposium on Computational Geometry. **SoCG 2023**
+  <br>Manuscript<br>
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  In STOC'95 \cite{ADMSS95} Arya et al. showed that any set of $n$ points in $\mathbb R^d$ admits a $(1+\epsilon)$-spanner with hop-diameter at most 2 (respectively, 3) and $O(n \log n)$ edges (resp., $O(n \log \log n)$ edges). They also gave a general upper bound tradeoff of hop-diameter at most $k$ and $O(n \alpha_k(n))$ edges, for any $k \geq 2$. The function $\alpha_k$ is the inverse of a certain Ackermann-style function at the $\lfloor k/2 \rfloor$th level of the primitive recursive hierarchy, where $\alpha_0(n) = \lceil n/2 \rceil, \alpha_1(n) = \left\lceil \sqrt{n} \right\rceil, \alpha_2(n) = \lceil \log{n} \rceil, \alpha_3(n) = \lceil \log\log{n} \rceil, \alpha_4(n) = \log^* n, \alpha_5(n) = \lfloor \frac{1}{2} \log^*n \rfloor$, \ldots. Roughly speaking, for $k \geq 2$ the function $\alpha_{k}$ is close to $\lfloor \frac{k-2}{2} \rfloor$-iterated log-star function, i.e., $\log$ with $\lfloor \frac{k-2}{2} \rfloor$ stars. Also, $\alpha_{2\alpha(n)+4}(n) \leq 4$, where $\alpha(n)$ is the one-parameter inverse Ackermann function, which is an extremely slowly growing function.
+
+Whether or not this tradeoff is tight has remained open, even for the cases $k = 2$ and $k = 3$. Two lower bounds are known: The first applies only to spanners with stretch 1 and the second is sub-optimal and applies only to sufficiently large (constant) values of $k$. In this paper we prove a tight lower bound for any constant $k$: For any fixed $\epsilon > 0$, any $(1+\epsilon)$-spanner for the uniform line metric with hop-diameter at most $k$ must have at least $\Omega(n \alpha_k(n))$ edges.
+  </font>
+  </details>
+  
+  
 - **A Unified Framework for Light Spanners**
   <br>
   **Hung Le** and Shay Solomon.
