@@ -1,5 +1,26 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
+- **A Unified Framework for Light Spanners **
+  <br>
+  **Hung Le** and Shay Solomon.
+  <br>
+  <br>
+  To appear in The 55th Annual ACM Symposium on Theory of Computing. **STOC 2023**.
+  <br>This paper is a merge of [arXiv:2111.13748](https://arxiv.org/pdf/2111.13748.pdf) and [arXiv:2106.15596](https://arxiv.org/abs/2106.15596)<br>
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+   Seminal works on light spanners over the years provide spanners with optimal lightness in various graph classes, such as in general graphs, Euclidean spanners and minor-free graphs. Three shortcomings of previous works on light spanners are: (1) The techniques are ad hoc per graph class, and thus can't be applied broadly.  (2) The runtimes of these constructions are almost always sub-optimal, and usually far from optimal. (3) These constructions are optimal in the standard and crude sense, but not in a refined sense that takes into account a wider range of involved parameters.<br><br>
+  This work aims at addressing these shortcomings by presenting a unified framework of light spanners in a variety of graph classes. Informally, the framework boils down to a transformation from sparse spanners to light spanners; since the state-of-the-art for sparse spanners is much more advanced than that for light spanners, such a transformation is powerful. First, we apply our framework to design fast constructions with optimal lightness for several graph classes. Among various applications, we highlight the following (for simplicity assume $\epsilon >0$ is fixed):<br><br>
+  
+  <ul> <li>In low-dimensional Euclidean spaces, we present an $O(n\log n)$-time construction  of $(1+\epsilon)$-spanners with lightness and degree both bounded by constants in the algebraic computation tree (ACT) (or real-RAM) model, which is the basic model used in Computational Geometry. The previous state-of-the-art runtime in this model for constant lightness (even for unbounded degree) was $O(n \log^2 n / \log\log n)$, whereas $O(n \log n)$-time spanner constructions with constant degree (and  $O(n)$ edges) are known for years. Our construction is optimal with respect to all the involved quality measures --- runtime, lightness and degree --- and it resolves a major problem in the area of geometric spanners, which was open for three decades. </li>
+  </ul>
+  Second, we apply our framework to achieve more refined optimality bounds for several graph classes, i.e., the bounds remain optimal when taking into account a wider range of involved parameters, most notably $\epsilon$. Our new constructions are significantly better than the state-of-the-art for every examined graph class. Among various applications, we highlight the following (now $\epsilon >0$ is any parameter):<br><br>
+  
+  <ul> <li>For $K_r$-minor-free graphs, we provide a  $(1+\epsilon)$-spanner with lightness $\tilde{O}_{r,\epsilon}( \frac{r}{\epsilon} + \frac{1}{\epsilon^2})$, where $\tilde{O}_{r,\epsilon}$ suppresses $\mathsf{polylog}$ factors of $1/\epsilon$ and $r$, improving the lightness bound $\tilde{O}_{r,\epsilon}( \frac{r}{\epsilon^3})$ of Borradaile, Le and Wulff-Nilsen. We complement our upper bound with a highly nontrivial lower bound construction, for which any $(1+\epsilon)$-spanner must have lightness $\Omega(\frac{r}{\epsilon} + \frac{1}{\epsilon^2})$. Interestingly, our lower bound is realized by a geometric graph in $\mathbb{R}^2$. We note that the quadratic dependency on $1/\epsilon$ we proved here is surprising, as the prior work suggested that the dependency on $\epsilon$ should be around $1/\epsilon$.  </li>
+  </ul>
+  </font>
+  </details>
+  
 - **Tuning the Tail Latency of Distributed Queries Using Replication**
   <br>
   Nathan Ng and **Hung Le** and Marco Serafini.
