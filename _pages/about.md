@@ -20,9 +20,11 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 ## News
 
 
- - **[Feb 2022]** Paper "Sparse Euclidean Spanners with Optimal Diameter: A General Robust Lower Bound Via a Concave Inverse-Ackermann Function" led by student co-author [Lazar Milenković](https://milenkoviclazar.github.io) is accepted to [SoCG 2023](https://cs.utdallas.edu/SOCG23/socg.html)
+ - **[April 2023]** Our paper "[VC Set Systems in Minor-free (Di)Graphs and Applications](https://arxiv.org/abs/2304.01790)" was uploaded to Arxiv.
+
+ - **[Feb 2023]** Paper "Sparse Euclidean Spanners with Optimal Diameter: A General Robust Lower Bound Via a Concave Inverse-Ackermann Function" led by student co-author [Lazar Milenković](https://milenkoviclazar.github.io) is accepted to [SoCG 2023](https://cs.utdallas.edu/SOCG23/socg.html)
  
- - **[Feb 2022]** Our paper "A Unified Framework for Light Spanners" is accepted to [STOC 2023](http://acm-stoc.org/stoc2023/).
+ - **[Feb 2023]** Our paper "A Unified Framework for Light Spanners" is accepted to [STOC 2023](http://acm-stoc.org/stoc2023/).
 
  - **[Dec 2022]** My CAREER proposal [Geometric Techniques for Topological Graph Algorithms](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288) got funded by NSF. Thanks to great mentors, collaborators, students, and of course, NSF.
  
@@ -36,8 +38,6 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
  
  - **[March 2022]** I will be a PC member of STOC 2023. I'm looking forward to reading your papers!
  
- - **[March 2022]** Our paper "Greedy Spanners in Euclidean Spaces Admit Sublinear Separators" is invited to the special issue of ACM Transactions on Algorithms (TALG) devoted to top papers in SODA 2022.
-
 
 
 
