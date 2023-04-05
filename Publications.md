@@ -1,5 +1,21 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
-
+- **VC Set Systems in Minor-free (Di)Graphs and Applications**
+  <br>
+  **Hung Le** and Christian Wulff-Nilsen
+  <br>[[PDF](https://arxiv.org/abs/2304.01790)]<br>
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  A recent line of work on VC set systems in minor-free (undirected) graphs, starting from Li and Parter~, who constructed a new VC set system for planar graphs, has given surprising algorithmic results. In this work, we initialize a more systematic study of VC set systems for minor-free graphs and their applications in both undirected graphs and directed graphs (a.k.a digraphs).  More precisely: <br>
+  <ul> <li>We propose a new variant of Li-Parter set system for undirected graphs. Our set system settles two weaknesses of Li-Parter set system: the terminals can be anywhere, and the graph can be $K_h$-minor-free for any fixed $h$. We obtain several algorithmic applications, and notably: (i) the first exact distance oracle for unweighted and undirected $K_h$-minor-free graphs that has truly subquadratic space and constant query time, and (ii) the first truly subquadratic time algorithm for computing Wiener index of $K_h$-minor-free graphs, resolving an open problem posed by Ducoffe, Habib, and Viennot.</li>
+  <li>We extend our set system to  $K_h$-minor-free digraphs and show that its VC dimension is $O(h^2)$.    We use this result to design the first subquadratic time algorithm for computing (unweighted) diameter and all-vertices eccentricities in   $K_h$-minor-free digraphs.</li>
+  <li>We show that the system of directed balls in minor-free digraphs has VC dimension at most $h-1$. We then present a new technique to exploit the VC system of balls, giving the first exact distance oracle for unweighted minor-free  digraphs that has truly subquadratic space and logarithmic query time.</li>
+  <li>On the negative side, we show that VC set system constructed from shortest path trees of planar digraphs does not have a bounded VC dimension. This leaves an intriguing open problem: determine a necessary and sufficient condition for a set system derived from a minor-free graph to have a bounded VC-dimension. </li>
+  </ul>
+  The highlight of our work is the results for  digraphs, as we are not aware of known algorithmic work on constructing and exploiting VC set systems for digraphs.
+  </font>
+  </details>
+  
+  
 - **Sparse Euclidean Spanners with Optimal Diameter: A General Robust Lower Bound Via a Concave Inverse-Ackermann Function**
   <br>
   **Hung Le** and Lazar Milenkovic and Shay Solomon
