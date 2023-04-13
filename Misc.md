@@ -4,6 +4,7 @@ title: "Misc"
 ---
 
 ## Advices
+- [Men in Computer Science](https://windowsontheory.org/2017/08/16/men-in-computer-science/) by Boaz Barak.
 - [Laziness Does Not Exist](https://humanparts.medium.com/laziness-does-not-exist-3af27e312d01) by Devon Price.
 
 - [Advice for the budding theorist](https://windowsontheory.org/2015/11/03/advice-for-the-budding-theorist/) by Boaz Barak.
