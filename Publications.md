@@ -7,9 +7,8 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
   We prove that there is a randomized polynomial-time algorithm that given an edge-weighted graph $G$ excluding a fixed-minor $Q$ on $n$ vertices and an accuracy parameter $\epsilon >0$, constructs an edge-weighted graph~$H$ and an embedding $\eta: V(G)\rightarrow V(H)$ with the following properties:<br>
-  
 <ul> <li>For any constant size $Q$, the treewidth of $H$ is polynomial in $\epsilon^{-1}$, $\log n$, and the logarithm of the stretch of the distance metric in $G$.</li>
-<li>The expected multiplicative distortion is $(1+\epsilon)$: for every pair of vertices $u,v$ of $G$, we have $\mathrm{dist}_H(\eta(u),\eta(v))\geq \dist_G(u,v)$ always and $\Exp[\mathrm{dist}_H(\eta(u),\eta(v))]\leq (1+\eps)\dist_G(u,v)$.</li>
+<li>The expected multiplicative distortion is $(1+\epsilon)$: for every pair of vertices $u,v$ of $G$, we have $\mathrm{dist}_H(\eta(u),\eta(v))\geq \mathrm{dist}_G(u,v)$ always and $\mathbb{E}[\mathrm{dist}_H(\eta(u),\eta(v))]\leq (1+\epsilon)\mathrm{dist}_G(u,v)$.</li>
 </ul>
 Our embedding is the first to achieve polylogarithmic treewidth of the host graph and comes close to the lower bound by Carroll and Goel, who showed that any embedding of a planar graph with $O(1)$ expected distortion requires the host graph to have treewidth $\Omega(\log n)$.  It also provides a unified framework for obtaining randomized quasi-polynomial-time approximation schemes for a variety of problems including network design, clustering or routing problems, in minor-free metrics where the optimization goal is the sum of selected distances. Applications include the capacitated vehicle routing problem, and capacitated clustering problems.
   </font>
