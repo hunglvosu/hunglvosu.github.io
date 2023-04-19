@@ -1,4 +1,21 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
+
+- **Planar and Minor-Free Metrics Embed into Metrics of Polylogarithmic Treewidth with Expected Multiplicative Distortion Arbitrarily Close to 1**
+  <br>
+  Vincent Cohen-Addad and **Hung Le** and Marcin Pilipczuk and Michał Pilipczuk.
+  <br>[[PDF](https://arxiv.org/abs/2304.07268)]<br>
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  We prove that there is a randomized polynomial-time algorithm that given an edge-weighted graph $G$ excluding a fixed-minor $Q$ on $n$ vertices and an accuracy parameter $\epsilon >0$, constructs an edge-weighted graph~$H$ and an embedding $\eta: V(G)\rightarrow V(H)$ with the following properties:<br>
+  
+<ul> <li>For any constant size $Q$, the treewidth of $H$ is polynomial in $\epsilon^{-1}$, $\log n$, and the logarithm of the stretch of the distance metric in $G$.</li>
+<li>The expected multiplicative distortion is $(1+\epsilon)$: for every pair of vertices $u,v$ of $G$, we have $\mathrm{dist}_H(\eta(u),\eta(v))\geq \dist_G(u,v)$ always and $\Exp[\mathrm{dist}_H(\eta(u),\eta(v))]\leq (1+\eps)\dist_G(u,v)$.</li>
+</ul>
+Our embedding is the first to achieve polylogarithmic treewidth of the host graph and comes close to the lower bound by Carroll and Goel, who showed that any embedding of a planar graph with $O(1)$ expected distortion requires the host graph to have treewidth $\Omega(\log n)$.  It also provides a unified framework for obtaining randomized quasi-polynomial-time approximation schemes for a variety of problems including network design, clustering or routing problems, in minor-free metrics where the optimization goal is the sum of selected distances. Applications include the capacitated vehicle routing problem, and capacitated clustering problems.
+  </font>
+  </details>
+  
+  
 - **VC Set Systems in Minor-free (Di)Graphs and Applications**
   <br>
   **Hung Le** and Christian Wulff-Nilsen

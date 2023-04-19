@@ -20,6 +20,8 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 ## News
 
 
+ - **[April 2023]** Our paper "[Planar and Minor-Free Metrics Embed into Metrics of Polylogarithmic Treewidth with Expected Multiplicative Distortion Arbitrarily Close to 1](https://arxiv.org/abs/2304.07268)" was uploaded to Arxiv.
+
  - **[April 2023]** Our paper "[VC Set Systems in Minor-free (Di)Graphs and Applications](https://arxiv.org/abs/2304.01790)" was uploaded to Arxiv.
 
  - **[Feb 2023]** Paper "Sparse Euclidean Spanners with Optimal Diameter: A General Robust Lower Bound Via a Concave Inverse-Ackermann Function" led by student co-author [Lazar Milenković](https://milenkoviclazar.github.io) is accepted to [SoCG 2023](https://cs.utdallas.edu/SOCG23/socg.html)
@@ -35,9 +37,7 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
  - **[July 2022]** Our paper "Low Treewidth Embeddings of Planar and Minor-Free Metrics " is accepted to [FOCS 2022](https://focs2022.eecs.berkeley.edu).
 
  - **[May 2022]** Our paper "Can’t See The Forest for the Trees: Navigating Metric Spaces by Bounded Hop-Diameter Spanners" is accepted to [PODC 2022](https://www.podc.org).
- 
- - **[March 2022]** I will be a PC member of STOC 2023. I'm looking forward to reading your papers!
- 
+
 
 
 
