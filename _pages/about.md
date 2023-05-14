@@ -17,6 +17,8 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 <br> Check out our FOCS 2022 workshop "[Advances on Metric Embeddings](https://hackmd.io/@3S70qBUwTR6_CErLY2dm4A/SJfp46KGi)" I co-organize with [Arnold Filtser](https://arnold.filtser.com).
 <br>
 
+<br>Hung Le on the web: several [others](https://sites.google.com/view/henryle2018/home) [Hung](https://thaihungle.github.io) [Le](https://hungleweb.wordpress.com/cv/) and potentially more share the [same dblp page](https://dblp.org/pid/45/466.html) with me. 
+
 ## News
 
  - **[May 2023]** My student [Cuong Than](https://thanvietcuong.github.io) will be interning at Google Research. Congrats Cuong!
@@ -38,7 +40,6 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
  - **[July 2022]** Our paper "Low Treewidth Embeddings of Planar and Minor-Free Metrics " is accepted to [FOCS 2022](https://focs2022.eecs.berkeley.edu).
 
  - **[May 2022]** Our paper "Can’t See The Forest for the Trees: Navigating Metric Spaces by Bounded Hop-Diameter Spanners" is accepted to [PODC 2022](https://www.podc.org).
-
 
 
 
