@@ -17,7 +17,7 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 <br> Check out our FOCS 2022 workshop "[Advances on Metric Embeddings](https://hackmd.io/@3S70qBUwTR6_CErLY2dm4A/SJfp46KGi)" I co-organize with [Arnold Filtser](https://arnold.filtser.com).
 <br>
 
-<br>Hung Le on the web: several [others](https://sites.google.com/view/henryle2018/home) [Hung](https://thaihungle.github.io) [Le](https://hungleweb.wordpress.com/cv/) and potentially more share the [same dblp page](https://dblp.org/pid/45/466.html) with me. 
+<br>Hung Le on the web: several [other](https://sites.google.com/view/henryle2018/home) [Hung](https://thaihungle.github.io) [Le](https://hungleweb.wordpress.com/cv/) and potentially more share the [same dblp page](https://dblp.org/pid/45/466.html) with me. 
 
 ## News
 
