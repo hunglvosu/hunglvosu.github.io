@@ -21,6 +21,12 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 ## News
 
+I will be updating both good news, bad news and all kinds of news. 
+ 
+ - **[June 2023]** One paper was rejected from ESA 2023.
+
+ - **[June 2023]** [Three](https://arxiv.org/abs/2306.06215) [new](https://arxiv.org/abs/2306.06235) [manuscritps](https://arxiv.org/abs/2306.11226) were uploaded to  Arxiv.
+
  - **[May 2023]** My student [Cuong Than](https://thanvietcuong.github.io) will be interning at Google Research. Congrats Cuong!
  
  - **[April 2023]** Our paper "[Planar and Minor-Free Metrics Embed into Metrics of Polylogarithmic Treewidth with Expected Multiplicative Distortion Arbitrarily Close to 1](https://arxiv.org/abs/2304.07268)" was uploaded to Arxiv.
