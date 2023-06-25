@@ -25,7 +25,7 @@ I will be updating both good news, bad news and all kinds of news.
  
  - **[June 2023]** One paper was rejected from ESA 2023.
 
- - **[June 2023]** [Three](https://arxiv.org/abs/2306.06215) [new](https://arxiv.org/abs/2306.06235) [manuscritps](https://arxiv.org/abs/2306.11226) were uploaded to  Arxiv.
+ - **[June 2023]** [Three](https://arxiv.org/abs/2306.06215) [new](https://arxiv.org/abs/2306.06235) [manuscripts](https://arxiv.org/abs/2306.11226) were uploaded to  Arxiv.
 
  - **[May 2023]** My student [Cuong Than](https://thanvietcuong.github.io) will be interning at Google Research. Congrats Cuong!
  
@@ -42,11 +42,6 @@ I will be updating both good news, bad news and all kinds of news.
  - **[Dec 2022]** Our paper "Tuning the Tail Latency of Distributed Queries Using Replication " is submitted to [Arxiv](https://arxiv.org/abs/2212.10387).
 
  - **[Oct 2022]** Our paper "Approximate Distance Oracles for Planar Graphs with Subpolynomial Error Dependency" is accepted to [SODA 2023](https://www.siam.org/conferences/cm/conference/soda23).
- 
- - **[July 2022]** Our paper "Low Treewidth Embeddings of Planar and Minor-Free Metrics " is accepted to [FOCS 2022](https://focs2022.eecs.berkeley.edu).
-
- - **[May 2022]** Our paper "Can’t See The Forest for the Trees: Navigating Metric Spaces by Bounded Hop-Diameter Spanners" is accepted to [PODC 2022](https://www.podc.org).
-
 
 
     
