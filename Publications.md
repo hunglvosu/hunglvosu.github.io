@@ -13,6 +13,8 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
 - **Covering Planar Metrics (and Beyond): $O(1)$ Trees Suffice**
   <br>
   Hsien-Chih Chang and Jonathan Conroy and **Hung Le** and Lazar Milenkovic and Shay Solomon and Cuong Than.
+  <br>
+  To appear in The 64th IEEE Symposium on the Foundations of Computer Science. **FOCS 2023**
   <br>[[PDF](https://arxiv.org/abs/2306.06215)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
@@ -32,6 +34,8 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
 - **Optimal Fault-Tolerant Spanners in Euclidean and Doubling Metrics: Breaking the $\Omega(\log n)$ Lightness Barrier**
   <br>
   **Hung Le** and Shay Solomon and Cuong Than.
+  <br>
+  To appear in The 64th IEEE Symposium on the Foundations of Computer Science. **FOCS 2023**
   <br>[[PDF](https://arxiv.org/abs/2306.11226)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
@@ -51,6 +55,8 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
 - **Planar and Minor-Free Metrics Embed into Metrics of Polylogarithmic Treewidth with Expected Multiplicative Distortion Arbitrarily Close to 1**
   <br>
   Vincent Cohen-Addad and **Hung Le** and Marcin Pilipczuk and Michał Pilipczuk.
+  <br>
+  To appear in The 64th IEEE Symposium on the Foundations of Computer Science. **FOCS 2023**
   <br>[[PDF](https://arxiv.org/abs/2304.07268)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">

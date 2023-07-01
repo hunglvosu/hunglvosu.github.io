@@ -22,7 +22,9 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 ## News
 
 I will be updating both good news, bad news and all kinds of news. 
- 
+
+ - **[June 2023]** One paper was rejected from FOCS 2023; [three](https://arxiv.org/abs/2306.11226) [other](https://arxiv.org/abs/2306.06215) [papers](https://arxiv.org/abs/2304.07268) were accepted to FOCS 23.
+  
  - **[June 2023]** One paper was rejected from ESA 2023.
 
  - **[June 2023]** [Three](https://arxiv.org/abs/2306.06215) [new](https://arxiv.org/abs/2306.06235) [manuscripts](https://arxiv.org/abs/2306.11226) were uploaded to  Arxiv.
@@ -40,8 +42,6 @@ I will be updating both good news, bad news and all kinds of news.
  - **[Dec 2022]** My CAREER proposal [Geometric Techniques for Topological Graph Algorithms](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288) got funded by NSF. Thanks to great mentors, collaborators, students, and of course, NSF.
  
  - **[Dec 2022]** Our paper "Tuning the Tail Latency of Distributed Queries Using Replication " is submitted to [Arxiv](https://arxiv.org/abs/2212.10387).
-
- - **[Oct 2022]** Our paper "Approximate Distance Oracles for Planar Graphs with Subpolynomial Error Dependency" is accepted to [SODA 2023](https://www.siam.org/conferences/cm/conference/soda23).
 
 
     
