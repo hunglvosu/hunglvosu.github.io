@@ -23,7 +23,7 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 I will be updating both good news, bad news and all kinds of news. 
 
- - **[June 2023]** One paper was rejected from FOCS 2023; [three](https://arxiv.org/abs/2306.11226) [other](https://arxiv.org/abs/2306.06215) [papers](https://arxiv.org/abs/2304.07268) were accepted to FOCS 23.
+ - **[July 2023]** One paper was rejected from FOCS 2023; [three](https://arxiv.org/abs/2306.11226) [other](https://arxiv.org/abs/2306.06215) [papers](https://arxiv.org/abs/2304.07268) were accepted to FOCS 23.
   
  - **[June 2023]** One paper was rejected from ESA 2023.
 
