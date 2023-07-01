@@ -1,9 +1,18 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
+- **Resolving the Steiner Point Removal Problem in Planar Graphs via Shortcut Partitions**
+  <br>
+  Hsien-Chih Chang and Jonathan Conroy and **Hung Le** and Lazar Milenkovic and Shay Solomon and Cuong Than.
+  <br>[[PDF](https://arxiv.org/abs/2306.06235)]<br>
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  Recently the authors introduced the notion of shortcut partition of planar graphs and obtained several results from the partition, including a tree cover with $O(1)$ trees for planar metrics and an additive embedding into small treewidth graphs. In this note, we apply the same partition to resolve the Steiner point removal (SPR) problem in planar graphs:  Given any set $K$ of terminals in an arbitrary edge-weighted planar graph $G$, we construct a minor $M$ of $G$ whose vertex set is $K$, which preserves the shortest-path distances between all pairs of terminals in $G$ up to a constant factor. This resolves in the affirmative an open problem that has been asked repeatedly in literature.
+  </font>
+  </details>
 
 - **Covering Planar Metrics (and Beyond): $O(1)$ Trees Suffice**
   <br>
-  Hsien-Chih Chang and Jonathan Conroy and **Hung Le** and Lazar Milenkovic and Shay Solomon and Cuong Than
+  Hsien-Chih Chang and Jonathan Conroy and **Hung Le** and Lazar Milenkovic and Shay Solomon and Cuong Than.
   <br>[[PDF](https://arxiv.org/abs/2306.06215)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
