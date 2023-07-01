@@ -1,9 +1,29 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
+
+- **Covering Planar Metrics (and Beyond): $O(1)$ Trees Suffice**
+  <br>
+  Hsien-Chih Chang and Jonathan Conroy and **Hung Le** and Lazar Milenkovic and Shay Solomon and Cuong Than
+  <br>[[PDF](https://arxiv.org/abs/2306.06215)]<br>
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  While research on the geometry of planar graphs has been active in the past decades, many properties of planar metrics remain mysterious. This paper studies a fundamental aspect of the planar graph geometry: covering planar metrics by a small collection of simpler metrics.  Specifically, a tree cover of a metric space $(X, \delta)$ is a collection of trees, so that every pair of points $u$ and $v$ in $X$ has a low-distortion path in at least one of the trees. <br><br>
+  
+  The celebrated Dumbbell Theorem states that any low-dimensional Euclidean space admits a tree cover with $O(1)$ trees and distortion $1+\varepsilon$, for any fixed $\varepsilon \in (0,1)$. This result has found numerous algorithmic applications, and has been generalized to the wider family of doubling metrics.  Does the same result hold for planar metrics?  A positive answer would add another evidence to the well-observed connection between Euclidean/doubling metrics and planar metrics. <br><br>
+  
+  In this work, we answer this fundamental question affirmatively. Specifically, we show that for any given fixed $\varepsilon \in (0,1)$, any planar metric can be covered by $O(1)$ trees with distortion $1+\varepsilon$.  Our result for planar metrics follows from a rather general framework:  First we reduce the problem to constructing tree covers with additive distortion.  Then we introduce the notion of shortcut partition, and draw connection between shortcut partition and additive tree cover.  Finally we prove the existence of shortcut partition for any planar metric, using new insights regarding the grid-like structure of planar graphs. To demonstrate the power of our framework: <br>
+  
+  <ul> <li>We establish additional tree cover results beyond planar metrics; in particular, we present an $O(1)$-size tree cover with distortion $1+\varepsilon$ for bounded treewidth metrics;</li>
+  <li>We obtain several algorithmic applications in planar graphs from our tree cover.</li>
+  </ul>
+  The grid-like structure is a technical contribution that we believe is of independent interest. We showcase its applicability beyond tree cover by constructing a simpler and better embedding of planar graphs into $O(1)$-treewidth graphs with  small additive distortion, resolving an open problem in this line of research.
+  </font>
+  </details>
+  
 - **Optimal Fault-Tolerant Spanners in Euclidean and Doubling Metrics: Breaking the $\Omega(\log n)$ Lightness Barrier**
   <br>
   **Hung Le** and Shay Solomon and Cuong Than.
-  <br>[[PDF](https://arxiv.org/abs/2304.07268)]<br>
+  <br>[[PDF](https://arxiv.org/abs/2306.11226)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
   An essential requirement of spanners in many applications is to be em fault-tolerant: a $(1+\epsilon)$-spanner of a metric space is called  (vertex) $f$-fault-tolerant ($f$-FT) if it remains a $(1+\epsilon)$-spanner (for the non-faulty points) when up to $f$ faulty points are removed from the spanner. Fault-tolerant (FT) spanners for Euclidean and doubling metrics have been extensively studied since the 90s. <br><br>
