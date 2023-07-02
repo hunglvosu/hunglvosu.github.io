@@ -10,7 +10,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   </font>
   </details>
 
-- **Covering Planar Metrics (and Beyond): $O(1)$ Trees Suffice**
+- **Covering Planar Metrics (and Beyond): O(1) Trees Suffice**
   <br>
   Hsien-Chih Chang and Jonathan Conroy and **Hung Le** and Lazar Milenkovic and Shay Solomon and Cuong Than.
   <br>
