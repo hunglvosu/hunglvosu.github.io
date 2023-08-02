@@ -1,14 +1,21 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
-- **Resolving the Steiner Point Removal Problem in Planar Graphs via Shortcut Partitions**
+
+- **Shortcut Partitions in Minor-Free Graphs: Steiner Point Removal, Distance Oracles, Tree Covers, and More**
   <br>
   Hsien-Chih Chang and Jonathan Conroy and **Hung Le** and Lazar Milenkovic and Shay Solomon and Cuong Than.
-  <br>[[PDF](https://arxiv.org/abs/2306.06235)]<br>
+  <br> Results in this paper subsume results for planar graphs in [our earlier paper](https://arxiv.org/abs/2306.06235).
+  <br>[[PDF](https://arxiv.org/abs/2308.00555)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
-  Recently the authors introduced the notion of shortcut partition of planar graphs and obtained several results from the partition, including a tree cover with $O(1)$ trees for planar metrics and an additive embedding into small treewidth graphs. In this note, we apply the same partition to resolve the Steiner point removal (SPR) problem in planar graphs:  Given any set $K$ of terminals in an arbitrary edge-weighted planar graph $G$, we construct a minor $M$ of $G$ whose vertex set is $K$, which preserves the shortest-path distances between all pairs of terminals in $G$ up to a constant factor. This resolves in the affirmative an open problem that has been asked repeatedly in literature.
+  The notion of shortcut partition, introduced recently by Chang, Conroy, Le, Milenković, Solomon, and Than, is a new type of graph partition into low-diameter clusters. Roughly speaking, the shortcut partition guarantees that for every two vertices $u$ and $v$ in the graph, there exists a path between $u$ and $v$ that intersects only a few clusters.  They proved that any planar graph admits a shortcut partition and gave several applications, including a construction of tree cover for arbitrary planar graphs with stretch $1+\e$ and $O(1)$ many trees for any fixed $\epsilon \in (0,1)$.  However, the construction heavily exploits planarity in multiple steps, and is thus inherently limited to planar~graphs.<br><br>
+  
+  In this work, we breach the "planarity barrier" to construct a shortcut partition for $K_r$-minor-free graphs for any $r$. To this end, we take a completely different approach---our key contribution is a novel deterministic variant of the  cop decomposition in minor-free graphs.  Our shortcut partition for $K_r$-minor-free graphs yields several direct applications. Most notably, we construct the first optimal distance oracle for $K_r$-minor-free graphs, with $1+\epsilon$ stretch, linear space, and constant query time for any fixed $\e \in (0,1)$.  The previous best distance oracle  uses $O(n\log n)$ space and $O(\log n)$ query time, and its construction relies on Robertson-Seymour structural theorem and other sophisticated tools.  We also obtain the first tree cover of $O(1)$ size for minor-free graphs with stretch $1+\epsilon$, while the previous best $(1+\epsilon)$-tree cover has size $O(\log^2 n)$.<br><br>  
+  
+  As a highlight of our work, we employ our shortcut partition to resolve a major open problem---the Steiner point removal (SPR) problem: Given any set $K$ of terminals in an arbitrary edge-weighted planar graph $G$, is it possible to construct a minor $M$ of $G$ whose vertex set is~$K$, which preserves the shortest-path distances between all pairs of terminals in $G$ up to a constant factor?  Positive answers to the SPR problem were only known for very restricted classes of planar graphs: trees, outerplanar graphs, and series-parallel graphs. We resolve the SPR problem in the affirmative for any planar graph, and more generally for any $K_r$-minor-free graph for any fixed $r$. To achieve this result, we prove the following general reduction and combine it with our new shortcut partition: For any graph family closed under taking subgraphs, the existence of a shortcut partition yields a positive solution to the SPR problem. 
   </font>
   </details>
+
 
 - **Covering Planar Metrics (and Beyond): O(1) Trees Suffice**
   <br>
