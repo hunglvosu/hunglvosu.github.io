@@ -4,7 +4,7 @@ date: 2023-04-10
 permalink: /posts/2023/04/Syllabus-Algs/
 ---
 
-<span style="color:red">Last Updated: April 10 2023</span>.
+<span style="color:red">Last Updated: August 27 2023</span>.
 
 **Credit Hours:** 3
 
