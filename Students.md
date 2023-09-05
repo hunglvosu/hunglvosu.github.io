@@ -2,6 +2,9 @@
 
 - [Cuong Than](https://thanvietcuong.github.io) (Summer 2021)
 - An La (Fall 2021)
+- Vinayak (Fall 2023)
+- Shuang Yang (Fall 2023)
+
 
 **Undergraduate Students**
 
@@ -17,5 +20,6 @@
 **High School Students**
 
 - Christopher Lim (Lexington High School), Summer 2022. His research report [here](https://docs.google.com/document/d/1UfwNaYc-p_eTSg6QqEQDW_xrX0vwlLODLNpQj32-OLw/edit).
+- Jason Alexander, Summer 2023
 
 
