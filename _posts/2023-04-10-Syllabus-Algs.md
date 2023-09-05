@@ -91,8 +91,9 @@ permalink: /posts/2023/04/Syllabus-Algs/
  **Grading**
 
 - Homework (40%): Homework is **bi-weekly** and includes 6 assignments. The lowest assignment will be dropped.
-- Weekly Quizzes (10%): We will have 11 quizzes total, and the lowest quiz will be dropped. 
-- Midterms 1 + 2: (35%), the maximum will be 20% and the minimum will be 10%
+- Weekly Quizzes (8%): We will have 11 quizzes total, and the lowest quiz will be dropped. 
+- Attendance (2%).
+- Midterms 1 + 2: (30%), the maximum will be 20% and the minimum will be 10%
 - Final (20%): Scheduled by the university and will be comprehensive.
 
 **Grading Scale:** A (100-90), A- (89-84), B+ (83-78), B (77-72), B- (71-66), C+ (65-60), C (59-54), F (53-0)
