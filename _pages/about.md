@@ -23,6 +23,11 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 I will be updating both good news, bad news and all kinds of news. 
 
+
+ - **[Oct 2023]** One paper was rejected from SOSA 2024.
+ 
+ - **[Oct 2023]** [Two](https://arxiv.org/abs/2308.00555) [papers](https://arxiv.org/abs/2304.01790) accepted to SODA 2024.
+ 
  - **[August 2023]** Our paper "Shortcut Partitions in Minor-Free Graphs: Steiner Point Removal, Distance Oracles, Tree Covers, and More" was uploaded to [Arxiv](https://arxiv.org/abs/2308.00555).
 
  - **[July 2023]** One paper was rejected from FOCS 2023; [three](https://arxiv.org/abs/2306.11226) [other](https://arxiv.org/abs/2306.06215) [papers](https://arxiv.org/abs/2304.07268) were accepted to FOCS 23.
@@ -38,11 +43,6 @@ I will be updating both good news, bad news and all kinds of news.
  - **[April 2023]** Our paper "[VC Set Systems in Minor-free (Di)Graphs and Applications](https://arxiv.org/abs/2304.01790)" was uploaded to Arxiv.
 
  - **[Feb 2023]** Paper "Sparse Euclidean Spanners with Optimal Diameter: A General Robust Lower Bound Via a Concave Inverse-Ackermann Function" led by student co-author [Lazar Milenković](https://milenkoviclazar.github.io) is accepted to [SoCG 2023](https://cs.utdallas.edu/SOCG23/socg.html)
- 
- - **[Feb 2023]** Our paper "A Unified Framework for Light Spanners" is accepted to [STOC 2023](http://acm-stoc.org/stoc2023/).
-
- - **[Dec 2022]** My CAREER proposal [Geometric Techniques for Topological Graph Algorithms](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288) got funded by NSF. Thanks to great mentors, collaborators, students, and of course, NSF.
- 
 
 
     

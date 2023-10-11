@@ -15,21 +15,30 @@ permalink: /posts/2023/04/Syllabus-Algs/
 - Instructor: Hung Le.
   - Email: hungle@cs.umss.du
   - Office: 332 CS Building
-  - Office hours: TBA
-  
-- TAs: TBA
+  - Office hours: Tuesday 11:00am -12:00pm, and Thursday 4:00pm-5:00pm
 
-- Graders: TBA
+- TAs: 
+    - An La, email: anla@umass.edu, office hours: 4:00pm-5:00pm, Friday.
+    - Hasnain Heickal, email: hheickal@cs.umass.edu, office hours: 10:00am - 11:00am, Wed.
+    - Ojaswi Acharya, email: oacharya@umass.edu, office hours: 1:30 pm -2:30 pm Monday.
+
+- Graders: 
+    - Snigdha Viswanathan, email: sviswanathan@umass.edu
+    - Sai Vineeth Kumar Dara, email: sdara@umass.edu 
+    - Suraj Jain, email: surajjain@umass.edu
+    - Edward Annatone, email: eannatone@umass.edu
+    - Om Prakash Prajapath, email: oprajapath@umass.edu
+    - Aditi Baskar: abaskar@umass.edu  
 
 
-**Class Meetings:** TBA
+**Class Meetings:** Tue and Thu, from 2:30pm-3:45pm. 
 
+**Location**:  Hasbrouck Lab Room 134
 
 **Objectives**: This course provides students with skills in designing efficient algorithms. We will go through a variety of algorithm design techniques, including greedy, divide and conquer, dynamic programming, network flow, linear programming, randomized algorithms, and approximation algorithms. We will illustrate these design techniques in solving different algorithmic problems. The emphasis of this course is on the mathematical aspects of designing algorithms. 
 
 **Learning Outcomes**: After completing this course, students are expected to be able to formulate an algorithmic problem,  design an algorithm for the problem, prove  the correctness, and analyze the running time. 
 
-**Location**:  Hasbrouck Lab Room 134
 
 **Required Textbook:** Lectures will be based on [Jeff Erickson notes](http://jeffe.cs.illinois.edu/teaching/algorithms/).  Slides will be posted on Moodle.  
 
