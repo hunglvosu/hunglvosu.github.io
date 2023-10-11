@@ -3,7 +3,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
 - **VC Set Systems in Minor-free (Di)Graphs and Applications**
   <br>
   **Hung Le** and Christian Wulff-Nilsen
-  <br>[[PDF](https://arxiv.org/abs/2304.01790)]<br>
+  <br>[[PDF](https://arxiv.org/abs/2304.01790)]
   <br>To appear in the 35th Annual ACM-SIAM Symposium on Discrete Algorithms. **SODA 2024**.
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
@@ -21,7 +21,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   <br>
   Hsien-Chih Chang and Jonathan Conroy and **Hung Le** and Lazar Milenkovic and Shay Solomon and Cuong Than.
   <br> Results in this paper subsume results for planar graphs in [our earlier paper](https://arxiv.org/abs/2306.06235).
-  <br>[[PDF](https://arxiv.org/abs/2308.00555)]<br>
+  <br>[[PDF](https://arxiv.org/abs/2308.00555)]
   <br>To appear in the 35th Annual ACM-SIAM Symposium on Discrete Algorithms. **SODA 2024**.
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
