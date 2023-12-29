@@ -21,6 +21,7 @@ title: "Misc"
 - [Writing Research Statement for Academic Job](https://let-all.com/assets/slides/How-to-COLT-Rocco.pdf) by Rocco Servedio.
 
 ## Links
+- [Mathematics for Computer Science](https://www.cs.princeton.edu/courses/archive/spring10/cos433/mathcs.pdf), a delightful book by Eric Lehman and Tom Leighton.
 - [How to do math](http://www.cs.cmu.edu/~odonnell/toolkit13/how-to-do-math-and-tcs.pdf).
 - [TCS blog aggregator](http://cstheory-feed.org).
 - [A history of the PCP Theorem](https://courses.cs.washington.edu/courses/cse533/05au/pcp-history.pdf)
@@ -30,5 +31,6 @@ title: "Misc"
 - [Tufte-Latex](https://tufte-latex.github.io/tufte-latex/); a very nice Latex package for books and notes.
 - [Knuth's lectures on math writing](https://www.youtube.com/playlist?list=PLOdeqCXq1tXihn5KmyB2YTOqgxaUkcNYG)
 - [Five Proofs of Chernoff’s Bound](http://page.mi.fu-berlin.de/mulzer/pubs/chernoff.pdf)
+
 
 
