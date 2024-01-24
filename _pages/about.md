@@ -23,7 +23,10 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 I will be updating both good news, bad news and all kinds of news. 
 
+ - **[Jan 2024]** Our paper "Computing Diameter+2 in Truly Subquadratic Time for Unit-Disk Graphs" was uploaded to [Arxiv](https://arxiv.org/abs/2401.12881).
 
+ - **[Jan 2024]** I will be on the PC of [HALG24](https://highlightsofalgorithms.org/), [SODA25](https://www.siam.org/conferences/cm/conference/soda25) and [ESA24](https://algo-conference.org/2024/). 
+ 
  - **[Oct 2023]** One paper was rejected from SOSA 2024.
  
  - **[Oct 2023]** [Two](https://arxiv.org/abs/2308.00555) [papers](https://arxiv.org/abs/2304.01790) accepted to SODA 2024.
@@ -40,9 +43,6 @@ I will be updating both good news, bad news and all kinds of news.
  
  - **[April 2023]** Our paper "[Planar and Minor-Free Metrics Embed into Metrics of Polylogarithmic Treewidth with Expected Multiplicative Distortion Arbitrarily Close to 1](https://arxiv.org/abs/2304.07268)" was uploaded to Arxiv.
 
- - **[April 2023]** Our paper "[VC Set Systems in Minor-free (Di)Graphs and Applications](https://arxiv.org/abs/2304.01790)" was uploaded to Arxiv.
-
- - **[Feb 2023]** Paper "Sparse Euclidean Spanners with Optimal Diameter: A General Robust Lower Bound Via a Concave Inverse-Ackermann Function" led by student co-author [Lazar Milenković](https://milenkoviclazar.github.io) is accepted to [SoCG 2023](https://cs.utdallas.edu/SOCG23/socg.html)
 
 
     
