@@ -1,5 +1,18 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
+- **Computing Diameter+2 in Truly Subquadratic Time for Unit-Disk Graphs**
+  <br>
+  Hsien-Chih Chang and Jie Gao and **Hung Le**
+  <br>[[PDF](https://arxiv.org/abs/2401.12881)]
+  <br>Manuscript.
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  Finding the diameter of a graph in general cannot be done in truly subquadratic assuming the Strong Exponential Time Hypothesis (SETH), even when the underlying graph is unweighted and sparse. When restricting to concrete classes of graphs and assuming SETH, planar graphs and minor-free graphs admit truly subquadratic algorithms, while geometric intersection graphs of unit balls, congruent equilateral triangles, and unit segments do not. Unit-disk graphs are one of the major open cases where the complexity of diameter computation remains unknown. More generally, it is conjectured that a truly subquadratic time algorithm exists for pseudo-disk graphs where each pair of objects has at most two intersections on the boundary. <br>
+  
+  In this paper, we show a truly subquadratic algorithm of running time $\tilde{O}(n^{2-1/18})$, for finding the diameter in a unit-disk graph, whose output differs from the optimal solution by at most 2. This is the first algorithm that provides an additive guarantee in distortion, independent of the size or the diameter of the graph. Our algorithm requires two important technical elements. First, we show that for the intersection graph of pseudo-disks, the graph VC-dimension, either of $k$-hop balls or the distance encoding vectors, is 4.  This contracts to the VC dimension of the pseudo-disks themselves as geometric ranges (which is known to be 3). Second, we introduce a clique-based $r$-clustering for geometric intersection graphs, which is an analog of the $r$-division construction for planar graphs. We also showcase the new techniques by establishing new results for distance oracles for unit-disk graphs with subquadratic storage and $O(1)$ query time. The results naturally extend to unit $L_1$ or $L_\infty$-disks and fat pseudo-disks of similar size. Last, if the pseudo-disks additionally have bounded ply, we have a truly subquadratic algorithm to find the exact diameter. <br>
+  </font>
+  </details>
+  
 - **VC Set Systems in Minor-free (Di)Graphs and Applications**
   <br>
   **Hung Le** and Christian Wulff-Nilsen
