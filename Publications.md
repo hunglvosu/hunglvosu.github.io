@@ -3,7 +3,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
 - **Computing Diameter+2 in Truly Subquadratic Time for Unit-Disk Graphs**
   <br>
   Hsien-Chih Chang and Jie Gao and **Hung Le**
-  <br>[[PDF](https://arxiv.org/abs/2401.12881)]
+  <br>[[PDF](https://arxiv.org/abs/2401.12881)][[blog post](https://minorfree.github.io/UDG/)]
   <br>Manuscript.
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
