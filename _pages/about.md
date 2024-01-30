@@ -25,7 +25,7 @@ I will be updating both good news, bad news and all kinds of news.
 
  - **[Jan 2024]** Our paper "Computing Diameter+2 in Truly Subquadratic Time for Unit-Disk Graphs" was uploaded to [Arxiv](https://arxiv.org/abs/2401.12881).
 
- - **[Jan 2024]** I will be on the PC of [HALG24](https://highlightsofalgorithms.org/), [SODA25](https://www.siam.org/conferences/cm/conference/soda25) and [ESA24](https://algo-conference.org/2024/). 
+ - **[Jan 2024]** I will be on the PC of [HALG 24](https://highlightsofalgorithms.org/), [SODA 25](https://www.siam.org/conferences/cm/conference/soda25),  [ESA2 4](https://algo-conference.org/2024/) and [STACS 25](https://www.univ-orleans.fr/lifo/stacs/). 
  
  - **[Oct 2023]** One paper was rejected from SOSA 2024.
  
