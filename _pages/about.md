@@ -23,9 +23,11 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 I will be updating both good news, bad news and all kinds of news. 
 
+ - **[Feb 2024]** Two papers were accepted to [SoCG24](https://socg24.athenarc.gr).
+
  - **[Jan 2024]** Our paper "Computing Diameter+2 in Truly Subquadratic Time for Unit-Disk Graphs" was uploaded to [Arxiv](https://arxiv.org/abs/2401.12881).
 
- - **[Jan 2024]** I will be on the PC of [HALG 24](https://highlightsofalgorithms.org/), [SODA 25](https://www.siam.org/conferences/cm/conference/soda25),  [ESA2 4](https://algo-conference.org/2024/) and [STACS 25](https://www.univ-orleans.fr/lifo/stacs/). 
+ - **[Jan 2024]** I will be on the PC of [HALG 24](https://highlightsofalgorithms.org/), [SODA 25](https://www.siam.org/conferences/cm/conference/soda25),  [ESA 24](https://algo-conference.org/2024/) and [STACS 25](https://www.univ-orleans.fr/lifo/stacs/). 
  
  - **[Oct 2023]** One paper was rejected from SOSA 2024.
  
@@ -41,8 +43,6 @@ I will be updating both good news, bad news and all kinds of news.
 
  - **[May 2023]** My student [Cuong Than](https://thanvietcuong.github.io) will be interning at Google Research. Congrats Cuong!
  
- - **[April 2023]** Our paper "[Planar and Minor-Free Metrics Embed into Metrics of Polylogarithmic Treewidth with Expected Multiplicative Distortion Arbitrarily Close to 1](https://arxiv.org/abs/2304.07268)" was uploaded to Arxiv.
-
 
 
     
