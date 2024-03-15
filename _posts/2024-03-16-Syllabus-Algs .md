@@ -1,7 +1,7 @@
 ---
 title: 'CMPSCI 611 : Advanced Algorithms'
-date: 2023-04-10
-permalink: /posts/204/03/Syllabus-Algs/
+date: 2023-03-16
+permalink: /posts/2024/03/Syllabus-Algs/
 ---
 
 <span style="color:red">Last Updated: March 16 2024</span>.
