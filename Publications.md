@@ -1,10 +1,22 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
-
+- **Optimal Euclidean Tree Covers**
+  <br>
+  Hsien-Chih Chang and Jonathan Conroy and **Hung Le** and Lazar Milenkovic and Shay Solomon and Cuong Than.
+  <br>[[PDF](https://arxiv.org/abs/2403.17754)]
+  <br>To appear in the 40th International Symposium on Computational Geometry. **SoCG 2024**.
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+ A $(1+\epsilon)$-stretch tree cover of a metric space is a collection of trees, where every pair of points has a $(1+\epsilon)$-stretch path in one of the trees. The celebrated Dumbbell Theorem [Arya et al. STOC'95] states that any set of $n$ points in $d$-dimensional Euclidean space admits a $(1+\eps)$-stretch tree cover with $O_d(\epsilon^{-d} \cdot \log(1/\epsilon))$ trees, where the $O_d$ notation suppresses terms that depend solely on the dimension~$d$ The running time of their construction is $O_d(n \log n \cdot \frac{\log(1/\epsilon)}{\epsilon^{d}} + n \cdot \epsilon^{-2d})$. Since the same point may occur in multiple levels of the tree, the maximum degree of a point in the tree cover may be as large as $\Omega(\log \Phi)$, where $\Phi$ is the aspect ratio of the input point set.<br>
+ 
+ In this work we present a  $(1+\epsilon)$-stretch tree cover with $O_d(\epsilon^{-d+1} \cdot \log(1/\epsilon))$ trees, which is optimal (up to the $\log(1/\epsilon)$ factor).  Moreover, the maximum degree of points in any tree is an absolute constant for any $d$.   As a direct corollary, we obtain an optimal routing scheme in low-dimensional Euclidean spaces.  We also present a  $(1+\epsilon)$-stretch Steiner tree cover (that may use  Steiner points) with $O_d(\epsilon^{(-d+1)/{2}} \cdot \log(1/\epsilon))$ trees, which too is optimal. The running time of our two constructions is linear in the number of edges in the respective tree covers, ignoring an additive $O_d(n \log n)$ term; this improves over the running time underlying the Dumbbell Theorem.<br>
+  </font>
+  </details>
+  
 - **Computing Diameter+2 in Truly Subquadratic Time for Unit-Disk Graphs**
   <br>
   Hsien-Chih Chang and Jie Gao and **Hung Le**
   <br>[[PDF](https://arxiv.org/abs/2401.12881)][[blog post](https://minorfree.github.io/UDG/)]
-  <br>Manuscript.
+  <br>To appear in the 40th International Symposium on Computational Geometry. **SoCG 2024**.
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
   Finding the diameter of a graph in general cannot be done in truly subquadratic assuming the Strong Exponential Time Hypothesis (SETH), even when the underlying graph is unweighted and sparse. When restricting to concrete classes of graphs and assuming SETH, planar graphs and minor-free graphs admit truly subquadratic algorithms, while geometric intersection graphs of unit balls, congruent equilateral triangles, and unit segments do not. Unit-disk graphs are one of the major open cases where the complexity of diameter computation remains unknown. More generally, it is conjectured that a truly subquadratic time algorithm exists for pseudo-disk graphs where each pair of objects has at most two intersections on the boundary. <br>

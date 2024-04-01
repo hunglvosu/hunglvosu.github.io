@@ -23,6 +23,11 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 I will be updating both good news, bad news and all kinds of news. 
 
+
+ - **[April 2024]** Got [Google Faculty Award](https://research.google/outreach/research-scholar-program/).
+ 
+ - **[April 2024]** Our paper "Optimal Euclidean Tree Covers" was uploaded to [Arxiv](https://arxiv.org/abs/2403.17754).
+ 
  - **[Feb 2024]** Two papers were accepted to [SoCG24](https://socg24.athenarc.gr).
 
  - **[Jan 2024]** Our paper "Computing Diameter+2 in Truly Subquadratic Time for Unit-Disk Graphs" was uploaded to [Arxiv](https://arxiv.org/abs/2401.12881).
@@ -38,10 +43,6 @@ I will be updating both good news, bad news and all kinds of news.
  - **[July 2023]** One paper was rejected from FOCS 2023; [three](https://arxiv.org/abs/2306.11226) [other](https://arxiv.org/abs/2306.06215) [papers](https://arxiv.org/abs/2304.07268) were accepted to FOCS 23.
   
  - **[June 2023]** One paper was rejected from ESA 2023.
-
- - **[June 2023]** [Three](https://arxiv.org/abs/2306.06215) [new](https://arxiv.org/abs/2306.06235) [manuscripts](https://arxiv.org/abs/2306.11226) were uploaded to  Arxiv.
-
- - **[May 2023]** My student [Cuong Than](https://thanvietcuong.github.io) will be interning at Google Research. Congrats Cuong!
  
 
 
