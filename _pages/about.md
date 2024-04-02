@@ -24,7 +24,7 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 I will be updating both good news, bad news and all kinds of news. 
 
 
- - **[April 2024]** Got [Google Faculty Award](https://research.google/outreach/research-scholar-program/).
+ - **[April 2024]** Got [Google Faculty Award](https://research.google/outreach/research-scholar-program/). Thanks Google for the gift!
  
  - **[April 2024]** Our paper "Optimal Euclidean Tree Covers" was uploaded to [Arxiv](https://arxiv.org/abs/2403.17754).
  
