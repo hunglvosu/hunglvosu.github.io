@@ -23,9 +23,11 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 I will be updating both good news, bad news and all kinds of news. 
 
+ - **[April 2024]** My university Distinguished Teaching Award application failed! 
+ 
  - **[April 2024]** Our paper "Spanners in Planar Domains via Steiner Spanners and non-Steiner Tree Covers" was uploaded to [Arxiv](https://arxiv.org/abs/2404.05045).
 
- - **[April 2024]** Got [Google Faculty Award](https://research.google/outreach/research-scholar-program/). Thanks Google for the gift!
+ - **[April 2024]** Got [Google Faculty Award](https://research.google/programs-and-events/research-scholar-program/recipients/?filtertab=2024). Thanks Google for the gift!
  
  - **[April 2024]** Our paper "Optimal Euclidean Tree Covers" was uploaded to [Arxiv](https://arxiv.org/abs/2403.17754).
  
@@ -40,9 +42,6 @@ I will be updating both good news, bad news and all kinds of news.
  - **[Oct 2023]** [Two](https://arxiv.org/abs/2308.00555) [papers](https://arxiv.org/abs/2304.01790) accepted to SODA 2024.
  
  - **[August 2023]** Our paper "Shortcut Partitions in Minor-Free Graphs: Steiner Point Removal, Distance Oracles, Tree Covers, and More" was uploaded to [Arxiv](https://arxiv.org/abs/2308.00555).
-
- - **[July 2023]** One paper was rejected from FOCS 2023; [three](https://arxiv.org/abs/2306.11226) [other](https://arxiv.org/abs/2306.06215) [papers](https://arxiv.org/abs/2304.07268) were accepted to FOCS 23.
-
 
     
 
