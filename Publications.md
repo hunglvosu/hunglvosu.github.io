@@ -18,7 +18,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
 - **Optimal Euclidean Tree Covers**
   <br>
   Hsien-Chih Chang and Jonathan Conroy and **Hung Le** and Lazar Milenkovic and Shay Solomon and Cuong Than.
-  <br>[[PDF](https://arxiv.org/abs/2403.17754)]
+  <br>[[PDF](https://arxiv.org/abs/2403.17754)][[blog post](https://minorfree.github.io/EuTreeCov/)]
   <br>To appear in the 40th International Symposium on Computational Geometry. **SoCG 2024**.
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
