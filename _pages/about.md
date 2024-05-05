@@ -23,6 +23,8 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 I will be updating both good news, bad news and all kinds of news. 
 
+ - **[May 2024]** One paper (1st submission to ICML ever) rejected from ICML. 
+
  - **[April 2024]** My university Distinguished Teaching Award application failed! 
  
  - **[April 2024]** Our paper "Spanners in Planar Domains via Steiner Spanners and non-Steiner Tree Covers" was uploaded to [Arxiv](https://arxiv.org/abs/2404.05045).
@@ -41,8 +43,6 @@ I will be updating both good news, bad news and all kinds of news.
  
  - **[Oct 2023]** [Two](https://arxiv.org/abs/2308.00555) [papers](https://arxiv.org/abs/2304.01790) accepted to SODA 2024.
  
- - **[August 2023]** Our paper "Shortcut Partitions in Minor-Free Graphs: Steiner Point Removal, Distance Oracles, Tree Covers, and More" was uploaded to [Arxiv](https://arxiv.org/abs/2308.00555).
-
     
 
 

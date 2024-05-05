@@ -3,7 +3,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
 - **Spanners in Planar Domains via Steiner Spanners and non-Steiner Tree Covers**
   <br>
   Sujoy Bhore and Balázs Keszegh and Andrey Kupavskii and **Hung Le** and Alexandre Louvet and Dömötör Pálvölgyi and Csaba D. Tóth.
-  <br>[[PDF](https://arxiv.org/abs/2404.05045)]
+  <br>[[PDF](https://arxiv.org/abs/2404.05045)][[blog post](https://minorfree.github.io/SFTreeCover/)]
   <br>Manuscript.
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
