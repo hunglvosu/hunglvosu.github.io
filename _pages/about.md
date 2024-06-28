@@ -21,6 +21,10 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 I will be updating both good news, bad news and all kinds of news. 
 
+ - **[June 2024]** Our Dagstuhl worskhop proposal (with [Sujoy Bhore](https://sites.google.com/view/homepage-of-sujoy-bhore/home), [Jie Gao](https://sites.rutgers.edu/jie-gao/about/), and [Csaba D. Tóth](http://csabatoth.org)) was accepted. More info coming soon!
+
+ - **[June 2024]** Two papers were rejected from [FOCS 24](https://focs.computer.org/2024/), and one paper got accepted to FOCS 24. 
+
  - **[May 2024]** One paper (1st submission to ICML ever) rejected from ICML. 
 
  - **[April 2024]** My university Distinguished Teaching Award application failed! 
@@ -36,10 +40,6 @@ I will be updating both good news, bad news and all kinds of news.
  - **[Jan 2024]** Our paper "Computing Diameter+2 in Truly Subquadratic Time for Unit-Disk Graphs" was uploaded to [Arxiv](https://arxiv.org/abs/2401.12881).
 
  - **[Jan 2024]** I will be on the PC of [HALG 24](https://highlightsofalgorithms.org/), [SODA 25](https://www.siam.org/conferences/cm/conference/soda25),  [ESA 24](https://algo-conference.org/2024/) and [STACS 25](https://www.univ-orleans.fr/lifo/stacs/). 
- 
- - **[Oct 2023]** One paper was rejected from SOSA 2024.
- 
- - **[Oct 2023]** [Two](https://arxiv.org/abs/2308.00555) [papers](https://arxiv.org/abs/2304.01790) accepted to SODA 2024.
  
     
 
