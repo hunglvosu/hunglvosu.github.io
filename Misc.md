@@ -21,6 +21,8 @@ title: "Misc"
 - [Writing Research Statement for Academic Job](https://let-all.com/assets/slides/How-to-COLT-Rocco.pdf) by Rocco Servedio.
 
 ## Links
+
+- [Alan Turing: A TCS Role Model](https://www.youtube.com/watch?v=f2NiGO8zC1c), a great talk about Turing's work by Avi Wigderson.
 - [Mathematics for Computer Science](https://www.cs.princeton.edu/courses/archive/spring10/cos433/mathcs.pdf), a delightful book by Eric Lehman and Tom Leighton.
 - [How to do math](http://www.cs.cmu.edu/~odonnell/toolkit13/how-to-do-math-and-tcs.pdf).
 - [TCS blog aggregator](http://cstheory-feed.org).
