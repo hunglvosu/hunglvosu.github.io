@@ -21,6 +21,10 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 I will be updating both good news, bad news and all kinds of news. 
 
+  - **[August 2024]** Super stoked about a paper with my student [An La](https://anla-cs.github.io) who came up with all major ideas in this paper: "Dynamic Locality Sensitive Orderings in Doubling Metrics" on [Arxiv](https://arxiv.org/abs/2408.14617).
+  
+ - **[August 2024]** Paper with my student [An La](https://anla-cs.github.io) "New Weighted Additive Spanners" was uploaded to [Arxiv](https://arxiv.org/abs/2408.14638).
+ 
  - **[August 2024]** Our paper "Optimal Padded Decomposition For Bounded Treewidth Graphs" was uploaded to [Arxiv](https://arxiv.org/abs/2407.12230).
  
  - **[June 2024]** Our Dagstuhl worskhop proposal (with [Sujoy Bhore](https://sites.google.com/view/homepage-of-sujoy-bhore/home), [Jie Gao](https://sites.rutgers.edu/jie-gao/about/), and [Csaba D. Tóth](http://csabatoth.org)) was accepted. More info coming soon!
