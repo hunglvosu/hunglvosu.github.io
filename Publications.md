@@ -1,5 +1,18 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
+
+- **New Weighted Additive Spanners**
+  <br>An La and **Hung Le**.
+  <br>[[PDF](https://arxiv.org/abs/2408.14638)]
+  <br>Manuscript. 
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  Ahmed, Bodwin, Sahneh, Kobourov, and Spence (WG 2020) introduced additive spanners for \emph{weighted graphs} and constructed (i) a $+2W_{\max}$ spanner with $O(n^{3/2})$ edges and (ii)  a $+4W_{\max}$ spanner with $\tilde{O}(n^{7/5})$ edges, and (iii)  a $+8W_{\max}$ spanner with $O(n^{4/3})$ edges, for any weighted graph with $n$ vertices. Here $W_{\max} = \max_{e\in E}w(e)$ is the maximum edge weight in the graph.  Their results for $+2W_{\max}$, $+4W_{\max}$, and $+8W_{\max}$ match the state-of-the-art bounds for the unweighted counterparts where $W_{\max} = 1$. They left open the question of constructing a $+6W_{\max}$ spanner with $O(n^{4/3})$ edges.  Elkin, Gitlitz, and Neiman (DISC 2021) made significant progress on this problem by showing that there exists a $+(6+\epsilon)W_{\max}$ spanner with $O(n^{4/3}/\epsilon)$ edges for any fixed constant $\eps > 0$. Indeed, their result is stronger as the additive stretch is local: the stretch for any pair $u,v$ is $+(6+\epsilon)W_{uv}$ where $W_{uv}$ is the maximum weight edge on the shortest path from $u$ to $v$. <br><br>
+  
+  In this work, we resolve the problem posted by Ahmed et al. up to a poly-logarithmic factor in the number of edges: We construct a $+6W_{\max}$ spanner with $\tilde{O}(n^{4/3})$ edges.  We extend the construction for $+6$-spanners of Woodruff (ICALP 2010), and our main contribution is an analysis tailoring to the weighted setting.  The stretch of our spanner could also be made local, in the sense of Elkin, Gitlitz, and Neiman.  We also study the fast constructions of additive spanners with $+6W_{\max}$  and $+4W_{\max}$ stretches. We obtain, among other things, an algorithm for constructing a $+(6+\epsilon)W_{\max}$ spanner of $\tilde{O}(\frac{n^{4/3}}{\epsilon})$ edges in $\tilde{O}(n^2)$ time.<br>
+  </font>
+  </details>
+  
 - **Optimal Padded Decomposition For Bounded Treewidth Graphs**
   <br>Arnold Filtser and Tobias Friedrich and Davis Issac and Nikhil Kumar and **Hung Le** and Nadym Mallek and Ziena Zeif.
   <br>[[PDF](https://arxiv.org/abs/2407.12230)]
