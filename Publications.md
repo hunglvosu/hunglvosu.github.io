@@ -29,7 +29,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   
 - **Optimal Padded Decomposition For Bounded Treewidth Graphs**
   <br>Arnold Filtser and Tobias Friedrich and Davis Issac and Nikhil Kumar and **Hung Le** and Nadym Mallek and Ziena Zeif.
-  <br>[[PDF](https://arxiv.org/abs/2407.12230)]
+  <br>[[PDF](https://arxiv.org/abs/2407.12230)][[blog post](https://minorfree.github.io/PaddedTW/)]
   <br>Manuscript. 
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
