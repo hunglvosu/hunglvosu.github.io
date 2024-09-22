@@ -21,7 +21,9 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 I will be updating both good news, bad news and all kinds of news. 
 
-  - **[August 2024]** Super stoked about a paper with my student [An La](https://anla-cs.github.io) who came up with all major ideas in this paper: "Dynamic Locality Sensitive Orderings in Doubling Metrics" on [Arxiv](https://arxiv.org/abs/2408.14617).
+ - **[September 2024]** Our paper "Towards Instance-Optimal Euclidean Spanners" was uploaded to [Arxiv](https://arxiv.org/abs/2409.08227).
+ 
+ - **[August 2024]** Super stoked about a paper with my student [An La](https://anla-cs.github.io) who came up with all major ideas in this paper: "Dynamic Locality Sensitive Orderings in Doubling Metrics" on [Arxiv](https://arxiv.org/abs/2408.14617).
   
  - **[August 2024]** Paper with my student [An La](https://anla-cs.github.io) "New Weighted Additive Spanners" was uploaded to [Arxiv](https://arxiv.org/abs/2408.14638).
  
@@ -38,9 +40,7 @@ I will be updating both good news, bad news and all kinds of news.
  - **[April 2024]** Our paper "Spanners in Planar Domains via Steiner Spanners and non-Steiner Tree Covers" was uploaded to [Arxiv](https://arxiv.org/abs/2404.05045).
 
  - **[April 2024]** Got [Google Faculty Award](https://research.google/programs-and-events/research-scholar-program/recipients/?filtertab=2024). Thanks Google for the gift!
- 
- - **[April 2024]** Our paper "Optimal Euclidean Tree Covers" was uploaded to [Arxiv](https://arxiv.org/abs/2403.17754).
-  
+   
     
 
 
