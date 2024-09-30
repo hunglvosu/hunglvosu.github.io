@@ -21,6 +21,8 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 I will be updating both good news, bad news and all kinds of news. 
 
+- **[September 2024]** Our paper "Learning Representations for Hierarchies with Minimal Support" was accepted at [NeurIPS 24](https://nips.cc/virtual/2024/papers.html?filter=titles). The major effort is due to student Benjamin Rozonoyer. This paper has a very interesting theoretical problem that I had never seen before (and I only contributed to this part of the paper.).
+
  - **[September 2024]** Our paper "Towards Instance-Optimal Euclidean Spanners" was uploaded to [Arxiv](https://arxiv.org/abs/2409.08227).
  
  - **[August 2024]** Super stoked about a paper with my student [An La](https://anla-cs.github.io) who came up with all major ideas in this paper: "Dynamic Locality Sensitive Orderings in Doubling Metrics" on [Arxiv](https://arxiv.org/abs/2408.14617).
@@ -38,9 +40,6 @@ I will be updating both good news, bad news and all kinds of news.
  - **[April 2024]** My university Distinguished Teaching Award application failed! 
  
  - **[April 2024]** Our paper "Spanners in Planar Domains via Steiner Spanners and non-Steiner Tree Covers" was uploaded to [Arxiv](https://arxiv.org/abs/2404.05045).
-
- - **[April 2024]** Got [Google Faculty Award](https://research.google/programs-and-events/research-scholar-program/recipients/?filtertab=2024). Thanks Google for the gift!
-   
     
 
 
