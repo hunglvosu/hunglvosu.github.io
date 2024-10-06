@@ -40,12 +40,25 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   In this work, we make significant progress toward the aforementioned conjecture by showing that graphs with treewidth $\mathrm{tw}$ admit a padded decomposition with padding parameter $O(\log \mathrm{tw})$, which is tight. Our padding parameter is strictly better than $O(\log n)$ whenever $\mathrm{tw} = n^{o(1)}$, and is never worse than what is known for general graphs. As corollaries, we obtain an exponential improvement in dependency on treewidth in a host of algorithmic applications: $O(\sqrt{ \log n \cdot \log(\mathrm{tw})})$ flow-cut gap,  the maxflow-min multicut ratio of $O(\log(\mathrm{tw}))$, an $O(\log(\mathrm{tw}))$ approximation for the 0-extension problem, an $\ell^{O(\log n)}_\infty$ embedding with distortion $O(\log \mathrm{tw})$, and an $O(\log \mathrm{tw})$ bound for integrality gap for the uniform sparsest cut.<br>
   </font>
   </details>
+
+- **Embedding Planar Graphs into Graphs of Treewidth $O(\log^{3} n)$**
+  <br>
+  Hsien-Chih Chang and Vincent Cohen-Addad and Jonathan Conroy and **Hung Le** and Marcin Pilipczuk and Michał Pilipczuk.
+  <br>To appear in the 36th Annual ACM-SIAM Symposium on Discrete Algorithms. **SODA 2025**.
+  <br>Manuscript coming soon.
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  Cohen-Addad, Le, Pilipczuk, and Pilipczuk  recently constructed a stochastic embedding with expected $1+\epsilon$ distortion of $n$-vertex planar graphs (with polynomial aspect ratio) into graphs of treewidth $O(\epsilon^{-1}\log^{13} n)$.  Their embedding is the first to achieve polylogarithmic treewidth.  However, there remains a large gap between the treewidth of their embedding and the treewidth lower bound of $\Omega(\log n)$ shown by Carroll and Goel.  In this work, we substantially narrow the gap by constructing a stochastic embedding with treewidth  $O(\epsilon^{-1}\log^{3}n)$.<br><br>
+  
+  We obtain our embedding by improving various steps in the CLPP construction.  First, we streamline their embedding construction by showing that one can construct a low-treewidth embedding for any graph from (i) a stochastic hierarchy of clusters and (ii) a stochastic balanced cut. We shave off some logarithmic factors in this step by using a single hierarchy of clusters.  Next, we construct a stochastic hierarchy of clusters with optimal separating probability and hop bound based on shortcut partition.  Finally, we construct a stochastic balanced cut with an improved trade-off between the cut size and the number of cuts. This is done by a new analysis of the contraction sequence; our analysis gives an optimal treewidth bound for graphs admitting a contraction sequence.<br> 
+  </font>
+  </details>  
   
 - **Spanners in Planar Domains via Steiner Spanners and non-Steiner Tree Covers**
   <br>
   Sujoy Bhore and Balázs Keszegh and Andrey Kupavskii and **Hung Le** and Alexandre Louvet and Dömötör Pálvölgyi and Csaba D. Tóth.
   <br>[[PDF](https://arxiv.org/abs/2404.05045)][[blog post](https://minorfree.github.io/SFTreeCover/)]
-  <br>Manuscript.
+  <br>To appear in the 36th Annual ACM-SIAM Symposium on Discrete Algorithms. **SODA 2025**.
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
   We study spanners in planar domains, including polygonal domains, polyhedral terrain, and planar metrics. Previous work showed that for any constant $\epsilon\in (0,1)$, one could construct a $(2+\epsilon)$-spanner with $O(n\log(n))$ edges (SICOMP 2019), and there is a lower bound of $\Omega(n^2)$ edges for any $(2-\epsilon)$-spanner (SoCG 2015). The main open question is whether a linear number of edges suffices and the stretch can be reduced to $2$. We resolve this problem by showing that for stretch $2$, one needs $\Omega(n\log n)$ edges, and for stretch $2+\epsilon$ for any fixed $\epsilon \in (0,1)$, $O(n)$ edges are sufficient. Our lower bound is the first super-linear lower bound for stretch $2$. <br><br>

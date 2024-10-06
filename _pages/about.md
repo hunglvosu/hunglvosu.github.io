@@ -21,6 +21,8 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 I will be updating both good news, bad news and all kinds of news. 
 
+ - **[October 2024]** Two papers were accepted at [SODA 25](https://www.siam.org/conferences/cm/conference/soda25). 
+ 
 - **[September 2024]** Our paper "Learning Representations for Hierarchies with Minimal Support" was accepted at [NeurIPS 24](https://nips.cc/virtual/2024/papers.html?filter=titles). The major effort is due to student Benjamin Rozonoyer. This paper has a very interesting theoretical problem that I had never seen before (and I only contributed to this part of the paper.).
 
  - **[September 2024]** Our paper "Towards Instance-Optimal Euclidean Spanners" was uploaded to [Arxiv](https://arxiv.org/abs/2409.08227).
