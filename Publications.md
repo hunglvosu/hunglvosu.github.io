@@ -41,7 +41,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   </font>
   </details>
 
-- **Embedding Planar Graphs into Graphs of Treewidth $O(\log^{3} n)$**
+- **Embedding Planar Graphs into Graphs of Treewidth** $O(\log^{3}n)$
   <br>
   Hsien-Chih Chang and Vincent Cohen-Addad and Jonathan Conroy and **Hung Le** and Marcin Pilipczuk and Michał Pilipczuk.
   <br>To appear in the 36th Annual ACM-SIAM Symposium on Discrete Algorithms. **SODA 2025**.

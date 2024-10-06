@@ -41,7 +41,5 @@ I will be updating both good news, bad news and all kinds of news.
 
  - **[April 2024]** My university Distinguished Teaching Award application failed! 
  
- - **[April 2024]** Our paper "Spanners in Planar Domains via Steiner Spanners and non-Steiner Tree Covers" was uploaded to [Arxiv](https://arxiv.org/abs/2404.05045).
-    
 
 
