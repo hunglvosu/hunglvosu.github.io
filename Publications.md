@@ -45,7 +45,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   <br>
   Hsien-Chih Chang and Vincent Cohen-Addad and Jonathan Conroy and **Hung Le** and Marcin Pilipczuk and Michał Pilipczuk.
   <br>To appear in the 36th Annual ACM-SIAM Symposium on Discrete Algorithms. **SODA 2025**.
-  <br>Manuscript coming soon.
+  <br>[[PDF](https://arxiv.org/abs/2411.00216)]
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
   Cohen-Addad, Le, Pilipczuk, and Pilipczuk  recently constructed a stochastic embedding with expected $1+\epsilon$ distortion of $n$-vertex planar graphs (with polynomial aspect ratio) into graphs of treewidth $O(\epsilon^{-1}\log^{13} n)$.  Their embedding is the first to achieve polylogarithmic treewidth.  However, there remains a large gap between the treewidth of their embedding and the treewidth lower bound of $\Omega(\log n)$ shown by Carroll and Goel.  In this work, we substantially narrow the gap by constructing a stochastic embedding with treewidth  $O(\epsilon^{-1}\log^{3}n)$.<br><br>
@@ -72,7 +72,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
 - **Towards Instance-Optimal Euclidean Spanners**
   <br>**Hung Le** and Shay Solomon and Cuong Than and Csaba D. Tóth and Tianyi Zhang.
   <br>[[PDF](https://arxiv.org/abs/2409.08227)]
-  <br>To appear in the 65th IEEE Symposium on the Foundations of Computer Science. **FOCS 2024**
+  <br>The 65th IEEE Symposium on the Foundations of Computer Science. **FOCS 2024**
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
   Euclidean spanners are important geometric objects that have been extensively studied since the 1980s. The two most basic "compactness" measures of a Euclidean spanner $E$ are the size (number of edges) $|E|$ and the weight (sum of edge weights) $\|E\|$. The state-of-the-art constructions of Euclidean $(1+\epsilon)$-spanners in $\mathbb{R}^d$ have $O_d\left(n\cdot \epsilon^{-d+1}\right)$ edges (or sparsity $O_d(\epsilon^{-d+1})$) and weight $O_d\left(\epsilon^{-d}\log\epsilon^{-1}\right) \cdot \|E_\mathrm{mst}\|$  (or lightness $O_d(\epsilon^{-d}\log\epsilon^{-1})$); here $O_d$ suppresses a factor of $d^{O(d)}$ and  $\|E_\mathrm{mst}\|$ denotes the weight of a minimum spanning tree of the input point set.<br><br>  
@@ -91,7 +91,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   <br>
   Hsien-Chih Chang and Jonathan Conroy and **Hung Le** and Lazar Milenkovic and Shay Solomon and Cuong Than.
   <br>[[PDF](https://arxiv.org/abs/2403.17754)][[blog post](https://minorfree.github.io/EuTreeCov/)]
-  <br>To appear in the 40th International Symposium on Computational Geometry. **SoCG 2024**.
+  <br>The 40th International Symposium on Computational Geometry. **SoCG 2024**.
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
   A $(1+\epsilon)$-stretch tree cover of a metric space is a collection of trees, where every pair of points has a $(1+\epsilon)$-stretch path in one of the trees. The celebrated Dumbbell Theorem [Arya et al. STOC'95] states that any set of $n$ points in $d$-dimensional Euclidean space admits a $(1+\epsilon)$-stretch tree cover with $O_d(\epsilon^{-d} \cdot \log(1/\epsilon))$ trees, where the $O_d$ notation suppresses terms that depend solely on the dimension~$d$ The running time of their construction is $O_d(n \log n \cdot \frac{\log(1/\epsilon)}{\epsilon^{d}} + n \cdot \epsilon^{-2d})$. Since the same point may occur in multiple levels of the tree, the maximum degree of a point in the tree cover may be as large as $\Omega(\log \Phi)$, where $\Phi$ is the aspect ratio of the input point set.<br>
@@ -104,7 +104,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   <br>
   Hsien-Chih Chang and Jie Gao and **Hung Le**
   <br>[[PDF](https://arxiv.org/abs/2401.12881)][[blog post](https://minorfree.github.io/UDG/)]
-  <br>To appear in the 40th International Symposium on Computational Geometry. **SoCG 2024**.
+  <br>The 40th International Symposium on Computational Geometry. **SoCG 2024**.
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
   Finding the diameter of a graph in general cannot be done in truly subquadratic assuming the Strong Exponential Time Hypothesis (SETH), even when the underlying graph is unweighted and sparse. When restricting to concrete classes of graphs and assuming SETH, planar graphs and minor-free graphs admit truly subquadratic algorithms, while geometric intersection graphs of unit balls, congruent equilateral triangles, and unit segments do not. Unit-disk graphs are one of the major open cases where the complexity of diameter computation remains unknown. More generally, it is conjectured that a truly subquadratic time algorithm exists for pseudo-disk graphs where each pair of objects has at most two intersections on the boundary. <br>
@@ -117,7 +117,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   <br>
   **Hung Le** and Christian Wulff-Nilsen
   <br>[[PDF](https://arxiv.org/abs/2304.01790)]
-  <br>To appear in the 35th Annual ACM-SIAM Symposium on Discrete Algorithms. **SODA 2024**.
+  <br>The 35th Annual ACM-SIAM Symposium on Discrete Algorithms. **SODA 2024**.
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
   A recent line of work on VC set systems in minor-free (undirected) graphs, starting from Li and Parter~, who constructed a new VC set system for planar graphs, has given surprising algorithmic results. In this work, we initialize a more systematic study of VC set systems for minor-free graphs and their applications in both undirected graphs and directed graphs (a.k.a digraphs).  More precisely: <br>
@@ -135,7 +135,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   Hsien-Chih Chang and Jonathan Conroy and **Hung Le** and Lazar Milenkovic and Shay Solomon and Cuong Than.
   <br> Results in this paper subsume results for planar graphs in [our earlier paper](https://arxiv.org/abs/2306.06235).
   <br>[[PDF](https://arxiv.org/abs/2308.00555)]
-  <br>To appear in the 35th Annual ACM-SIAM Symposium on Discrete Algorithms. **SODA 2024**.
+  <br>The 35th Annual ACM-SIAM Symposium on Discrete Algorithms. **SODA 2024**.
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
   The notion of shortcut partition, introduced recently by Chang, Conroy, Le, Milenković, Solomon, and Than, is a new type of graph partition into low-diameter clusters. Roughly speaking, the shortcut partition guarantees that for every two vertices $u$ and $v$ in the graph, there exists a path between $u$ and $v$ that intersects only a few clusters.  They proved that any planar graph admits a shortcut partition and gave several applications, including a construction of tree cover for arbitrary planar graphs with stretch $1+\epsilon$ and $O(1)$ many trees for any fixed $\epsilon \in (0,1)$.  However, the construction heavily exploits planarity in multiple steps, and is thus inherently limited to planar~graphs.<br><br>
@@ -151,7 +151,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   <br>
   Hsien-Chih Chang and Jonathan Conroy and **Hung Le** and Lazar Milenkovic and Shay Solomon and Cuong Than.
   <br>
-  To appear in The 64th IEEE Symposium on the Foundations of Computer Science. **FOCS 2023**
+  The 64th IEEE Symposium on the Foundations of Computer Science. **FOCS 2023**
   <br>[[PDF](https://arxiv.org/abs/2306.06215)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
@@ -172,7 +172,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   <br>
   **Hung Le** and Shay Solomon and Cuong Than.
   <br>
-  To appear in The 64th IEEE Symposium on the Foundations of Computer Science. **FOCS 2023**
+ The 64th IEEE Symposium on the Foundations of Computer Science. **FOCS 2023**
   <br>[[PDF](https://arxiv.org/abs/2306.11226)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
@@ -193,7 +193,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   <br>
   Vincent Cohen-Addad and **Hung Le** and Marcin Pilipczuk and Michał Pilipczuk.
   <br>
-  To appear in The 64th IEEE Symposium on the Foundations of Computer Science. **FOCS 2023**
+  The 64th IEEE Symposium on the Foundations of Computer Science. **FOCS 2023**
   <br>[[PDF](https://arxiv.org/abs/2304.07268)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
@@ -210,7 +210,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   <br>
   **Hung Le** and Lazar Milenkovic and Shay Solomon
   <br>
-  To appear in The 39th International Symposium on Computational Geometry. **SoCG 2023**
+  The 39th International Symposium on Computational Geometry. **SoCG 2023**
   <br>Manuscript<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
@@ -226,7 +226,7 @@ To shave off the $2^{6\lfloor k/2 \rfloor}$ term from the previous bound of Le e
   <br>
   **Hung Le** and Shay Solomon.
   <br>
-  To appear in The 55th Annual ACM Symposium on Theory of Computing. **STOC 2023**.
+  The 55th Annual ACM Symposium on Theory of Computing. **STOC 2023**.
   <br>[[PDF](https://arxiv.org/abs/2008.10582)]<br> This paper is a merge of [arXiv:2111.13748](https://arxiv.org/pdf/2111.13748.pdf) and [arXiv:2106.15596](https://arxiv.org/abs/2106.15596)<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
@@ -260,7 +260,7 @@ To shave off the $2^{6\lfloor k/2 \rfloor}$ term from the previous bound of Le e
   <br>
   **Hung Le**
   <br>
-  To appear in the 34th Annual ACM-SIAM Symposium on Discrete Algorithms. **SODA 2023**.
+  The 34th Annual ACM-SIAM Symposium on Discrete Algorithms. **SODA 2023**.
   <br>[[PDF](https://arxiv.org/pdf/2207.05659.pdf)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
@@ -274,7 +274,7 @@ To shave off the $2^{6\lfloor k/2 \rfloor}$ term from the previous bound of Le e
   <br>
   Arnold Filtser and **Hung Le**
   <br>
-  To appear in the 63rd Annual Symposium on Foundations of Computer Science. **FOCS 2022**.
+  The 63rd Annual Symposium on Foundations of Computer Science. **FOCS 2022**.
   <br>[[PDF](https://arxiv.org/pdf/2203.15627.pdf)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
@@ -291,7 +291,7 @@ To shave off the $2^{6\lfloor k/2 \rfloor}$ term from the previous bound of Le e
   <br>
   Omri Kahalon and **Hung Le** and Lazar Milenkovic and Shay Solomon
   <br>
-  To appear in the 41st ACM Symposium on Principles of Distributed Computing.  **PODC 2022**
+  The 41st ACM Symposium on Principles of Distributed Computing.  **PODC 2022**
   <br>[[PDF](https://arxiv.org/pdf/2107.14221.pdf)]<br>
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
