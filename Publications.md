@@ -40,6 +40,20 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   In this work, we make significant progress toward the aforementioned conjecture by showing that graphs with treewidth $\mathrm{tw}$ admit a padded decomposition with padding parameter $O(\log \mathrm{tw})$, which is tight. Our padding parameter is strictly better than $O(\log n)$ whenever $\mathrm{tw} = n^{o(1)}$, and is never worse than what is known for general graphs. As corollaries, we obtain an exponential improvement in dependency on treewidth in a host of algorithmic applications: $O(\sqrt{ \log n \cdot \log(\mathrm{tw})})$ flow-cut gap,  the maxflow-min multicut ratio of $O(\log(\mathrm{tw}))$, an $O(\log(\mathrm{tw}))$ approximation for the 0-extension problem, an $\ell^{O(\log n)}_\infty$ embedding with distortion $O(\log \mathrm{tw})$, and an $O(\log \mathrm{tw})$ bound for integrality gap for the uniform sparsest cut.<br>
   </font>
   </details>
+  
+- **Learning Representations for Hierarchies with Minimal Support**
+  <br>Benjamin Rozonoyer nd Michael Boratko and Dhruvesh Patel and Wenlong Zhao and Shib Sankar Dasgupta and **Hung Le** and Andrew McCallum.
+  <br>
+  Authors ordered by contribution.
+  <br>[[PDF](https://openreview.net/forum?id=HFS800reZK)]
+  <br>To appear in the 38th Annual Conference on Neural Information Processing Systems. **NeurIPS24**. 
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  When training node embedding models to represent large directed graphs (digraphs), it is impossible to observe all entries of the adjacency matrix during training. As a consequence most methods employ sampling. For very large digraphs, however, this means many (most) entries may be unobserved during training. In general, observing every entry would be necessary to uniquely identify a graph, however if we know the graph has a certain property some entries can be omitted - for example, only half the entries would be required for a symmetric graph. In this work, we develop a novel framework to identify a subset of entries required to uniquely distinguish a graph among all transitively-closed DAGs. We give an explicit algorithm to compute the provably minimal set of entries, and demonstrate empirically that one can train node embedding models with greater efficiency and performance, provided the energy function has an appropriate inductive bias. We achieve robust performance on synthetic hierarchies and a larger real-world taxonomy, observing improved convergence rates in a resource-constrained setting while reducing the set of training examples by as much as 99%.<br>
+  </font>
+  </details>
+  
+
 
 - **Embedding Planar Graphs into Graphs of Treewidth** $O(\log^{3}n)$
   <br>

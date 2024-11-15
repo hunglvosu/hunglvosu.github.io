@@ -21,6 +21,8 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 I will be updating both good news, bad news and all kinds of news. 
 
+ - **[November 2024]** Our paper "Learning Representations for Hierarchies with Minimal Support" was uploaded to [OpenReview](https://openreview.net/forum?id=HFS800reZK).
+
  - **[November 2024]** Our paper "Embedding Planar Graphs into Graphs of Treewidth $O(\log^3n)$" was uploaded to [Arxiv](https://arxiv.org/abs/2411.00216).
  
  - **[October 2024]** Two papers were accepted at [SODA 25](https://www.siam.org/conferences/cm/conference/soda25). 
@@ -39,7 +41,6 @@ I will be updating both good news, bad news and all kinds of news.
 
  - **[June 2024]** Two papers were rejected from [FOCS 24](https://focs.computer.org/2024/), and one paper got accepted to FOCS 24. 
 
- - **[May 2024]** One paper (1st submission to ICML ever) rejected from ICML. 
 
  
 
