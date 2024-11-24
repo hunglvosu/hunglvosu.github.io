@@ -17,7 +17,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   
 - **New Weighted Additive Spanners**
   <br>An La and **Hung Le**.
-  <br>[[PDF](https://arxiv.org/abs/2408.14638)]
+  <br>[[PDF](https://arxiv.org/abs/2408.14638)][[blog post](https://minorfree.github.io/AddtiveSpanners/)]
   <br>Manuscript. 
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
