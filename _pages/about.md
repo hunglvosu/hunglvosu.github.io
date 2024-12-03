@@ -17,6 +17,8 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 <br> Check out our FOCS 2022 workshop "[Advances on Metric Embeddings](https://hackmd.io/@3S70qBUwTR6_CErLY2dm4A/SJfp46KGi)" I co-organize with [Arnold Filtser](https://arnold.filtser.com).
 <br>
 
+**Note: I am NOT looking for a new PhD student this cycle.** I already have more PhD students than I could advise. Check out [other theory faculty](https://theory.cs.umass.edu) at UMass.<br>
+
 ## News
 
 I will be updating both good news, bad news and all kinds of news. 
