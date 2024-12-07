@@ -23,6 +23,8 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 I will be updating both good news, bad news and all kinds of news. 
 
+ - **[November 2024]** My application for [Lilly Fellowship](https://www.umass.edu/ctl/lilly-fellowship-teaching-excellence) was eliminated in the departmental round. 
+ 
  - **[November 2024]** Our paper "Learning Representations for Hierarchies with Minimal Support" was uploaded to [OpenReview](https://openreview.net/forum?id=HFS800reZK).
 
  - **[November 2024]** Our paper "Embedding Planar Graphs into Graphs of Treewidth $O(\log^3n)$" was uploaded to [Arxiv](https://arxiv.org/abs/2411.00216).
