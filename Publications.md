@@ -3,7 +3,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
 
 - **Dynamic Locality Sensitive Orderings in Doubling Metrics**
   <br>An La and **Hung Le**.
-  <br>[[PDF](https://arxiv.org/abs/2408.14617)]
+  <br>[[PDF](https://arxiv.org/abs/2408.14617)][[blog post](https://minorfree.github.io/LSO/)]
   <br>Manuscript. 
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
