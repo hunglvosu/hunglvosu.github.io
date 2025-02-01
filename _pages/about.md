@@ -23,6 +23,8 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 I will be updating both good news, bad news and all kinds of news. 
 
+ - **[February 2025]** Two papers were accepted at [STOC  25](https://acm-stoc.org/stoc2025/). Congrats [An](https://anla-cs.github.io) and [Cuong](https://thanvietcuong.github.io) for their 1st STOC papers! 
+ 
  - **[November 2024]** My application for [Lilly Fellowship](https://www.umass.edu/ctl/lilly-fellowship-teaching-excellence) was eliminated in the departmental round. 
  
  - **[November 2024]** Our paper "Learning Representations for Hierarchies with Minimal Support" was uploaded to [OpenReview](https://openreview.net/forum?id=HFS800reZK).
@@ -39,11 +41,7 @@ I will be updating both good news, bad news and all kinds of news.
   
  - **[August 2024]** Paper with my student [An La](https://anla-cs.github.io) "New Weighted Additive Spanners" was uploaded to [Arxiv](https://arxiv.org/abs/2408.14638).
  
- - **[August 2024]** Our paper "Optimal Padded Decomposition For Bounded Treewidth Graphs" was uploaded to [Arxiv](https://arxiv.org/abs/2407.12230).
- 
  - **[June 2024]** Our Dagstuhl worskhop proposal (with [Sujoy Bhore](https://sites.google.com/view/homepage-of-sujoy-bhore/home), [Jie Gao](https://sites.rutgers.edu/jie-gao/about/), and [Csaba D. Tóth](http://csabatoth.org)) was accepted. More info coming soon!
-
- - **[June 2024]** Two papers were rejected from [FOCS 24](https://focs.computer.org/2024/), and one paper got accepted to FOCS 24. 
 
 
  

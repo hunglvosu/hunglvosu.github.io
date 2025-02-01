@@ -4,7 +4,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
 - **Dynamic Locality Sensitive Orderings in Doubling Metrics**
   <br>An La and **Hung Le**.
   <br>[[PDF](https://arxiv.org/abs/2408.14617)][[blog post](https://minorfree.github.io/LSO/)]
-  <br>Manuscript. 
+  <br>To appear in the 57th Annual ACM Symposium on Theory of Computing. **STOC 2025**.
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
   In their pioneering work, Chan, Har-Peled, and Jones (SICOMP 2020)  introduced locality-sensitive ordering (LSO), and constructed an LSO with a constant number of orderings for point sets in the $d$-dimensional Euclidean space. Furthermore, their LSO could be made dynamic effortlessly under point insertions and deletions, taking $O(\log(n))$ time per update by exploiting Euclidean geometry. Their LSO provides a powerful primitive to solve a host of geometric problems in Euclidean spaces in both dynamic and static settings.   Filtser and Le (STOC 2022) constructed the first LSO with a constant number of orderings in the more general setting of doubling metrics.  However, their algorithm is inherently static since it relies on several sophisticated constructions in intermediate steps, none of which is known to have a dynamic version.  Making their LSO dynamic would recover the full generality of LSO and provide a general tool to dynamize a vast number of static constructions in doubling metrics.<br><br> 
