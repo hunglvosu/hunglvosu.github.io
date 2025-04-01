@@ -1,5 +1,26 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
+- ** Light Tree Covers, Routing, and Path-Reporting Oracles via Spanning Tree Covers in Doubling Graphs**
+  <br>Hsien-Chih Chang and Jonathan Conroy and **Hung Le** and Shay Solomon and Cuong Than.
+  <br>[[PDF](https://arxiv.org/abs/2503.22669)]
+  <br>To appear in the 57th Annual ACM Symposium on Theory of Computing. **STOC 2025**.
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  A $(1+\epsilon)$-stretch tree cover of an edge-weighted $n$-vertex graph $G$ is a collection of trees, where every pair of vertices has a $(1+\epsilon)$-stretch path in one of the trees. The celebrated Dumbbell Theorem by Arya et al. [STOC'95] states that any set of $n$ points in $d$-dimensional Euclidean space admits a $(1+\epsilon)$-stretch tree cover with a constant number of trees, where the constant depends on $\epsilon$ and the dimension $d$. This result was generalized for arbitrary doubling metrics by Bartal et al. [ICALP'19]. While the total number of edges in the tree covers of Arya et al. and Bartal et al. is $O(n)$, all known tree cover constructions incur a total lightness of $\Omega(\log n)$; whether one can get a tree cover of constant lightness has remained a longstanding open question, even for 2-dimensional point sets.<br><br> 
+  
+  In this work, we resolve this fundamental question in the affirmative,  as a direct corollary of a new construction of $(1+\epsilon)$-stretch spanning tree cover for doubling graphs; in a spanning tree cover,  every tree may only use edges of the input graph rather than the corresponding metric. To the best of our knowledge, this is the first constant-stretch spanning tree cover construction (let alone for  $(1+\epsilon)$-stretch) with a constant number of trees for any nontrivial family of graphs. <br><br> 
+  
+  We obtain several algorithmic applications from our dynamic LSO, including a dynamic fault-tolerant spanner, dynamic tree cover, dynamic nearest neighbor search with optimal search time, and dynamic (bichromatic) closest pair of points,  all in doubling metrics. Most notably, we obtain the first dynamic algorithm for maintaining an $k$-fault tolerant spanner in doubling metrics with optimal sparsity in optimal $O(\log n )$ time per update.<br><br>
+  
+  Concrete applications of our spanning tree cover include:
+  
+  <ul> <li> A $(1+\epsilon)$-stretch tree cover construction, where both the number of trees and lightness are bounded by $O(1)$, for doubling graphs. In doubling metrics, we can also bound the maximum degree of each vertex by $O(1)$ (which is impossible in doubling graphs). </li>
+  <li> A compact $(1+\epsilon)$-stretch routing scheme in the labeled model for doubling graphs,  which uses the asymptotically optimal (up to the dependencies on $\epsilon$ and $d$) bound of $O(\log n)$ bits on all the involved measures (label, header, and routing tables sizes). This is a significant improvement over existing works, where the local memory usage either depends on the aspect ratio of the graph or is $\Omega(\log^3 n)$. </li>
+  <li>The first path-reporting distance oracle for doubling graphs achieving \emph{optimal bounds} for all important parameters: $O(n)$ space, $(1+\epsilon)$-stretch, and $O(1)$ query time for  constant $d$ and $\epsilon$.</li>
+  </ul>
+  </font>
+  </details>
+
 
 - **Dynamic Locality Sensitive Orderings in Doubling Metrics**
   <br>An La and **Hung Le**.
@@ -42,7 +63,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   </details>
   
 - **Learning Representations for Hierarchies with Minimal Support**
-  <br>Benjamin Rozonoyer nd Michael Boratko and Dhruvesh Patel and Wenlong Zhao and Shib Sankar Dasgupta and **Hung Le** and Andrew McCallum.
+  <br>Benjamin Rozonoyer and Michael Boratko and Dhruvesh Patel and Wenlong Zhao and Shib Sankar Dasgupta and **Hung Le** and Andrew McCallum.
   <br>
   Authors ordered by contribution.
   <br>[[PDF](https://openreview.net/forum?id=HFS800reZK)]
