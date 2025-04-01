@@ -1,6 +1,6 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
-- ** Light Tree Covers, Routing, and Path-Reporting Oracles via Spanning Tree Covers in Doubling Graphs**
+- **Light Tree Covers, Routing, and Path-Reporting Oracles via Spanning Tree Covers in Doubling Graphs**
   <br>Hsien-Chih Chang and Jonathan Conroy and **Hung Le** and Shay Solomon and Cuong Than.
   <br>[[PDF](https://arxiv.org/abs/2503.22669)]
   <br>To appear in the 57th Annual ACM Symposium on Theory of Computing. **STOC 2025**.
@@ -16,7 +16,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   
   <ul> <li> A $(1+\epsilon)$-stretch tree cover construction, where both the number of trees and lightness are bounded by $O(1)$, for doubling graphs. In doubling metrics, we can also bound the maximum degree of each vertex by $O(1)$ (which is impossible in doubling graphs). </li>
   <li> A compact $(1+\epsilon)$-stretch routing scheme in the labeled model for doubling graphs,  which uses the asymptotically optimal (up to the dependencies on $\epsilon$ and $d$) bound of $O(\log n)$ bits on all the involved measures (label, header, and routing tables sizes). This is a significant improvement over existing works, where the local memory usage either depends on the aspect ratio of the graph or is $\Omega(\log^3 n)$. </li>
-  <li>The first path-reporting distance oracle for doubling graphs achieving \emph{optimal bounds} for all important parameters: $O(n)$ space, $(1+\epsilon)$-stretch, and $O(1)$ query time for  constant $d$ and $\epsilon$.</li>
+  <li>The first path-reporting distance oracle for doubling graphs achieving optimal bounds for all important parameters: $O(n)$ space, $(1+\epsilon)$-stretch, and $O(1)$ query time for  constant $d$ and $\epsilon$.</li>
   </ul>
   </font>
   </details>
