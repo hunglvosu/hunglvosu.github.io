@@ -23,6 +23,8 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 I will be updating both good news, bad news and all kinds of news. 
 
+ - **[April 2025]** Our paper "Light Tree Covers, Routing, and Path-Reporting Oracles via Spanning Tree Covers in Doubling Graphs" was uploaded to [Arxiv](https://arxiv.org/abs/2503.22669).
+
  - **[February 2025]** PC member of [WADS  25](https://cccg-wads-2025.eecs.yorku.ca/WADS%202025.html). 
 
  - **[February 2025]** Two papers were accepted at [STOC  25](https://acm-stoc.org/stoc2025/). Congrats [An](https://anla-cs.github.io) and [Cuong](https://thanvietcuong.github.io) for their 1st STOC papers! 
@@ -41,8 +43,6 @@ I will be updating both good news, bad news and all kinds of news.
  
  - **[August 2024]** Super stoked about a paper with my student [An La](https://anla-cs.github.io) who came up with all major ideas in this paper: "Dynamic Locality Sensitive Orderings in Doubling Metrics" on [Arxiv](https://arxiv.org/abs/2408.14617).
   
-
- - **[June 2024]** Our Dagstuhl worskhop proposal (with [Sujoy Bhore](https://sites.google.com/view/homepage-of-sujoy-bhore/home), [Jie Gao](https://sites.rutgers.edu/jie-gao/about/), and [Csaba D. Tóth](http://csabatoth.org)) was accepted. More info coming soon!
 
 
  
