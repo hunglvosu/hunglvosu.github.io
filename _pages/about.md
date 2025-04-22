@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am interested in Theoretical Computer Science in general and Graph Algorithms in particular. I am a member of  [Umass Theory Group](https://www.cics.umass.edu/research/area/theoretical-computer-science)<br>
+I am interested in Theoretical Computer Science in general and Graph Algorithms in particular. I am a member of  [Umass Theory Group](https://www.cics.umass.edu/research/area/theoretical-computer-science)
 
-<br> **Bio (in 3rd person for talks):** Hung Le has been an Assistant Professor of Computer Science at Umass Amherst since 2020. He was a <a href = "http://www.pims.math.ca/scientific/postdoctoral/postdoctoral-fellows#pdf-2018">PIMS</a> postdoc at the University of Victoria with "http://webhome.cs.uvic.ca/~val/">Valerie King</a> and a PhD student at Oregon State University, advised by <a href="http://blogs.oregonstate.edu/glencora/">Cora Borradaile</a>. He got his undergraduate degree from <a href="http://en.hust.edu.vn/home">Hanoi University of Science and Technology</a>, Vietnam.<br> 
+<br> **Bio (in 3rd person for talks):** Hung Le has been an Assistant Professor of Computer Science at Umass Amherst since 2020. He was a <a href = "http://www.pims.math.ca/scientific/postdoctoral/postdoctoral-fellows#pdf-2018">PIMS</a> postdoc at the University of Victoria with <a href ="http://webhome.cs.uvic.ca/~val/">Valerie King</a> and a PhD student at Oregon State University, advised by <a href="http://blogs.oregonstate.edu/glencora/">Cora Borradaile</a>. He got his undergraduate degree from <a href="http://en.hust.edu.vn/home">Hanoi University of Science and Technology</a>, Vietnam. 
 
 <br> My research has been generously supported by an NSF small grant  ([CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952)), an NSF CAREER Award ([CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)) and a Google Research Scholar Award.
 
@@ -18,9 +18,6 @@ I am interested in Theoretical Computer Science in general and Graph Algorithms 
 
 
 <br> Check out our FOCS 2022 workshop "[Advances on Metric Embeddings](https://hackmd.io/@3S70qBUwTR6_CErLY2dm4A/SJfp46KGi)" I co-organize with [Arnold Filtser](https://arnold.filtser.com).
-<br>
-
-**Note: I am NOT looking for a new PhD student this cycle.** I already have more PhD students than I could advise. Check out [other theory faculty](https://theory.cs.umass.edu) at UMass.<br>
 
 ## News
 
