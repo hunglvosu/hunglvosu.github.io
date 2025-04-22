@@ -5,6 +5,7 @@
 - Vinayak (Fall 2023)
 - Shuang Yang (Fall 2023)
 - Purna Dutta (Fall 2024), jointly advised by Andrew McGregor. 
+- Hector Tierno (Spring 2025)
 
 **Undergraduate Students**
 
