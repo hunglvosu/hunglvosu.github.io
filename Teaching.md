@@ -1,4 +1,9 @@
 
+- **Computation Theory**. (Fall 2025)
+<br>CMPSCI 601 
+<br>University of Massachusetts Amherst
+<br>[[Syllabus](/posts/2025/05/Syllabus-Complexity/)]
+
 
 - **Advanced Algorithms**. (Fall 2024)
 <br>CMPSCI 611 
