@@ -1,5 +1,21 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
+- **Approximate Light Spanners in Planar Graphs**
+  <br>**Hung Le** and Shay Solomon and Cuong Than and Csaba D. Tóth and Tianyi Zhang.
+  <br>[[PDF](https://arxiv.org/abs/2505.24825)]
+  <br>Manuscript.
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  In their seminal paper, Alth\"{o}fer   et al.\ (DCG~1993) introduced the greedy spanner and showed that, for any weighted planar graph $G$, the weight of the greedy $(1+\epsilon)$-spanner is at most $(1+\frac{2}{\epsilon}) \cdot w(\mathrm{MST})$, where $w(\mathrm{MST})$ is the weight of a minimum spanning tree of $G$. This bound is optimal in an xistential sense: there exist planar graphs $G$ for which any $(1+\epsilon)$-spanner has a weight of at least $(1+\frac{2}{\epsilon}) \cdot w(\mathrm{MST})$.<br><br>  
+  
+  However, as an approximation algorithm, even for a bicriteria approximation, the weight approximation factor of the greedy spanner is essentially as large as the existential bound: There exist planar graphs $G$ for which the greedy $(1+x \epsilon)$-spanner (for any $1\leq x = O(\epsilon^{-1/2})$) has a weight of $\Omega\brac{\frac{1}{\epsilon \cdot x^2}}\cdot w(G_{opt, \epsilon})$, where $G_{opt, \epsilon}$ is a $(1+\epsilon)$-spanner of $G$ of minimum weight. <br><br> 
+        
+  Despite the flurry of works over the past three decades on approximation algorithms for spanners as well as on light(-weight) spanners, there is still no (possibly bicriteria) approximation algorithm for light spanners in weighted planar graphs that outperforms the existential bound. As our main contribution, we present a polynomial time algorithm for constructing, in any weighted planar graph $G$, a $\brac{1+\epsilon\cdot 2^{O\brac{\log^* 1/\epsilon}}}$-spanner for $G$ of total weight $O(1)\cdot w(G_{opt, \epsilon})$. <br><br> 
+  
+  To achieve this result, we develop a new technique, which we refer to as iterative planar pruning. It iteratively modifies a spanner; each iteration replaces a heavy set of edges by a light path, to substantially decrease the total weight of the spanner while only slightly increasing its stretch. We leverage planarity to prove a  laminar structural property of the edge set to be removed, which enables us to optimize the path to be inserted via dynamic programming. Our technique applies dynamic programming directly to the input planar graph, which significantly deviates from previous techniques used for network design problems in planar graphs, and might be of independent interest.
+  </font>
+  </details>
+  
 - **Light Tree Covers, Routing, and Path-Reporting Oracles via Spanning Tree Covers in Doubling Graphs**
   <br>Hsien-Chih Chang and Jonathan Conroy and **Hung Le** and Shay Solomon and Cuong Than.
   <br>[[PDF](https://arxiv.org/abs/2503.22669)]

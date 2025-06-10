@@ -23,6 +23,8 @@ My technical blog [Rambling on Graphs](https://minorfree.github.io) is up. <br>
 
 I will be updating both good news, bad news and all kinds of news. 
 
+ - **[June 2025]** Our paper "Approximate Light Spanners in Planar Graphs" was uploaded to [Arxiv](https://arxiv.org/abs/2505.24825).   
+
  - **[May 2025]** Gave a talk a theory seminar of Northeastern on "Designing Graph Algorithms with VC Dimension".
  
  - **[April 2025]** Our paper "Light Tree Covers, Routing, and Path-Reporting Oracles via Spanning Tree Covers in Doubling Graphs" was uploaded to [Arxiv](https://arxiv.org/abs/2503.22669).
