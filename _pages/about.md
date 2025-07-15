@@ -12,7 +12,7 @@ I am an Associate ~~Assistant~~ Professor of Computer Science at UMass Amherst. 
 
 **Bio (in 3rd person for talks):** Hung Le has been a faculty member at Umass Amherst since 2020. He was a <a href = "http://www.pims.math.ca/scientific/postdoctoral/postdoctoral-fellows#pdf-2018">PIMS</a> postdoc at the University of Victoria with <a href ="http://webhome.cs.uvic.ca/~val/">Valerie King</a> and a PhD student at Oregon State University, advised by <a href="http://blogs.oregonstate.edu/glencora/">Cora Borradaile</a>. He got his undergraduate degree from <a href="https://hust.edu.vn/en/">Hanoi University of Science and Technology</a>, Vietnam. 
 
-My research has been generously supported by an NSF small grant  ([CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952)), an NSF CAREER Award ([CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)) and a Google Research Scholar Award.
+My research has been generously supported by two NSF small grants  ([CCF-2517033](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2517033&HistoricalAwards=false) and [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952)), an NSF CAREER Award ([CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)) and a Google Research Scholar Award.
 
 My technical blog [Rambling on Graphs](https://minorfree.github.io) is up. <br>
 
@@ -23,6 +23,10 @@ My technical blog [Rambling on Graphs](https://minorfree.github.io) is up. <br>
 
 I will be updating both good news, bad news and all kinds of news. 
 
+ - **[July 2025]** My NSF grant ["NSF-BSF: AF: Small: New Frontiers in Distance Sketching"](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2517033&HistoricalAwards=false) got funded. Thannks, NSF!
+ 
+ - **[Jyly 2025]** One paper was rejected from [FOCS 25](https://focs.computer.org/2025/) and one paper was accepted at FOCS 25.
+ 
  - **[June 2025]** Awarded tenure and promotion to Associate Professor.
  
  - **[June 2025]** Our paper "Approximate Light Spanners in Planar Graphs" was uploaded to [Arxiv](https://arxiv.org/abs/2505.24825).   
@@ -39,10 +43,6 @@ I will be updating both good news, bad news and all kinds of news.
  
  - **[November 2024]** Our paper "Learning Representations for Hierarchies with Minimal Support" was uploaded to [OpenReview](https://openreview.net/forum?id=HFS800reZK).
 
- - **[November 2024]** Our paper "Embedding Planar Graphs into Graphs of Treewidth $O(\log^3n)$" was uploaded to [Arxiv](https://arxiv.org/abs/2411.00216).
- 
- - **[September 2024]** Our paper "Towards Instance-Optimal Euclidean Spanners" was uploaded to [Arxiv](https://arxiv.org/abs/2409.08227).
-   
 
 
  
