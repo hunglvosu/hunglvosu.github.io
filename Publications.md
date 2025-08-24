@@ -1,5 +1,17 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
+- **A Tight Lower Bound for Doubling Spanners**
+  <br>An La, **Hung Le**, Shay Solomon, Cuong Than, Shuang Yang, Tianyi Zhang.
+  <br>[[PDF](https://arxiv.org/abs/2508.11555)]
+  <br>Manuscript.
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  Euclidean space $\mathbb{R}^d$, for $d = O(1)$, admits a $(1+\epsilon)$-spanner with $\tilde{O}(n \cdot \epsilon^{-d+1})$ edges and lightness $\tilde{O}(\epsilon^{-d})$, for any  $\epsilon > 0$. Moreover, this result is  tight: For any $2 \le d = O(1)$, there exists an $n$-point set in $\mathbb{R}^d$,  for which any $(1+\epsilon)$-spanner has $\tilde{\Omega}(n \cdot \epsilon^{-d+1})$ edges and lightness $\tilde{\Omega}(n \cdot \eps^{-d})$.<br><br>  
+  
+  The upper bounds for Euclidean spanners rely heavily on the spatial property of cone partitioning in $\mathbb{R}^d$, which does not seem to extend to the wider family of doubling metrics, i.e., metric spaces of constant {\em doubling dimension}.  In doubling metrics, a simple spanner construction from two decades ago,  the net-tree spanner, has $\tilde{O}(n \cdot \epsilon^{-d})$ edges, and it could be transformed into a spanner of lightness  $\tilde{O}(n \cdot \epsilon^{-(d+1)})$ by pruning redundant edges. Despite a large body of work,  it has remained an open question whether the superior Euclidean bounds of $\tilde{O}(n \cdot \epsilon^{-d+1})$ edges and lightness $\tilde{O}(\epsilon^{-d})$ could be achieved also in doubling metrics. We resolve this question in the negative by presenting a surprisingly simple and tight lower bound, which shows, in particular, that the net-tree spanner and its pruned version are both optimal.
+  </font>
+  </details>
+
 - **Approximate Light Spanners in Planar Graphs**
   <br>**Hung Le** and Shay Solomon and Cuong Than and Csaba D. Tóth and Tianyi Zhang.
   <br>[[PDF](https://arxiv.org/abs/2505.24825)]
