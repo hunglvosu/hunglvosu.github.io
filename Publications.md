@@ -1,12 +1,28 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
+- **Covering the Euclidean Plane by a Pair of Trees**
+  <br>**Hung Le**, Lazar Milenković, Shay Solomon, Tianyi Zhang.
+  <br>[[PDF](https://arxiv.org/abs/2508.11507)]
+  <br>Manuscript.
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  A $t$-stretch tree cover of a metric space $M = (X,\delta)$, for a parameter $t \ge 1$, is a collection of trees such that every pair of points has a $t$-stretch path in one of the trees.  Tree covers provide an important sketching tool that has found various applications over the years. The celebrated Dumbbell Theorem by Arya et al.\ [STOC'95] states that any set of points in the Euclidean plane admits a $(1+\epsilon)$-stretch tree cover with $O_\epsilon(1)$ trees. This result extends to any (constant) dimension and was also generalized for arbitrary doubling metrics by Bartal et al.\ [ICALP'19].<br><br>  
+  
+  Although the number of trees provided by the Dumbbell Theorem is constant, this constant is not small, even for a stretch significantly larger than $1+\epsilon$. At the other extreme, any single tree on the vertices of a regular $n$-polygon must incur a stretch of $\Omega(n)$. Using known results of ultrametric embeddings, one can easily get a stretch of $\tilde{O}(\sqrt{n})$ using two trees. The question of whether a low stretch can be achieved using two trees has remained illusive, even in the Euclidean plane. <br><br>  
+  
+  In this work, we resolve this fundamental question  in the affirmative by presenting a constant-stretch cover with a pair of trees, for any set of points in the Euclidean plane. Our main technical contribution is a \textbf{surprisingly simple} Steiner construction, for which we provide a tight stretch analysis of $\sqrt{26}$. The Steiner points can be easily pruned if one is willing to increase the stretch by a small constant. Moreover, we can bound the maximum degree of the construction by a constant.<br><br>  
+  
+  Our result thus provides a simple yet effective reduction tool---for problems that concern approximate distances---from the Euclidean plane to a pair of trees. To demonstrate the potential power of this tool, we present some applications for routing algorithms, including a constant-stretch compact routing scheme when handshaking is allowed, on top of a pair of trees, in which the total memory usage is just $(2 + o(1))\log n$ bits.
+  </font>
+  </details>
+  
 - **A Tight Lower Bound for Doubling Spanners**
   <br>An La, **Hung Le**, Shay Solomon, Cuong Than, Shuang Yang, Tianyi Zhang.
   <br>[[PDF](https://arxiv.org/abs/2508.11555)]
   <br>Manuscript.
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
-  Euclidean space $\mathbb{R}^d$, for $d = O(1)$, admits a $(1+\epsilon)$-spanner with $\tilde{O}(n \cdot \epsilon^{-d+1})$ edges and lightness $\tilde{O}(\epsilon^{-d})$, for any  $\epsilon > 0$. Moreover, this result is  tight: For any $2 \le d = O(1)$, there exists an $n$-point set in $\mathbb{R}^d$,  for which any $(1+\epsilon)$-spanner has $\tilde{\Omega}(n \cdot \epsilon^{-d+1})$ edges and lightness $\tilde{\Omega}(n \cdot \eps^{-d})$.<br><br>  
+  Euclidean space $\mathbb{R}^d$, for $d = O(1)$, admits a $(1+\epsilon)$-spanner with $\tilde{O}(n \cdot \epsilon^{-d+1})$ edges and lightness $\tilde{O}(\epsilon^{-d})$, for any  $\epsilon > 0$. Moreover, this result is  tight: For any $2 \le d = O(1)$, there exists an $n$-point set in $\mathbb{R}^d$,  for which any $(1+\epsilon)$-spanner has $\tilde{\Omega}(n \cdot \epsilon^{-d+1})$ edges and lightness $\tilde{\Omega}(n \cdot \epsilon^{-d})$.<br><br>  
   
   The upper bounds for Euclidean spanners rely heavily on the spatial property of cone partitioning in $\mathbb{R}^d$, which does not seem to extend to the wider family of doubling metrics, i.e., metric spaces of constant {\em doubling dimension}.  In doubling metrics, a simple spanner construction from two decades ago,  the net-tree spanner, has $\tilde{O}(n \cdot \epsilon^{-d})$ edges, and it could be transformed into a spanner of lightness  $\tilde{O}(n \cdot \epsilon^{-(d+1)})$ by pruning redundant edges. Despite a large body of work,  it has remained an open question whether the superior Euclidean bounds of $\tilde{O}(n \cdot \epsilon^{-d+1})$ edges and lightness $\tilde{O}(\epsilon^{-d})$ could be achieved also in doubling metrics. We resolve this question in the negative by presenting a surprisingly simple and tight lower bound, which shows, in particular, that the net-tree spanner and its pruned version are both optimal.
   </font>
