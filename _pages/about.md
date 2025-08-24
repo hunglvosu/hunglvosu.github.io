@@ -23,6 +23,8 @@ My technical blog [Rambling on Graphs](https://minorfree.github.io) is up. <br>
 
 I will be updating both good news, bad news and all kinds of news. 
 
+ - **[August 2025]** Two new arxiv preprints: [this](https://arxiv.org/abs/2508.11555) and [this](https://arxiv.org/abs/2508.11507). 
+
  - **[July 2025]** My NSF grant ["NSF-BSF: AF: Small: New Frontiers in Distance Sketching"](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2517033&HistoricalAwards=false) got funded. Thannks, NSF!
  
  - **[Jyly 2025]** One paper was rejected from [FOCS 25](https://focs.computer.org/2025/) and one paper was accepted at FOCS 25.
@@ -41,7 +43,6 @@ I will be updating both good news, bad news and all kinds of news.
  
  - **[November 2024]** My application for [Lilly Fellowship](https://www.umass.edu/ctl/lilly-fellowship-teaching-excellence) was eliminated in the departmental round. 
  
- - **[November 2024]** Our paper "Learning Representations for Hierarchies with Minimal Support" was uploaded to [OpenReview](https://openreview.net/forum?id=HFS800reZK).
 
 
 
