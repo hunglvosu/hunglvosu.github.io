@@ -23,6 +23,8 @@ My technical blog [Rambling on Graphs](https://minorfree.github.io) is up. <br>
 
 I will be updating both good news, bad news and all kinds of news. 
 
+ - **[September 2025]** Congrats [Cuong Than](https://thanvietcuong.github.io) on winning the Google PhD Fellowship! 
+
  - **[August 2025]** Two new arxiv preprints: [this](https://arxiv.org/abs/2508.11555) and [this](https://arxiv.org/abs/2508.11507). 
 
  - **[July 2025]** My NSF grant ["NSF-BSF: AF: Small: New Frontiers in Distance Sketching"](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2517033&HistoricalAwards=false) got funded. Thannks, NSF!
@@ -41,7 +43,6 @@ I will be updating both good news, bad news and all kinds of news.
 
  - **[February 2025]** Two papers were accepted at [STOC  25](https://acm-stoc.org/stoc2025/). Congrats [An](https://anla-cs.github.io) and [Cuong](https://thanvietcuong.github.io) for their 1st STOC papers! 
  
- - **[November 2024]** My application for [Lilly Fellowship](https://www.umass.edu/ctl/lilly-fellowship-teaching-excellence) was eliminated in the departmental round. 
  
 
 
