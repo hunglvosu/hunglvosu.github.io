@@ -1,5 +1,20 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
+
+- **Optimal Padded Decomposition For Bounded Treewidth Graphs**
+  <br>Arnold Filtser and Tobias Friedrich and Davis Issac and Nikhil Kumar and **Hung Le** and Nadym Mallek and Ziena Zeif.
+  <br>[[PDF](https://arxiv.org/abs/2407.12230)][[blog post](https://minorfree.github.io/PaddedTW/)]
+  <br>To appear in [TheoretiCS](https://theoretics.episciences.org).
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  A $(\beta,\delta,\Delta)$-padded decomposition of an edge-weighted graph $G = (V,E,w)$ is a stochastic decomposition into clusters of diameter at most $\Delta$ such that for every vertex $v\in V$, the probability that the ball $B_G(v,\gamma\Delta)$ is entirely contained in the cluster containing $v$ is at least $e^{-\beta\gamma}$ for every $\gamma \in [0,\delta]$. Padded decompositions have been studied for decades and have found numerous applications, including metric embedding, multicommodity flow-cut gap, muticut, and zero extension problems, to name a few.  In these applications, parameter $\beta$, called the padding parameter, is the most important parameter since it decides either the distortion or the approximation ratios. For general graphs with $n$ vertices, $\beta = \Theta(\log n)$.<br><br>
+  
+  Klein, Plotkin, and Rao (KPR) showed that $K_r$-minor-free graphs have padding parameter $\beta = O(r^3)$, which is a significant improvement over general graphs when $r$ is a constant. However, when $r= \Omega(\log n)$, the padding parameter in KPR decomposition can be much worse than $\log n$. A long-standing conjecture is to construct a padded decomposition for $K_r$-minor-free graphs with padding parameter $\beta = O(\log r)$. Despite decades of research, the best-known result is $\beta = O(r)$, even for graphs with treewidth at most $r$.<br><br>
+  
+  In this work, we make significant progress toward the aforementioned conjecture by showing that graphs with treewidth $\mathrm{tw}$ admit a padded decomposition with padding parameter $O(\log \mathrm{tw})$, which is tight. Our padding parameter is strictly better than $O(\log n)$ whenever $\mathrm{tw} = n^{o(1)}$, and is never worse than what is known for general graphs. As corollaries, we obtain an exponential improvement in dependency on treewidth in a host of algorithmic applications: $O(\sqrt{ \log n \cdot \log(\mathrm{tw})})$ flow-cut gap,  the maxflow-min multicut ratio of $O(\log(\mathrm{tw}))$, an $O(\log(\mathrm{tw}))$ approximation for the 0-extension problem, an $\ell^{O(\log n)}_\infty$ embedding with distortion $O(\log \mathrm{tw})$, and an $O(\log \mathrm{tw})$ bound for integrality gap for the uniform sparsest cut.<br>
+  </font>
+  </details>
+  
 - **Covering the Euclidean Plane by a Pair of Trees**
   <br>**Hung Le**, Lazar Milenković, Shay Solomon, Tianyi Zhang.
   <br>[[PDF](https://arxiv.org/abs/2508.11507)]
@@ -92,20 +107,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   </font>
   </details>
   
-- **Optimal Padded Decomposition For Bounded Treewidth Graphs**
-  <br>Arnold Filtser and Tobias Friedrich and Davis Issac and Nikhil Kumar and **Hung Le** and Nadym Mallek and Ziena Zeif.
-  <br>[[PDF](https://arxiv.org/abs/2407.12230)][[blog post](https://minorfree.github.io/PaddedTW/)]
-  <br>Manuscript. 
-  <details><summary style="color:#7C4700">Abstract</summary>
-  <font color = "7C4700">
-  A $(\beta,\delta,\Delta)$-padded decomposition of an edge-weighted graph $G = (V,E,w)$ is a stochastic decomposition into clusters of diameter at most $\Delta$ such that for every vertex $v\in V$, the probability that the ball $B_G(v,\gamma\Delta)$ is entirely contained in the cluster containing $v$ is at least $e^{-\beta\gamma}$ for every $\gamma \in [0,\delta]$. Padded decompositions have been studied for decades and have found numerous applications, including metric embedding, multicommodity flow-cut gap, muticut, and zero extension problems, to name a few.  In these applications, parameter $\beta$, called the padding parameter, is the most important parameter since it decides either the distortion or the approximation ratios. For general graphs with $n$ vertices, $\beta = \Theta(\log n)$.<br><br>
-  
-  Klein, Plotkin, and Rao (KPR) showed that $K_r$-minor-free graphs have padding parameter $\beta = O(r^3)$, which is a significant improvement over general graphs when $r$ is a constant. However, when $r= \Omega(\log n)$, the padding parameter in KPR decomposition can be much worse than $\log n$. A long-standing conjecture is to construct a padded decomposition for $K_r$-minor-free graphs with padding parameter $\beta = O(\log r)$. Despite decades of research, the best-known result is $\beta = O(r)$, even for graphs with treewidth at most $r$.<br><br>
-  
-  In this work, we make significant progress toward the aforementioned conjecture by showing that graphs with treewidth $\mathrm{tw}$ admit a padded decomposition with padding parameter $O(\log \mathrm{tw})$, which is tight. Our padding parameter is strictly better than $O(\log n)$ whenever $\mathrm{tw} = n^{o(1)}$, and is never worse than what is known for general graphs. As corollaries, we obtain an exponential improvement in dependency on treewidth in a host of algorithmic applications: $O(\sqrt{ \log n \cdot \log(\mathrm{tw})})$ flow-cut gap,  the maxflow-min multicut ratio of $O(\log(\mathrm{tw}))$, an $O(\log(\mathrm{tw}))$ approximation for the 0-extension problem, an $\ell^{O(\log n)}_\infty$ embedding with distortion $O(\log \mathrm{tw})$, and an $O(\log \mathrm{tw})$ bound for integrality gap for the uniform sparsest cut.<br>
-  </font>
-  </details>
-  
+
 - **Learning Representations for Hierarchies with Minimal Support**
   <br>Benjamin Rozonoyer and Michael Boratko and Dhruvesh Patel and Wenlong Zhao and Shib Sankar Dasgupta and **Hung Le** and Andrew McCallum.
   <br>
