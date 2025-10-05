@@ -3,7 +3,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
 - **Covering the Euclidean Plane by a Pair of Trees**
   <br>**Hung Le**, Lazar Milenković, Shay Solomon, Tianyi Zhang.
   <br>[[PDF](https://arxiv.org/abs/2508.11507)]
-  <br>MTo appear in the 37th Annual ACM-SIAM Symposium on Discrete Algorithms. **SODA 2026**.
+  <br>To appear in the 37th Annual ACM-SIAM Symposium on Discrete Algorithms. **SODA 2026**.
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
   A $t$-stretch tree cover of a metric space $M = (X,\delta)$, for a parameter $t \ge 1$, is a collection of trees such that every pair of points has a $t$-stretch path in one of the trees.  Tree covers provide an important sketching tool that has found various applications over the years. The celebrated Dumbbell Theorem by Arya et al.\ [STOC'95] states that any set of points in the Euclidean plane admits a $(1+\epsilon)$-stretch tree cover with $O_\epsilon(1)$ trees. This result extends to any (constant) dimension and was also generalized for arbitrary doubling metrics by Bartal et al.\ [ICALP'19].<br><br>  
