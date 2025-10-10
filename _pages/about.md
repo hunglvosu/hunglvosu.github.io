@@ -23,6 +23,8 @@ My technical blog [Rambling on Graphs](https://minorfree.github.io) is up. <br>
 
 I will be updating both good news, bad news and all kinds of news. 
 
+ - **[October 2025]** One paper was rejected from [SOSA 26](https://www.siam.org/conferences-events/siam-conferences/sosa26/).
+
  - **[October 2025]** One paper was rejected from [SODA 26](https://www.siam.org/conferences-events/siam-conferences/soda26/) and two papers were accepted at SODA 26.
 
  - **[October 2025]** Our paper "Optimal Padded Decomposition For Bounded Treewidth Graphs" was accepted to [TheoretiCS](https://theoretics.episciences.org).
@@ -41,7 +43,6 @@ I will be updating both good news, bad news and all kinds of news.
 
  - **[May 2025]** Gave a talk a theory seminar of Northeastern on "Designing Graph Algorithms with VC Dimension".
  
- - **[April 2025]** Our paper "Light Tree Covers, Routing, and Path-Reporting Oracles via Spanning Tree Covers in Doubling Graphs" was uploaded to [Arxiv](https://arxiv.org/abs/2503.22669).
 
  
  
