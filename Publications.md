@@ -1,5 +1,21 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
+
+- **Truly Subquadratic Time Algorithms for Diameter and Related Problems in Graphs of Bounded VC-dimension**
+  <br>Timothy M Chan, Hsien-Chih Chang, Jie Gao, Sándor Kisfaludi-Bak, **Hung Le**, Da Wei Zheng.
+  <br>[[PDF](https://arxiv.org/abs/2510.16346)]
+  <br>To appear in the 66th IEEE Symposium on the Foundations of Computer Science. **FOCS 2025**.
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700"> 
+  We give the first truly subquadratic time algorithm, with $\tilde{O}(n^{2-1/18})$ running time, for computing the diameter of an $n$-vertex unit-disk graph, resolving a central open problem in the literature. Our result is obtained as an instance of a general framework, applicable to different graph families and distance problems.  Surprisingly, our framework completely bypasses sublinear separators (or $r$-divisions) which were used in all previous algorithms.  Instead, we use low-diameter decompositions in their most elementary form.  We also exploit bounded VC-dimension of set systems associated with the input graph, as well as new ideas on geometric data structures. Among the numerous applications of the general framework, we obtain:
+  
+  <ul> <li> An $\tilde{O}(mn^{1-1/(2d)})$ time algorithm for computing the diameter of $m$-edge sparse unweighted graphs with constant VC-dimension $d$. The previously known algorithms by Ducoffe, Habib, and Viennot [SODA 2019] and  Duraj, Konieczny, and Pot\c{e}pa [ESA 2024]  are truly subquadratic only when the diameter is a small polynomial. Our result thus generalizes truly subquadratic time algorithms known for planar and minor-free graphs (in fact, it slightly improves the previous time bound for minor-free graphs).</li>
+  <li> An $\OO(n^{2-1/12})$ time algorithm for computing the diameter of intersection graphs of axis-aligned squares with arbitrary size. The best-known algorithm by Duraj, Konieczny, and Pot\c{e}pa [ESA 2024] only works for unit squares and is only truly subquadratic in the low-diameter regime. </li>
+  <li>The first algorithms with truly subquadratic complexity for other distance-related problems, including all-vertex eccentricities, Wiener index, and exact distance oracles. In particular, we obtain the first exact distance oracle with truly subquadratic space and $\tilde{O}(1)$ query time for any sparse graph with bounded VC-dimension, again generalizing previous results for planar and minor-free graphs.</li>
+  </ul>
+  </font>
+  </details>
+
 - **Covering the Euclidean Plane by a Pair of Trees**
   <br>**Hung Le**, Lazar Milenković, Shay Solomon, Tianyi Zhang.
   <br>[[PDF](https://arxiv.org/abs/2508.11507)]
