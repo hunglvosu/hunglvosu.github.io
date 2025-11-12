@@ -1,5 +1,22 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
+- **Tree-Like Shortcuttings of Trees**
+  <br>**Hung Le**, Lazar Milenković, Shay Solomon, Cuong Than.
+  <br>[[PDF](https://arxiv.org/abs/2510.14918)]
+  <br>Manuscript.
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700"> 
+  Sparse shortcuttings of trees---equivalently, sparse 1-spanners for tree metrics with bounded hop-diameter---have been studied extensively (under different names and settings), since the pioneering works of [Yao82, Cha87, AS87, BTS94], initially motivated by applications to range queries, online tree product, and MST verification, to name a few. These constructions were also lifted from trees to other graph families using known low-distortion embedding results. The works of [Yao82, Cha87, AS87, BTS94] establish a tight tradeoff between hop-diameter and sparsity (or average degree) for tree shortcuttings and imply constant-hop shortcuttings for $n$-node trees with sparsity $O(\log^* n)$. Despite their small sparsity, all known constant-hop shortcuttings contain dense subgraphs (of sparsity $\Omega(\log n)$), which is a significant drawback for many applications.
+  
+  We initiate a systematic study of constant-hop tree shortcuttings that are ``tree-like''. We focus on two well-studied graph parameters that measure how far a graph is from a tree: arboricity and treewidth. Our contribution is twofold.
+  
+  <ul> <li> New upper and lower bounds for tree-like  shortcuttings of trees, including an optimal tradeoff between hop-diameter and treewidth for all hop-diameter up to $O(\log\log n)$. We also provide a lower bound for larger values of $k$, which together yield  $\text{hop-diameter}\times \text{treewidth} = \Omega((\log\log n)^2)$ for all values of hop-diameter, resolving an open question.</li>
+  <li> Applications of these bounds, focusing on  low-dimensional Euclidean and doubling metrics. A seminal work of Arya et al. presented a $(1+\epsilon)$-spanner with constant hop-diameter and sparsity $O(\log^* n)$, but with large arboricity. We show that constant hop-diameter is sufficient to achieve arboricity $O(\log^*{n})$. Furthermore, we present a $(1+\epsilon)$-stretch routing scheme in the fixed-port model with 3 hops and a local memory of $O(\log^2 n / \log\log n)$ bits,  resolving an open question.</li>
+  </ul>
+  </font>
+  </details>
+
+
 
 - **Truly Subquadratic Time Algorithms for Diameter and Related Problems in Graphs of Bounded VC-dimension**
   <br>Timothy M Chan, Hsien-Chih Chang, Jie Gao, Sándor Kisfaludi-Bak, **Hung Le**, Da Wei Zheng.

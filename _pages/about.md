@@ -23,7 +23,9 @@ My technical blog [Rambling on Graphs](https://minorfree.github.io) is up. <br>
 
 I will be updating both good news, bad news and all kinds of news. 
 
- - **[Oct 2025]** I will be serving on the PC of [SoCG 2026](socg 2026) and [COCOON 2026](https://event.ntu.edu.sg/cocoon2026).   
+ - **[Nov 2025]** One paper was rejected from [ITCS 26](http://itcs-conf.org).
+
+ - **[Oct 2025]** I will be serving on the PC of [SOCG 2026](https://cgweek26.computational-geometry.org) and [COCOON 2026](https://event.ntu.edu.sg/cocoon2026).   
  
  - **[Oct 2025]** Our paper "Truly Subquadratic Time Algorithms for Diameter and Related Problems in Graphs of Bounded VC-dimension" was uploaded to [Arxiv](https://arxiv.org/abs/2510.16346).   
 
@@ -40,8 +42,6 @@ I will be updating both good news, bad news and all kinds of news.
  - **[July 2025]** My NSF grant ["NSF-BSF: AF: Small: New Frontiers in Distance Sketching"](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2517033&HistoricalAwards=false) got funded. Thannks, NSF!
  
  - **[Jyly 2025]** One paper was rejected from [FOCS 25](https://focs.computer.org/2025/) and one paper was accepted at FOCS 25.
- 
- - **[June 2025]** Awarded tenure and promotion to Associate Professor.
  
 
  
