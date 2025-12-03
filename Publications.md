@@ -218,6 +218,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   Hsien-Chih Chang and Jonathan Conroy and **Hung Le** and Lazar Milenkovic and Shay Solomon and Cuong Than.
   <br>[[PDF](https://arxiv.org/abs/2403.17754)][[blog post](https://minorfree.github.io/EuTreeCov/)]
   <br>The 40th International Symposium on Computational Geometry. **SoCG 2024**.
+  <br> [Discrete \& Computational Geometry](https://link.springer.com/article/10.1007/s00454-025-00803-9).  
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700">
   A $(1+\epsilon)$-stretch tree cover of a metric space is a collection of trees, where every pair of points has a $(1+\epsilon)$-stretch path in one of the trees. The celebrated Dumbbell Theorem [Arya et al. STOC'95] states that any set of $n$ points in $d$-dimensional Euclidean space admits a $(1+\epsilon)$-stretch tree cover with $O_d(\epsilon^{-d} \cdot \log(1/\epsilon))$ trees, where the $O_d$ notation suppresses terms that depend solely on the dimension~$d$ The running time of their construction is $O_d(n \log n \cdot \frac{\log(1/\epsilon)}{\epsilon^{d}} + n \cdot \epsilon^{-2d})$. Since the same point may occur in multiple levels of the tree, the maximum degree of a point in the tree cover may be as large as $\Omega(\log \Phi)$, where $\Phi$ is the aspect ratio of the input point set.<br>
