@@ -23,6 +23,10 @@ My technical blog [Rambling on Graphs](https://minorfree.github.io) is up. <br>
 
 I will be updating both good news, bad news and all kinds of news. 
 
+- **[Dec 2025]** Our paper "Separator Theorem for Minor-Free Graphs in Linear Time" was uploaded to [Arxiv](https://www.arxiv.org/abs/2512.01587). 
+
+- **[Nov 2025]** Our paper "Tree-Like Shortcuttings of Trees" was uploaded to [Arxiv](https://arxiv.org/abs/2510.14918). 
+  
  - **[Nov 2025]** One paper was rejected from [ITCS 26](http://itcs-conf.org).
 
  - **[Oct 2025]** I will be serving on the PC of [SOCG 2026](https://cgweek26.computational-geometry.org) and [COCOON 2026](https://event.ntu.edu.sg/cocoon2026).   
@@ -38,11 +42,6 @@ I will be updating both good news, bad news and all kinds of news.
  - **[September 2025]** Congrats [Cuong Than](https://thanvietcuong.github.io) on winning the Google PhD Fellowship! 
 
  - **[August 2025]** Two new arxiv preprints: [this](https://arxiv.org/abs/2508.11555) and [this](https://arxiv.org/abs/2508.11507). 
-
- - **[July 2025]** My NSF grant ["NSF-BSF: AF: Small: New Frontiers in Distance Sketching"](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2517033&HistoricalAwards=false) got funded. Thannks, NSF!
- 
- - **[Jyly 2025]** One paper was rejected from [FOCS 25](https://focs.computer.org/2025/) and one paper was accepted at FOCS 25.
- 
 
  
 
