@@ -4,7 +4,7 @@ date: 2023-03-16
 permalink: /posts/2025/10/Syllabus-Algs/
 ---
 
-<span style="color:red">Last Updated: October 09  2025</span>.
+<span style="color:red">Last Updated: December 08  2025</span>.
 
 **Credit Hours:** 3
 
@@ -57,43 +57,43 @@ permalink: /posts/2025/10/Syllabus-Algs/
 
 | Date            | Topics                                          | Readings                                                     |
 | --------------- | ----------------------------------------------- | ------------------------------------------------------------ |
-| 03 Sep         | Intro, Master theorem, Mergesort                | [Erickson's note on recursion](http://jeffe.cs.illinois.edu/teaching/algorithms/book/01-recursion.pdf) |
-| 05 Sep         | Closest Pair, Matrix Multiplication             | [DPV's chapter 2](https://people.eecs.berkeley.edu/~vazirani/algorithms/chap2.pdf) |
-| 10 Sep         | Problem Solving Session                          | |
-| 12 Sep         | Intro Greedy, Job Scheduling                    | [Erickson's note on geedy algs](http://jeffe.cs.illinois.edu/teaching/algorithms/book/04-greedy.pdf) |
-| 17 Sep         | Minimum Spanning Tree                           | [Erickson's note on MST](http://jeffe.cs.illinois.edu/teaching/algorithms/book/07-mst.pdf) |
-| 19 Sep         | Matroid                                         | [Erickson's note on matroid](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/E-matroids.pdf) |
-| 24 Sep         | Subset Sum, Optimal BST                         | [Erickson's note on DP](http://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf) |
-| 26 Sep         | SSSP and TSP                                 | [Erickson's note on SSSP](http://jeffe.cs.illinois.edu/teaching/algorithms/book/08-sssp.pdf) and [APSP](http://jeffe.cs.illinois.edu/teaching/algorithms/book/09-apsp.pdf) |
-| 01 Oct         | Problem Solving Session                | |
-| 03 Oct          | Balls and Bins     | [Erickson's note on Hashing](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/05-hashing.pdf)|
-| 08 Oct          | Midterm 1                                       | Covering D&C, DP, and Greedy                                 |
-| 10 Oct          | Bloom Filter                  | [Erickson's note on filtering and streaming](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/06-bloom.pdf)|
-| 17 Oct          | Randomized Mincut                 | [Erickson's note on randomized mincut](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/08-mincut.pdf)|
-| 22 Oct          | Maxflow-Mincut                                  | [Erickson's note on Maxflow](http://jeffe.cs.illinois.edu/teaching/algorithms/book/10-maxflow.pdf) |
-| 24 Oct          | Maxflow in Strongly PolyTime                    | [Erickson's note on Maxflow](http://jeffe.cs.illinois.edu/teaching/algorithms/book/10-maxflow.pdf) |
-| 29 Oct          | Applications of Maxflow                         | [Erickson's note on Applications of Maxflow](http://jeffe.cs.illinois.edu/teaching/algorithms/book/11-maxflowapps.pdf) |
-| 31 Oct          | Problem Solving Session                         |  |
-| 07 Nov          | Introduction to Linear Programming              | [Erickson's note on LP](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/H-lp.pdf) |
-| 12 Nov          | LP Duality                                      | [Erickson's note on LP](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/H-lp.pdf) |
-| 14  Nov          | P vs NP                                         | [Erickson's note on NP-hardness](http://jeffe.cs.illinois.edu/teaching/algorithms/book/12-nphard.pdf) |
-| 19 Nov          | Midterm 2                                       | Covering Randomized Algorithms, Maxflow, and LP              |
-| 21 Nov          | NP-complete Problems                            | [Erickson's note on NP-hardness](http://jeffe.cs.illinois.edu/teaching/algorithms/book/12-nphard.pdf) |
-| 26 Nov          | Vertex Cover,Set Cover                          | [Erickson's note on approximation algorithms](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/J-approx.pdf) |                                               |
-| 03 Dec          | TSP                               | [Erickson's note on approximation algorithms](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/J-approx.pdf) |
-| 05 Dec          | Problem Solving Session                         |  |
-| 10 Dec          | Review                                          |                                                              |
-| 18 Dec | Final exam from 3:30 PM -  5:30 PM at classroom | Covering everything                                          |
+| 02 Feb         | Intro, Master theorem, Mergesort                | [Erickson's note on recursion](http://jeffe.cs.illinois.edu/teaching/algorithms/book/01-recursion.pdf) |
+| 04 Feb         | Closest Pair, Matrix Multiplication             | [DPV's chapter 2](https://people.eecs.berkeley.edu/~vazirani/algorithms/chap2.pdf) |
+| 09 Feb         | Problem Solving Session                          | |
+| 11 Feb         | Intro Greedy, Job Scheduling                    | [Erickson's note on geedy algs](http://jeffe.cs.illinois.edu/teaching/algorithms/book/04-greedy.pdf) |
+| 18 Feb         | Minimum Spanning Tree                           | [Erickson's note on MST](http://jeffe.cs.illinois.edu/teaching/algorithms/book/07-mst.pdf) |
+| 23 Feb         | Matroid                                         | [Erickson's note on matroid](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/E-matroids.pdf) |
+| 25 Feb         | Subset Sum, Optimal BST                         | [Erickson's note on DP](http://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf) |
+| 02 Mar         | SSSP and TSP                                 | [Erickson's note on SSSP](http://jeffe.cs.illinois.edu/teaching/algorithms/book/08-sssp.pdf) and [APSP](http://jeffe.cs.illinois.edu/teaching/algorithms/book/09-apsp.pdf) |
+| 04 Mar         | Problem Solving Session                | |
+| 09 Mar          | Balls and Bins     | [Erickson's note on Hashing](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/05-hashing.pdf)|
+| 11 Mar          | Midterm 1                                       | Covering D&C, DP, and Greedy                                 |
+| 23 Mar          | Bloom Filter                  | [Erickson's note on filtering and streaming](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/06-bloom.pdf)|
+| 25 Mar          | Randomized Mincut                 | [Erickson's note on randomized mincut](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/08-mincut.pdf)|
+| 30 Mar          | Maxflow-Mincut                                  | [Erickson's note on Maxflow](http://jeffe.cs.illinois.edu/teaching/algorithms/book/10-maxflow.pdf) |
+| 01 Apr          | Maxflow in Strongly PolyTime                    | [Erickson's note on Maxflow](http://jeffe.cs.illinois.edu/teaching/algorithms/book/10-maxflow.pdf) |
+| 06 Apr          | Applications of Maxflow                         | [Erickson's note on Applications of Maxflow](http://jeffe.cs.illinois.edu/teaching/algorithms/book/11-maxflowapps.pdf) |
+| 08 Apr          | Problem Solving Session                         |  |
+| 13 Apr          | Introduction to Linear Programming              | [Erickson's note on LP](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/H-lp.pdf) |
+| 15 Apr          | LP Duality                                      | [Erickson's note on LP](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/H-lp.pdf) |
+| 22  Apr          | P vs NP                                         | [Erickson's note on NP-hardness](http://jeffe.cs.illinois.edu/teaching/algorithms/book/12-nphard.pdf) |
+| 24 Apr          | Midterm 2                                       | Covering Randomized Algorithms, Maxflow, and LP              |
+| 27 Apr          | NP-complete Problems                            | [Erickson's note on NP-hardness](http://jeffe.cs.illinois.edu/teaching/algorithms/book/12-nphard.pdf) |
+| 29 Apr          | Vertex Cover,Set Cover                          | [Erickson's note on approximation algorithms](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/J-approx.pdf) |                                               |
+| 04 May          | TSP                               | [Erickson's note on approximation algorithms](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/J-approx.pdf) |
+| 06 May          | Problem Solving Session                         |  |
+| NA          | Review                                          |                                                              |
+| TBA | Final exam from TBA at classroom | Covering everything                                          |
 
 
 
  **Grading**
 
-- Homework (40%): Homework is **bi-weekly** and includes 6 assignments. The lowest assignment will be dropped.
-- Weekly Quizzes (8%): We will have 11 quizzes total, and the lowest quiz will be dropped. 
-- Attendance (2%).
-- Midterms 1 + 2: (30%), the maximum will be 20% and the minimum will be 10%
-- Final (20%): Scheduled by the university and will be comprehensive.
+- Homework (35%): Homework is **bi-weekly** and includes 6 assignments. The lowest assignment will be dropped.
+- Weekly Quizzes (4%): We will have 11 quizzes total, and the lowest quiz will be dropped. 
+- Attendance (1%).
+- Midterms 1 + 2: (35%), the maximum will be 20% and the minimum will be 15%
+- Final (25%): Scheduled by the university and will be comprehensive.
 
 **Grading Scale:** A (100-90), A- (89-84), B+ (83-78), B (77-72), B- (71-66), C+ (65-60), C (59-54), F (53-0)
 
