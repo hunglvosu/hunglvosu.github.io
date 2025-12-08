@@ -62,27 +62,27 @@ permalink: /posts/2025/10/Syllabus-Algs/
 | 09 Feb         | Problem Solving Session                          | |
 | 11 Feb         | Intro Greedy, Job Scheduling                    | [Erickson's note on geedy algs](http://jeffe.cs.illinois.edu/teaching/algorithms/book/04-greedy.pdf) |
 | 18 Feb         | Minimum Spanning Tree                           | [Erickson's note on MST](http://jeffe.cs.illinois.edu/teaching/algorithms/book/07-mst.pdf) |
-| 23 Feb         | Matroid                                         | [Erickson's note on matroid](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/E-matroids.pdf) |
-| 25 Feb         | Subset Sum, Optimal BST                         | [Erickson's note on DP](http://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf) |
-| 02 Mar         | SSSP and TSP                                 | [Erickson's note on SSSP](http://jeffe.cs.illinois.edu/teaching/algorithms/book/08-sssp.pdf) and [APSP](http://jeffe.cs.illinois.edu/teaching/algorithms/book/09-apsp.pdf) |
-| 04 Mar         | Problem Solving Session                | |
-| 09 Mar          | Balls and Bins     | [Erickson's note on Hashing](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/05-hashing.pdf)|
-| 11 Mar          | Midterm 1                                       | Covering D&C, DP, and Greedy                                 |
-| 23 Mar          | Bloom Filter                  | [Erickson's note on filtering and streaming](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/06-bloom.pdf)|
-| 25 Mar          | Randomized Mincut                 | [Erickson's note on randomized mincut](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/08-mincut.pdf)|
-| 30 Mar          | Maxflow-Mincut                                  | [Erickson's note on Maxflow](http://jeffe.cs.illinois.edu/teaching/algorithms/book/10-maxflow.pdf) |
-| 01 Apr          | Maxflow in Strongly PolyTime                    | [Erickson's note on Maxflow](http://jeffe.cs.illinois.edu/teaching/algorithms/book/10-maxflow.pdf) |
-| 06 Apr          | Applications of Maxflow                         | [Erickson's note on Applications of Maxflow](http://jeffe.cs.illinois.edu/teaching/algorithms/book/11-maxflowapps.pdf) |
-| 08 Apr          | Problem Solving Session                         |  |
-| 13 Apr          | Introduction to Linear Programming              | [Erickson's note on LP](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/H-lp.pdf) |
-| 15 Apr          | LP Duality                                      | [Erickson's note on LP](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/H-lp.pdf) |
-| 22  Apr          | P vs NP                                         | [Erickson's note on NP-hardness](http://jeffe.cs.illinois.edu/teaching/algorithms/book/12-nphard.pdf) |
-| 24 Apr          | Midterm 2                                       | Covering Randomized Algorithms, Maxflow, and LP              |
-| 27 Apr          | NP-complete Problems                            | [Erickson's note on NP-hardness](http://jeffe.cs.illinois.edu/teaching/algorithms/book/12-nphard.pdf) |
-| 29 Apr          | Vertex Cover,Set Cover                          | [Erickson's note on approximation algorithms](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/J-approx.pdf) |                                               |
-| 04 May          | TSP                               | [Erickson's note on approximation algorithms](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/J-approx.pdf) |
-| 06 May          | Problem Solving Session                         |  |
-| NA          | Review                                          |                                                              |
+| 19 Feb         | Matroid                                         | [Erickson's note on matroid](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/E-matroids.pdf) |
+| 23 Feb         | Subset Sum, Optimal BST                         | [Erickson's note on DP](http://jeffe.cs.illinois.edu/teaching/algorithms/book/03-dynprog.pdf) |
+| 25 Feb         | SSSP and TSP                                 | [Erickson's note on SSSP](http://jeffe.cs.illinois.edu/teaching/algorithms/book/08-sssp.pdf) and [APSP](http://jeffe.cs.illinois.edu/teaching/algorithms/book/09-apsp.pdf) |
+| 02 Mar         | Problem Solving Session                | |
+| 04 Mar          | Balls and Bins     | [Erickson's note on Hashing](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/05-hashing.pdf)|
+| 09 Mar          | Midterm 1                                       | Covering D&C, DP, and Greedy                                 |
+| 11 Mar          | Bloom Filter                  | [Erickson's note on filtering and streaming](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/06-bloom.pdf)|
+| 23 Mar          | Randomized Mincut                 | [Erickson's note on randomized mincut](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/08-mincut.pdf)|
+| 25 Mar          | Maxflow-Mincut                                  | [Erickson's note on Maxflow](http://jeffe.cs.illinois.edu/teaching/algorithms/book/10-maxflow.pdf) |
+| 30 Mar          | Maxflow in Strongly PolyTime                    | [Erickson's note on Maxflow](http://jeffe.cs.illinois.edu/teaching/algorithms/book/10-maxflow.pdf) |
+| 01 Apr          | Applications of Maxflow                         | [Erickson's note on Applications of Maxflow](http://jeffe.cs.illinois.edu/teaching/algorithms/book/11-maxflowapps.pdf) |
+| 06 Apr          | Problem Solving Session                         |  |
+| 08 Apr          | Introduction to Linear Programming              | [Erickson's note on LP](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/H-lp.pdf) |
+| 13 Apr          | LP Duality                                      | [Erickson's note on LP](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/H-lp.pdf) |
+| 15  Apr          | P vs NP                                         | [Erickson's note on NP-hardness](http://jeffe.cs.illinois.edu/teaching/algorithms/book/12-nphard.pdf) |
+| 22 Apr          | Midterm 2                                       | Covering Randomized Algorithms, Maxflow, and LP              |
+| 24 Apr          | NP-complete Problems                            | [Erickson's note on NP-hardness](http://jeffe.cs.illinois.edu/teaching/algorithms/book/12-nphard.pdf) |
+| 27 Apr          | Vertex Cover,Set Cover                          | [Erickson's note on approximation algorithms](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/J-approx.pdf) |                                               |
+| 09 Apr          | TSP                               | [Erickson's note on approximation algorithms](http://jeffe.cs.illinois.edu/teaching/algorithms/notes/J-approx.pdf) |
+| 04 May          | Problem Solving Session                         |  |
+| 06 May          | Review                                          |                                                              |
 | TBA | Final exam from TBA at classroom | Covering everything                                          |
 
 
