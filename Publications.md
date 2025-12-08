@@ -2,7 +2,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
 
 - **Separator Theorem for Minor-Free Graphs in Linear Time**
   <br>Édouard Bonnet, Tuukka Korhonen, **Hung Le**, Jason Li, Tomáš Masařík.
-  <br>[[PDF](https://www.arxiv.org/abs/2512.01587)]
+  <br>[[PDF](https://www.arxiv.org/abs/2512.01587)][[blog post](https://minorfree.github.io/SepLinear/)]
   <br>Manuscript.
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700"> 
