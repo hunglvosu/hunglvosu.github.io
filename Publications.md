@@ -1,5 +1,23 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
+
+- **Approximating Euclidean Shallow-Light Trees**
+  <br>**Hung Le**, Shay Solomon, Cuong Than, Csaba D. Tóth,Tianyi Zhang.
+  <br>[[PDF](https://arxiv.org/abs/2512.10797)]
+  <br>Manuscript.
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700"> 
+  For a weighted graph $G = (V, E, w)$ and a designated source vertex $s \in V$, a spanning tree that simultaneously approximates a shortest-path tree w.r.t.\ source $s$ and a minimum spanning tree is called a shallow-light tree (SLT). Specifically, an $(\alpha, \beta)$-SLT of $G$ w.r.t.\ $s \in V$ is a spanning tree of $G$ with root-stretch $\alpha$ (preserving all distances between $s$ and all other vertices up to a factor of $\alpha$) and  lightness $\beta$ (its weight  is at most $\beta$ times the weight of a minimum spanning tree of $G$).<br><br>
+  
+  It was shown in the early 1990s that (1) for any graph, any source, and any  $\epsilon > 0$, there is a $(1 + \epsilon, O(1/\epsilon))$-SLT,  and (2) there exist graphs for which $\beta = \Omega(1/\epsilon)$ for any $(1+\epsilon,\beta)$-SLT.<br><br>
+  
+  The focus of this work is on SLTs in low-dimensional Euclidean spaces, which are of special interest for some applications of SLTs. The aforementioned existential lower bound applies to the Euclidean plane, as well. It was shown more than a decade ago that (1) by using  Steiner points, one can reduce the lightness bound from $O(1/\epsilon)$ to $O(\sqrt{1/\epsilon})$, and (2) there exist point sets in the plane for which $\beta = \Omega(\sqrt{1/\epsilon})$ for any Steiner $(1+\epsilon,\beta)$-SLT.<br><br>
+  
+  These tight existential bounds for the Euclidean case yield approximation factors of $O(1/\epsilon)$ and $O(\sqrt{1/\epsilon})$ on the minimum weight of any non-Steiner and Steiner tree with root-stretch $1+\epsilon$, respectively. Despite the large body of work on SLTs, the basic question of whether a better approximation algorithm exists was left untouched to date, and this holds in any graph family. This paper makes a first nontrivial step towards resolving this question by presenting two bicriteria approximation algorithms. For any $\epsilon>0$, a  set $P$ of $n$ points in constant-dimensional Euclidean space and a source $s\in P$, our first (respectively, second) algorithm returns, in $O(n \log n \cdot {\mathrm polylog}(\epsilon^{-1}))$ time,   a non-Steiner (resp., Steiner) tree with root-stretch $1+O(\epsilon\log \epsilon^{-1})$ and weight at most $O(\opt_{\epsilon}\cdot \log^2 \epsilon^{-1})$ (resp.,  $O(\opt_{\epsilon}\cdot \log \epsilon^{-1})$), where  $\opt_{\epsilon}$ denotes the minimum weight of a non-Steiner (resp., Steiner) tree with root-stretch $1+\epsilon$.   
+  </font>
+  </details>
+  
+  
 - **Separator Theorem for Minor-Free Graphs in Linear Time**
   <br>Édouard Bonnet, Tuukka Korhonen, **Hung Le**, Jason Li, Tomáš Masařík.
   <br>[[PDF](https://www.arxiv.org/abs/2512.01587)][[blog post](https://minorfree.github.io/SepLinear/)]

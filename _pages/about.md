@@ -23,6 +23,8 @@ My technical blog [Rambling on Graphs](https://minorfree.github.io) is up. <br>
 
 I will be updating both good news, bad news and all kinds of news. 
 
+- **[Dec 2025]** Our paper "Approximating Euclidean Shallow-Light Trees" was uploaded to [Arxiv](https://arxiv.org/abs/2512.10797). 
+
 - **[Dec 2025]** Our paper "Separator Theorem for Minor-Free Graphs in Linear Time" was uploaded to [Arxiv](https://www.arxiv.org/abs/2512.01587). 
 
 - **[Nov 2025]** Our paper "Tree-Like Shortcuttings of Trees" was uploaded to [Arxiv](https://arxiv.org/abs/2510.14918). 
@@ -41,7 +43,6 @@ I will be updating both good news, bad news and all kinds of news.
 
  - **[September 2025]** Congrats [Cuong Than](https://thanvietcuong.github.io) on winning the Google PhD Fellowship! 
 
- - **[August 2025]** Two new arxiv preprints: [this](https://arxiv.org/abs/2508.11555) and [this](https://arxiv.org/abs/2508.11507). 
 
  
 
