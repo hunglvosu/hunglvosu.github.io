@@ -21,7 +21,7 @@ permalink: /posts/2025/10/Syllabus-Algs/
 
 - Graders: TBA
 
-**Class Meetings:** Mon and Tue, from 5:30pm-6:45pm. 
+**Class Meetings:** Mon and Wed, from 5:30pm-6:45pm. 
 
 **Location**:  CS Labs E110
 
