@@ -13,7 +13,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   </font>
   </details>
   
-  - **Approximating Euclidean Shallow-Light Trees**
+- **Approximating Euclidean Shallow-Light Trees**
   <br>**Hung Le**, Shay Solomon, Cuong Than, Csaba D. Tóth,Tianyi Zhang.
   <br>[[PDF](https://arxiv.org/abs/2512.10797)]
   <br>Manuscript.
