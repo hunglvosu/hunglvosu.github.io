@@ -23,6 +23,8 @@ My technical blog [Rambling on Graphs](https://minorfree.github.io) is up. <br>
 
 I will be updating both good news, bad news and all kinds of news. 
 
+- **[Feb 2026]** One paper rejected from [SocG 2026](https://cgweek26.computational-geometry.org). Four other papers were accepted to SoCG 2026.
+
 - **[Feb 2026]** Two papers rejected from [STOC 2026](https://acm-stoc.org/stoc2026/). Two other papers were accepted to STOC 2026.
 
 - **[Dec 2025]** Our paper "Approximating Euclidean Shallow-Light Trees" was uploaded to [Arxiv](https://arxiv.org/abs/2512.10797). 
@@ -40,8 +42,6 @@ I will be updating both good news, bad news and all kinds of news.
  - **[October 2025]** One paper was rejected from [SOSA 26](https://www.siam.org/conferences-events/siam-conferences/sosa26/).
 
  - **[October 2025]** One paper was rejected from [SODA 26](https://www.siam.org/conferences-events/siam-conferences/soda26/) and two papers were accepted at SODA 26.
-
- - **[September 2025]** Congrats [Cuong Than](https://thanvietcuong.github.io) on winning the Google PhD Fellowship! 
 
 
  
