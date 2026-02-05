@@ -1,22 +1,10 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
 
-- **Separator Theorem for Minor-Free Graphs in Linear Time**
-  <br>Édouard Bonnet, Tuukka Korhonen, **Hung Le**, Jason Li, Tomáš Masařík.
-  <br>[[PDF](https://www.arxiv.org/abs/2512.01587)][[blog post](https://minorfree.github.io/SepLinear/)][[Talk by Tomáš Masařík](https://www.youtube.com/watch?v=H5Sjp2XD_Ro)]
-  <br>To appear in the 58th Annual ACM Symposium on Theory of Computing. **STOC 2026**.
-  <details><summary style="color:#7C4700">Abstract</summary>
-  <font color = "7C4700"> 
-  The planar separator theorem by Lipton and Tarjan [FOCS '77, SIAM Journal on Applied Mathematics '79] states that any planar graph with $n$ vertices has a balanced separator of size $O(\sqrt{n})$ that can be found in linear time.  This landmark result kicked off decades of research on designing linear or nearly linear-time algorithms on planar graphs. In an attempt to generalize Lipton-Tarjan's theorem to nonplanar graphs, Alon, Seymour, and Thomas [STOC '90, Journal of the AMS '90] showed that any minor-free graph admits a balanced separator of size $O(\sqrt{n})$ that can be found in $O(n^{3/2})$ time. The superlinear running time in their separator theorem is a~key bottleneck for generalizing algorithmic results from planar to minor-free graphs. Despite extensive research for more than two decades, finding a balanced separator of size $O(\sqrt{n})$ in (linear) $O(n)$ time for minor-free graphs remains a major open problem.  Known algorithms either give a separator of size much larger than $O(\sqrt{n})$ or have superlinear running time, or both. <br><br> 
-  
-  In this paper, we answer the open problem affirmatively. Our algorithm is very simple: it runs a vertex-weighted variant of breadth-first search (BFS) a constant number of times on the input graph. Our key technical contribution is a weighting scheme on the vertices to guide the search for a balanced separator, offering a new connection between the size of a balanced separator and the existence of a clique-minor model. We believe that our weighting scheme may be of independent interest.  
-  </font>
-  </details>
-  
 - **Approximating Euclidean Shallow-Light Trees**
   <br>**Hung Le**, Shay Solomon, Cuong Than, Csaba D. Tóth,Tianyi Zhang.
   <br>[[PDF](https://arxiv.org/abs/2512.10797)]
-  <br>Manuscript.
+  <br>To appear in the 42th International Symposium on Computational Geometry. **SoCG 2026**.
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700"> 
   For a weighted graph $G = (V, E, w)$ and a designated source vertex $s \in V$, a spanning tree that simultaneously approximates a shortest-path tree w.r.t.\ source $s$ and a minimum spanning tree is called a shallow-light tree (SLT). Specifically, an $(\alpha, \beta)$-SLT of $G$ w.r.t.\ $s \in V$ is a spanning tree of $G$ with root-stretch $\alpha$ (preserving all distances between $s$ and all other vertices up to a factor of $\alpha$) and  lightness $\beta$ (its weight  is at most $\beta$ times the weight of a minimum spanning tree of $G$).<br><br>
@@ -29,12 +17,11 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   </font>
   </details>
   
-  
 
 - **Tree-Like Shortcuttings of Trees**
   <br>**Hung Le**, Lazar Milenković, Shay Solomon, Cuong Than.
   <br>[[PDF](https://arxiv.org/abs/2510.14918)]
-  <br>Manuscript.
+  <br>To appear in the 42th International Symposium on Computational Geometry. **SoCG 2026**.
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700"> 
   Sparse shortcuttings of trees---equivalently, sparse 1-spanners for tree metrics with bounded hop-diameter---have been studied extensively (under different names and settings), since the pioneering works of [Yao82, Cha87, AS87, BTS94], initially motivated by applications to range queries, online tree product, and MST verification, to name a few. These constructions were also lifted from trees to other graph families using known low-distortion embedding results. The works of [Yao82, Cha87, AS87, BTS94] establish a tight tradeoff between hop-diameter and sparsity (or average degree) for tree shortcuttings and imply constant-hop shortcuttings for $n$-node trees with sparsity $O(\log^* n)$. Despite their small sparsity, all known constant-hop shortcuttings contain dense subgraphs (of sparsity $\Omega(\log n)$), which is a significant drawback for many applications.
@@ -46,7 +33,31 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   </ul>
   </font>
   </details>
-
+  
+- **A Tight Lower Bound for Doubling Spanners**
+  <br>An La, **Hung Le**, Shay Solomon, Cuong Than, Shuang Yang, Tianyi Zhang.
+  <br>[[PDF](https://arxiv.org/abs/2508.11555)]
+  <br>To appear in the 42th International Symposium on Computational Geometry. **SoCG 2026**.
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  Euclidean space $\mathbb{R}^d$, for $d = O(1)$, admits a $(1+\epsilon)$-spanner with $\tilde{O}(n \cdot \epsilon^{-d+1})$ edges and lightness $\tilde{O}(\epsilon^{-d})$, for any  $\epsilon > 0$. Moreover, this result is  tight: For any $2 \le d = O(1)$, there exists an $n$-point set in $\mathbb{R}^d$,  for which any $(1+\epsilon)$-spanner has $\tilde{\Omega}(n \cdot \epsilon^{-d+1})$ edges and lightness $\tilde{\Omega}(n \cdot \epsilon^{-d})$.<br><br>  
+  
+  The upper bounds for Euclidean spanners rely heavily on the spatial property of cone partitioning in $\mathbb{R}^d$, which does not seem to extend to the wider family of doubling metrics, i.e., metric spaces of constant {\em doubling dimension}.  In doubling metrics, a simple spanner construction from two decades ago,  the net-tree spanner, has $\tilde{O}(n \cdot \epsilon^{-d})$ edges, and it could be transformed into a spanner of lightness  $\tilde{O}(n \cdot \epsilon^{-(d+1)})$ by pruning redundant edges. Despite a large body of work,  it has remained an open question whether the superior Euclidean bounds of $\tilde{O}(n \cdot \epsilon^{-d+1})$ edges and lightness $\tilde{O}(\epsilon^{-d})$ could be achieved also in doubling metrics. We resolve this question in the negative by presenting a surprisingly simple and tight lower bound, which shows, in particular, that the net-tree spanner and its pruned version are both optimal.
+  </font>
+  </details>
+  
+- **Separator Theorem for Minor-Free Graphs in Linear Time**
+  <br>Édouard Bonnet, Tuukka Korhonen, **Hung Le**, Jason Li, Tomáš Masařík.
+  <br>[[PDF](https://www.arxiv.org/abs/2512.01587)][[blog post](https://minorfree.github.io/SepLinear/)][[Talk by Tomáš Masařík](https://www.youtube.com/watch?v=H5Sjp2XD_Ro)]
+  <br>To appear in the 58th Annual ACM Symposium on Theory of Computing. **STOC 2026**.
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700"> 
+  The planar separator theorem by Lipton and Tarjan [FOCS '77, SIAM Journal on Applied Mathematics '79] states that any planar graph with $n$ vertices has a balanced separator of size $O(\sqrt{n})$ that can be found in linear time.  This landmark result kicked off decades of research on designing linear or nearly linear-time algorithms on planar graphs. In an attempt to generalize Lipton-Tarjan's theorem to nonplanar graphs, Alon, Seymour, and Thomas [STOC '90, Journal of the AMS '90] showed that any minor-free graph admits a balanced separator of size $O(\sqrt{n})$ that can be found in $O(n^{3/2})$ time. The superlinear running time in their separator theorem is a~key bottleneck for generalizing algorithmic results from planar to minor-free graphs. Despite extensive research for more than two decades, finding a balanced separator of size $O(\sqrt{n})$ in (linear) $O(n)$ time for minor-free graphs remains a major open problem.  Known algorithms either give a separator of size much larger than $O(\sqrt{n})$ or have superlinear running time, or both. <br><br> 
+  
+  In this paper, we answer the open problem affirmatively. Our algorithm is very simple: it runs a vertex-weighted variant of breadth-first search (BFS) a constant number of times on the input graph. Our key technical contribution is a weighting scheme on the vertices to guide the search for a balanced separator, offering a new connection between the size of a balanced separator and the existence of a clique-minor model. We believe that our weighting scheme may be of independent interest.  
+  </font>
+  </details>
+  
 
 
 - **Truly Subquadratic Time Algorithms for Diameter and Related Problems in Graphs of Bounded VC-dimension**
@@ -110,17 +121,6 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   </font>
   </details>
     
-- **A Tight Lower Bound for Doubling Spanners**
-  <br>An La, **Hung Le**, Shay Solomon, Cuong Than, Shuang Yang, Tianyi Zhang.
-  <br>[[PDF](https://arxiv.org/abs/2508.11555)]
-  <br>Manuscript.
-  <details><summary style="color:#7C4700">Abstract</summary>
-  <font color = "7C4700">
-  Euclidean space $\mathbb{R}^d$, for $d = O(1)$, admits a $(1+\epsilon)$-spanner with $\tilde{O}(n \cdot \epsilon^{-d+1})$ edges and lightness $\tilde{O}(\epsilon^{-d})$, for any  $\epsilon > 0$. Moreover, this result is  tight: For any $2 \le d = O(1)$, there exists an $n$-point set in $\mathbb{R}^d$,  for which any $(1+\epsilon)$-spanner has $\tilde{\Omega}(n \cdot \epsilon^{-d+1})$ edges and lightness $\tilde{\Omega}(n \cdot \epsilon^{-d})$.<br><br>  
-  
-  The upper bounds for Euclidean spanners rely heavily on the spatial property of cone partitioning in $\mathbb{R}^d$, which does not seem to extend to the wider family of doubling metrics, i.e., metric spaces of constant {\em doubling dimension}.  In doubling metrics, a simple spanner construction from two decades ago,  the net-tree spanner, has $\tilde{O}(n \cdot \epsilon^{-d})$ edges, and it could be transformed into a spanner of lightness  $\tilde{O}(n \cdot \epsilon^{-(d+1)})$ by pruning redundant edges. Despite a large body of work,  it has remained an open question whether the superior Euclidean bounds of $\tilde{O}(n \cdot \epsilon^{-d+1})$ edges and lightness $\tilde{O}(\epsilon^{-d})$ could be achieved also in doubling metrics. We resolve this question in the negative by presenting a surprisingly simple and tight lower bound, which shows, in particular, that the net-tree spanner and its pruned version are both optimal.
-  </font>
-  </details>
   
 - **Light Tree Covers, Routing, and Path-Reporting Oracles via Spanning Tree Covers in Doubling Graphs**
   <br>Hsien-Chih Chang and Jonathan Conroy and **Hung Le** and Shay Solomon and Cuong Than.
