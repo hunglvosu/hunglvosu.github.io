@@ -23,6 +23,9 @@ My technical blog [Rambling on Graphs](https://minorfree.github.io) is up. <br>
 
 I will be updating both good news, bad news and all kinds of news. 
 
+
+- **[March 2026]** I will serve as an Associate Editor of [TCS Journal](https://www.sciencedirect.com/journal/theoretical-computer-science/about/editorial-board).
+
 - **[Feb 2026]** One paper rejected from [SocG 2026](https://cgweek26.computational-geometry.org). Four other papers were accepted to SoCG 2026.
 
 - **[Feb 2026]** Two papers rejected from [STOC 2026](https://acm-stoc.org/stoc2026/). Two other papers were accepted to STOC 2026.
