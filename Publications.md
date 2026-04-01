@@ -1,6 +1,24 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
 
+
+- **Charting the Diameter Computation Landscape of Geometric Intersection Graphs in Three Dimensions and Higher**
+  <br>Timothy M Chan, Hsien-Chih Chang, Jie Gao, Sándor Kisfaludi-Bak, **Hung Le**, Da Wei Zheng.
+  <br>[[PDF](https://arxiv.org/abs/2603.21790)]
+  <br>To appear in the 42th International Symposium on Computational Geometry. **SoCG 2026**.
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700"> 
+  Recent research on computing the diameter of geometric intersection graphs has made significant strides, primarily focusing on the 2D case where truly subquadratic-time algorithms were given for simple objects such as unit disks and (axis-aligned) squares. However, in three or higher dimensions, there is no known truly subquadratic-time algorithm for any intersection graph of non-trivial objects, even basic ones such as unit balls or (axis-aligned) unit cubes.   This was partially explained by the pioneering work of Bringmann et al., which gave several truly subquadratic lower bounds, notably for unit balls or unit cubes in 3D when the graph diameter $\Delta$ is at least $\Omega(\log n)$, hinting at a pessimistic outlook for the complexity of the diameter problem in higher dimensions.  In this paper, we substantially extend the landscape of diameter computation for objects in three and higher dimensions, giving a few positive results. Our highlighted findings include:<br><br>
+  
+  <ul> <li> A truly subquadratic-time algorithm for deciding if the diameter of unit cubes in 3D is at most 3 (Diameter-3 hereafter), the first algorithm of its kind for objects in 3D or higher dimensions. Our algorithm is based on a novel connection to pseudolines, which is of independent interest.</li>
+  <li> A truly subquadratic time lower bound for Diameter-3 of unit balls in 3D under the Orthogonal Vector (OV) hypothesis, giving the first separation between unit balls and unit cubes in the small diameter regime. Previously, computing the diameter for both objects was known to be quadratic hard when the diameter is $\Omega(\log n)$. </li>
+  <li>A near-linear-time algorithm for Diameter-2 of unit cubes in 3D, generalizing the previous result for unit squares in 2D. </li>
+  <li>A truly subquadratic-time algorithm and lower bound for Diameter-2 and Diameter-3 of rectangular boxes (of arbitrary dimension and sizes), respectively.  </li>
+  </ul>
+  </font>
+  </details>
+  
+  
 - **Approximating Euclidean Shallow-Light Trees**
   <br>**Hung Le**, Shay Solomon, Cuong Than, Csaba D. Tóth,Tianyi Zhang.
   <br>[[PDF](https://arxiv.org/abs/2512.10797)]
