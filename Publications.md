@@ -1,10 +1,27 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
 
+- **A Polynomial Coreset for Furthest Neighbor in Planar Metrics**
+  <br>Kacper Kluk, **Hung Le**, Wojciech Nadara, Marcin Pilipczuk, Hector Tierno, Vinayak.
+  <br>[[PDF](https://arxiv.org/abs/2603.28100v1)]
+  <br>Manuscript.
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700"> 
+  A furthest neighbor data structure on a metric space $(V,\mathrm{dist})$ and a set $P \subseteq V$ answers the following query: given $v \in V$, output $p \in P$ maximizing $\mathrm{dist}(v,p)$; in the approximate version, it is allowed to report any $p \in P$ with $\mathrm{dist}(v,p) \geq (1-\epsilon)\max_{p' \in P} \mathrm{dist}(v,p')$ for an accuracy parameter $\epsilon \in (0,1)$. A particular type of approximate furthest neighbor data structure is an $\epsilon$-coreset: a small subset $Q \subseteq P$ such that for every query $v \in V$ there is a feasible answer $p \in Q$. <br><br>
+  Our main result is that in planar metrics, there always exists an $\epsilon$-coreset for furthest neighbors of size bounded polynomially in $(1/\epsilon)$. This improves upon an exponential bound of Bourneuf and Pilipczuk and resolves an open problem of de Berg and Theocharous for the case of polygons with holes.<br><br>
+  On the technical side, we develop a connection between $\epsilon$-coreset for furthest neighbors and an invariant of a metric space that we call an $\epsilon$-comatching index --- a sibling of \text{$\epsilon$-(semi-)ladder} index, a.k.a,  $\epsilon$-scatter dimension, as defined by Abbasi et al. While the $\epsilon$-(semi-)ladder index of planar metrics admits an exponential lower bound, we show that the $\epsilon$-comatching index of planar metrics is polynomial, all in $1/\epsilon$. The exponential separation between $\epsilon$-(semi-)ladder and $\epsilon$-comatching is rather surprising, and the proof is the main technical contribution of our work. <br><br>
+  Building on our new technical ideas, we provide two extensions:<br><br>
+  
+  <ul> <li> We show an $\epsilon$-coreset for $k$-center in planar metrics of size polynomial in $(1/\epsilon)$ for fixed $k$ (furthest neighbor coreset is a special case of $k$-center when $k=1$). We complement this result with an exponential coreset lower bound of $2^{\Omega(1/\epsilon)}$ for $k$-center when $k = 1/\epsilon$. In the regime of fixed $k$, our result substantially improves the recent $\epsilon$-coreset for $k$-center of Bourneuf and Pilipczuk who showed a coreset bound $O(k)^{\mathrm{poly}(1/\epsilon)}$. </li>
+  <li> We extend all our results to metrics induced by graphs of bounded Euler genus, with a polynomial dependency on the genus in the bound on the size of the coreset. We complement these upper bounds with a lower bound construction showing that, going beyond bounded genus graphs, e.g., minor-free graphs,  the comatching index and $\epsilon$-coreset for furthest neighbors must be exponential in $1/\epsilon$. </li>
+  </ul>  
+  </font>
+  </details>
+  
 - **Fine-Grained Complexity of Continuous Euclidean k-Center**
   <br>Lotte Blank, Karl Bringmann, Parinya Chalermsook, Karthik C. S., Benedikt Kolbe, **Hung Le**, Geert van Wordragen.
   <br>[[PDF](https://arxiv.org/abs/2603.28265v1)]
-  <br>To appear in the 58th Annual ACM Symposium on Theory of Computing. **STOC 2026**..
+  <br>To appear in the 58th Annual ACM Symposium on Theory of Computing. **STOC 2026**.
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700"> 
   In the (continuous) Euclidean $k$-center problem, given $n$ points in $\mathbb{R}^d$ and an integer $k$, the goal is to find $k$ center points in $\mathbb{R}^d$ that minimize the maximum Euclidean distance from any input point to its closest center. In this paper, we establish conditional lower bounds for this problem in constant dimensions in two settings.<br><br>
