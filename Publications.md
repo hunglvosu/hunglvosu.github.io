@@ -1,6 +1,21 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
 
+- **Fine-Grained Complexity of Continuous Euclidean k-Center**
+  <br>Lotte Blank, Karl Bringmann, Parinya Chalermsook, Karthik C. S., Benedikt Kolbe, **Hung Le**, Geert van Wordragen.
+  <br>[[PDF](https://arxiv.org/abs/2603.28265v1)]
+  <br>To appear in the 58th Annual ACM Symposium on Theory of Computing. **STOC 2026**..
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700"> 
+  In the (continuous) Euclidean $k$-center problem, given $n$ points in $\mathbb{R}^d$ and an integer $k$, the goal is to find $k$ center points in $\mathbb{R}^d$ that minimize the maximum Euclidean distance from any input point to its closest center. In this paper, we establish conditional lower bounds for this problem in constant dimensions in two settings.<br><br>
+  
+  <ul> <li> Assuming the Exponential Time Hypothesis (ETH), we show that there is no $f(k)n^{o(k^{1-1/d})}$-time algorithm for the Euclidean $k$-center problem. This result shows that the algorithm of Agarwal and Procopiuc is essentially optimal. Furthermore, our lower bound rules out any $(1+\varepsilon)$-approximation algorithm running in time $(k/\varepsilon)^{o(k^{1-1/d})}n^{O(1)}$, thereby establishing near-optimality of the corresponding approximation scheme by the same authors.</li>
+  <li> Assuming the 3-SUM hypothesis, we prove that for any $\varepsilon>0$ there is no $O(n^{2-\varepsilon})$-time algorithm for the Euclidean $2$-center problem in $\mathbb{R}^3$. This settles an open question posed by Agarwal, Ben Avraham, and Sharir. In addition, under the same hypothesis, we prove that for any $\varepsilon > 0$, the Euclidean $6$-center problem in $\mathbb{R}^2$ also admits no $O(n^{2-\varepsilon})$-time algorithm.</li>
+  </ul>
+  The technical core of all our proofs is a novel geometric embedding of a system of linear equations. We construct a point set where each variable corresponds to a specific collection of points, and the geometric structure ensures that a small-radius clustering is possible if and only if the system has a valid solution.  
+  </font>
+  </details>
+  
 
 - **Charting the Diameter Computation Landscape of Geometric Intersection Graphs in Three Dimensions and Higher**
   <br>Timothy M Chan, Hsien-Chih Chang, Jie Gao, Sándor Kisfaludi-Bak, **Hung Le**, Da Wei Zheng.
