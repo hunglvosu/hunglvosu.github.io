@@ -23,6 +23,7 @@ My technical blog [Rambling on Graphs](https://minorfree.github.io) is up. <br>
 
 I will be updating both good news, bad news and all kinds of news. 
 
+- **[April 2026]** Three new papers uploaded to Arxiv: [here](https://arxiv.org/abs/2603.28100v1), [here](https://arxiv.org/abs/2603.28265v1) and [here](https://arxiv.org/abs/2603.21790).   
 
 - **[March 2026]** I will serve as an Associate Editor of [TCS Journal](https://www.sciencedirect.com/journal/theoretical-computer-science/about/editorial-board).
 
@@ -41,11 +42,6 @@ I will be updating both good news, bad news and all kinds of news.
  - **[Oct 2025]** I will be serving on the PC of [SOCG 2026](https://cgweek26.computational-geometry.org) and [COCOON 2026](https://event.ntu.edu.sg/cocoon2026).   
  
  - **[Oct 2025]** Our paper "Truly Subquadratic Time Algorithms for Diameter and Related Problems in Graphs of Bounded VC-dimension" was uploaded to [Arxiv](https://arxiv.org/abs/2510.16346).   
-
- - **[October 2025]** One paper was rejected from [SOSA 26](https://www.siam.org/conferences-events/siam-conferences/sosa26/).
-
- - **[October 2025]** One paper was rejected from [SODA 26](https://www.siam.org/conferences-events/siam-conferences/soda26/) and two papers were accepted at SODA 26.
-
 
  
 
