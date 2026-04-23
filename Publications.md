@@ -1,7 +1,7 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
 - **Coarse Balanced Separators in Fat-Minor-Free Graphs**
-  <br>\'Edouard Bonnet and **Hung Le** and Marcin Pilipczuk and Micha\l{} Pilipczuk.
+  <br>Édouard Bonnet and **Hung Le** and Marcin Pilipczuk and Michał Pilipczuk.
   <br>[[PDF](https://arxiv.org/abs/2604.11318)]
   <br> Manuscript. 
   <details><summary style="color:#7C4700">Abstract</summary>
