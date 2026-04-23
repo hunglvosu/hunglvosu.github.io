@@ -1,5 +1,15 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
+- **Coarse Balanced Separators in Fat-Minor-Free Graphs**
+  <br>\'Edouard Bonnet and **Hung Le** and Marcin Pilipczuk and Micha\l{} Pilipczuk.
+  <br>[[PDF](https://arxiv.org/abs/2604.11318)]
+  <br> Manuscript. 
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  Fat minors are a coarse analogue of graph minors where the subgraphs modeling vertices and edges of the embedded graph are required to be distant from each other, instead of just being disjoint. In this paper, we give a coarse analogue of the classic theorem that an $n$-vertex graph excluding a fixed minor admits a balanced separator of size $O(\sqrt{n})$. Specifically, we prove that for every integer~$d$, real $\epsilon >0$, and graph~$H$, there exist constants $c$ and $r$ such that every $n$-vertex graph $G$ excluding $H$ as a~$d$-fat minor admits a set $S \subseteq V(G)$ that is a balanced separator of $G$ and can be covered by $c n^{\frac{1}{2}+\epsilon}$ balls of radius $r$ in $G$. Our proof also works in the weighted setting where the balance of the separator is measured with respect to any weight function on the vertices, and is effective: we obtain a~randomized polynomial-time algorithm to compute either such a balanced separator, or a $d$-fat model of $H$ in $G$.<br>
+  </font>
+  </details>
+  
 - **Charting the Diameter Computation Landscape on Intersection Graphs in the Plane**
   <br>Timothy M Chan, Hsien-Chih Chang, Jie Gao, Sándor Kisfaludi-Bak, **Hung Le**, Da Wei Zheng.
   <br>[[PDF](https://arxiv.org/abs/2603.21790)]
