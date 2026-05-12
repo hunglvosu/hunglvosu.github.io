@@ -1,5 +1,15 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
+- **A Separator for Minor-Free Graphs Beyond the Flow Barrier**
+  <br>[[PDF](https://arxiv.org/abs/2605.05494)]
+  <br> Manuscript. 
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  In 1990, Alon, Seymour, and Thomas gave the first balanced separator of size $O(h^{3/2}\sqrt{n})$ for any $K_h$-minor-free graph, which has had numerous algorithmic applications. They conjectured that the size of the balanced separator can be reduced to $O(h\sqrt{n})$, which is asymptotically tight. Two decades later, Kawarabayashi and Reed constructed a separator of size $O(h\sqrt{n} + f(h))$ based on the graph minor structure theorem, where $f(h)$ is an extremely fast-growing function typically seen in the structure theorem; their separator's size is only better than that of  Alon, Seymour, and Thomas for a very small value of $h$.  Recently, Spalding-Jamieson constructed a separator of size $O(h\log h \log\log h \sqrt{n})$; the technique is rooted in concurrent flow-sparsest cut duality.   Spalding-Jamieson's separator comes very close to $O(h\log h \sqrt{n})$, which is the barrier for techniques based on the flow-cut duality.  <br><br>
+  In this work, we first observe that plugging in the recent padded decomposition by Filtser and Conroy into the flow-based algorithm of Korhonen and Lokshtanov yields a balanced separator of size $O(h\log h \sqrt{n})$, matching the flow barrier. This result motivates the question of whether the flow barrier can be broken, which would be a stepping stone toward resolving the conjecture of Alon, Seymour, and Thomas. The main result of our work is a positive answer to this question: we construct a balanced separator of size $O(h \sqrt{\log h} \sqrt{n})$. Surprisingly, perhaps, our algorithm is still based on the iterative framework of Alon, Seymour, and Thomas, although a key component of their algorithm within this framework, called the neighborhood bound, was shown to be tight. Our new idea is to incorporate a low-diameter decomposition into the framework, which allows us to reduce the neighborhood bound by a factor of $h$, at the cost of a factor $\log h$. As a result, we improve the $\sqrt{h}$ factor to $\sqrt{\log h}$ in the final separator's size. Erasing $\sqrt{\log h}$ entirely seems to require substantially new ideas.
+  </font>
+  </details>
+  
 - **Coarse Balanced Separators in Fat-Minor-Free Graphs**
   <br>Édouard Bonnet and **Hung Le** and Marcin Pilipczuk and Michał Pilipczuk.
   <br>[[PDF](https://arxiv.org/abs/2604.11318)]
@@ -9,10 +19,11 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   Fat minors are a coarse analogue of graph minors where the subgraphs modeling vertices and edges of the embedded graph are required to be distant from each other, instead of just being disjoint. In this paper, we give a coarse analogue of the classic theorem that an $n$-vertex graph excluding a fixed minor admits a balanced separator of size $O(\sqrt{n})$. Specifically, we prove that for every integer~$d$, real $\epsilon >0$, and graph~$H$, there exist constants $c$ and $r$ such that every $n$-vertex graph $G$ excluding $H$ as a~$d$-fat minor admits a set $S \subseteq V(G)$ that is a balanced separator of $G$ and can be covered by $c n^{\frac{1}{2}+\epsilon}$ balls of radius $r$ in $G$. Our proof also works in the weighted setting where the balance of the separator is measured with respect to any weight function on the vertices, and is effective: we obtain a~randomized polynomial-time algorithm to compute either such a balanced separator, or a $d$-fat model of $H$ in $G$.<br>
   </font>
   </details>
+
   
 - **Charting the Diameter Computation Landscape on Intersection Graphs in the Plane**
   <br>Timothy M Chan, Hsien-Chih Chang, Jie Gao, Sándor Kisfaludi-Bak, **Hung Le**, Da Wei Zheng.
-  <br>[[PDF](https://arxiv.org/abs/2603.21790)]
+  <br>[[PDF](https://arxiv.org/abs/2605.10692)]
   <br>To appear in the 53rd EATCS International Colloquium on Automata, Languages, and Programming. **ICALP 2026**.
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700"> 
