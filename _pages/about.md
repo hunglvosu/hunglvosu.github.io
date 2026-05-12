@@ -23,6 +23,8 @@ My technical blog [Rambling on Graphs](https://minorfree.github.io) is up. <br>
 
 I will be updating both good news, bad news and all kinds of news. 
 
+- **[May 2026]** Two new papers uploaded to Arxiv: [here](https://arxiv.org/abs/2605.05494) and [here](https://arxiv.org/abs/2605.10692).   
+
 - **[April 2026]** One paper accepted to [ICALP26](https://icalppodcspaa2026.cs.rhul.ac.uk/icalp/), another paper uploaded to [Arxiv](https://arxiv.org/abs/2604.11318).
 
 - **[April 2026]** Three new papers uploaded to Arxiv: [here](https://arxiv.org/abs/2603.28100v1), [here](https://arxiv.org/abs/2603.28265v1) and [here](https://arxiv.org/abs/2603.21790).   
@@ -40,9 +42,6 @@ I will be updating both good news, bad news and all kinds of news.
 - **[Nov 2025]** Our paper "Tree-Like Shortcuttings of Trees" was uploaded to [Arxiv](https://arxiv.org/abs/2510.14918). 
   
  - **[Nov 2025]** One paper was rejected from [ITCS 26](http://itcs-conf.org).
-
- - **[Oct 2025]** I will be serving on the PC of [SOCG 2026](https://cgweek26.computational-geometry.org) and [COCOON 2026](https://event.ntu.edu.sg/cocoon2026).   
-  
 
  
  
