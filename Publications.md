@@ -42,7 +42,7 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
 - **A Polynomial Coreset for Furthest Neighbor in Planar Metrics**
   <br>Kacper Kluk, **Hung Le**, Wojciech Nadara, Marcin Pilipczuk, Hector Tierno, Vinayak.
   <br>[[PDF](https://arxiv.org/abs/2603.28100v1)]
-  <br>Manuscript.
+  <br>To appear in the 67th IEEE Symposium on the Foundations of Computer Science. **FOCS 2026**.
   <details><summary style="color:#7C4700">Abstract</summary>
   <font color = "7C4700"> 
   A furthest neighbor data structure on a metric space $(V,\mathrm{dist})$ and a set $P \subseteq V$ answers the following query: given $v \in V$, output $p \in P$ maximizing $\mathrm{dist}(v,p)$; in the approximate version, it is allowed to report any $p \in P$ with $\mathrm{dist}(v,p) \geq (1-\epsilon)\max_{p' \in P} \mathrm{dist}(v,p')$ for an accuracy parameter $\epsilon \in (0,1)$. A particular type of approximate furthest neighbor data structure is an $\epsilon$-coreset: a small subset $Q \subseteq P$ such that for every query $v \in V$ there is a feasible answer $p \in Q$. <br><br>
