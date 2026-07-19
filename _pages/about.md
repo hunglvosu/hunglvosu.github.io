@@ -23,6 +23,8 @@ My technical blog [Rambling on Graphs](https://minorfree.github.io) is up. <br>
 
 I will be updating both good news, bad news and all kinds of news. 
 
+- **[July 2026]** Our paper "Planar Embedding of Okamura-Seymour Quasimetrics in Polynomial Time with an Application to Distributed SSSP" was uploaded to [Arxiv](https://arxiv.org/abs/2606.31192). 
+
 - **[July 2026]** One paper rejected from [FOCS 2026](https://focs.computer.org/2026/), and one paper accepted to FOCS 2026.
 
 - **[May 2026]** Two new papers uploaded to Arxiv: [here](https://arxiv.org/abs/2605.05494) and [here](https://arxiv.org/abs/2605.10692).   
@@ -40,8 +42,6 @@ I will be updating both good news, bad news and all kinds of news.
 - **[Dec 2025]** Our paper "Approximating Euclidean Shallow-Light Trees" was uploaded to [Arxiv](https://arxiv.org/abs/2512.10797). 
 
 - **[Dec 2025]** Our paper "Separator Theorem for Minor-Free Graphs in Linear Time" was uploaded to [Arxiv](https://www.arxiv.org/abs/2512.01587). 
-
-- **[Nov 2025]** Our paper "Tree-Like Shortcuttings of Trees" was uploaded to [Arxiv](https://arxiv.org/abs/2510.14918). 
   
 
  
