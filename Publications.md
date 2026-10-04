@@ -1,5 +1,17 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
+- **Fatness and Flatness**
+  <br>Arnold Filtser and **Hung Le** and Nikolas Mählmann and Marcin Pilipczuk and Michał Pilipczuk.
+  <br>[[PDF](https://arxiv.org/abs/2607.21474)]
+  <br> Manuscript.
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "#7C4700">
+  Fat minors extend graph minors to weighted graphs and suitable metric spaces. We establish a structural consequence of excluding a fixed $\delta$-fat minor: a metric version of flatness, or uniform quasi-wideness, which we call drill-flatness. For sufficiently large scales $\alpha\geq\beta$ relative to $\delta$, every sufficiently large vertex set contains a sizable subset that becomes $\alpha$-scattered after deleting a bounded number of radius-$\beta$ balls. The argument only requires excluding shallow fat minors whose branch sets have radius at most $2\alpha$.<br><br>
+  This yields bounded $\varepsilon$-scatter dimension at scales sufficiently large relative to $\delta$. Together with the results of Abbasi et al. (FOCS 2023), it gives a $k$-Center algorithm for metrics excluding $H$ as a $\delta$-fat minor. The algorithm runs in $O_{H,\varepsilon}(n^{O(1)})$ time and achieves cost at most $(1+\varepsilon)\mathsf{OPT}+O(\delta/\varepsilon^2)$.<br><br>
+  For hereditary classes of unweighted graphs, we also characterize drill-flatness through the exclusion of shallow induced minors. This provides an induced-minor counterpart to the classical equivalence between flatness and nowhere denseness.
+  </font>
+  </details>
+  
 - **Three trees suffice for a constant stretch in minor-free graphs**
   <br>**Hung Le** and Huy Pham and Cuong Than and Tuan Tran.
   <br>[[PDF](https://arxiv.org/abs/2608.13508)]
