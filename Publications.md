@@ -1,5 +1,39 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
+- **Three trees suffice for a constant stretch in minor-free graphs**
+  <br>**Hung Le** and Huy Pham and Cuong Than and Tuan Tran.
+  <br>[[PDF](https://arxiv.org/abs/2608.13508)]
+  <br> Manuscript.
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "#7C4700">
+  For every fixed graph $H$, we prove that three trees suffice to form a constant-stretch tree cover of any $H$-minor-free graph. This number is optimal: a recent result of Chen, Tan, and Xu establishes that constant-stretch tree covers of toroidal grids need at least three trees. Our proof connects tree covers to Assouad--Nagata dimension and applies Liu's recent bound on this dimension for minor-free metrics.
+  </font>
+  </details>
+
+- **Improved Euclidean Shallow Light Trees**
+  <br>**Hung Le** and Shay Solomon and Cuong Than and Csaba D. Tóth and Tianyi Zhang.
+  <br>[[PDF](https://arxiv.org/abs/2608.03951)]
+  <br> Manuscript.
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "#7C4700">
+  A rooted spanning tree is an $(\alpha,\beta)$-shallow-light tree (SLT) when its root-to-vertex distances are at most $\alpha$ times the corresponding graph distances and its total weight is at most $\beta$ times the minimum spanning tree weight. Khuller, Raghavachari, and Young (SODA 1993) obtained $(1+\epsilon,1+2/\epsilon)$-SLTs, with an optimal tradeoff for general graphs, including series-parallel graphs. They asked whether Euclidean geometry permits a lightness bound of $(2-c)/\epsilon$ for some constant $c>0$.<br><br>
+  We answer this question affirmatively. For Euclidean instances, we obtain root-stretch $1+\epsilon$ and lightness $\left(\frac{5}{3}+o_\epsilon(1)\right)\frac{1}{\epsilon}$.<br><br>
+  In the Euclidean plane, we improve the lightness further to $\left(\frac{2\pi}{\sqrt{4\pi^2+1}}+o_\epsilon(1)\right)\frac{1}{\epsilon}\approx(0.987+o_\epsilon(1))\frac{1}{\epsilon}$. This improves the previous leading constant by more than a factor of two and approaches the lower bound $\left(\frac{2\pi}{2\pi+1}+o_\epsilon(1)\right)\frac{1}{\epsilon}\approx(0.862+o_\epsilon(1))\frac{1}{\epsilon}$ of Elkin and Solomon (FOCS 2011).
+  </font>
+  </details>
+
+- **Fatness and Flatness**
+  <br>Arnold Filtser and **Hung Le** and Nikolas Mählmann and Marcin Pilipczuk and Michał Pilipczuk.
+  <br>[[PDF](https://arxiv.org/abs/2607.21474)]
+  <br> Manuscript.
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "#7C4700">
+  Fat minors extend graph minors to weighted graphs and suitable metric spaces. We establish a structural consequence of excluding a fixed $\delta$-fat minor: a metric version of flatness, or uniform quasi-wideness, which we call drill-flatness. For sufficiently large scales $\alpha\geq\beta$ relative to $\delta$, every sufficiently large vertex set contains a sizable subset that becomes $\alpha$-scattered after deleting a bounded number of radius-$\beta$ balls. The argument only requires excluding shallow fat minors whose branch sets have radius at most $2\alpha$.<br><br>
+  This yields bounded $\varepsilon$-scatter dimension at scales sufficiently large relative to $\delta$. Together with the results of Abbasi et al. (FOCS 2023), it gives a $k$-Center algorithm for metrics excluding $H$ as a $\delta$-fat minor. The algorithm runs in ${\cal O}_{H,\varepsilon}(n^{{\cal O}(1)})$ time and achieves cost at most $(1+\varepsilon)\mathsf{OPT}+{\cal O}(\delta/\varepsilon^2)$.<br><br>
+  For hereditary classes of unweighted graphs, we also characterize drill-flatness through the exclusion of shallow induced minors. This provides an induced-minor counterpart to the classical equivalence between flatness and nowhere denseness.
+  </font>
+  </details>
+  
 - **Planar Embedding of Okamura-Seymour Quasimetrics in Polynomial Time with an Application to Distributed SSSP**
   <br>**Hung Le** and Hector Tierno and Shuang Yang.
   <br>[[PDF](https://arxiv.org/abs/2606.31192)]
