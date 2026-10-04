@@ -2,10 +2,10 @@
 
 - [Cuong Than](https://thanvietcuong.github.io) (Summer 2021)
 - [An La](https://anla-cs.github.io) (Fall 2021)
-- Vinayak (Fall 2023)
 - Shuang Yang (Fall 2023)
-- Purna Dutta (Fall 2024), jointly advised by Andrew McGregor. 
+- [Purna Dutta](https://purnadutta.github.io) (Fall 2024), jointly advised by Andrew McGregor. 
 - Hector Tierno (Spring 2025)
+- Vinayak (Fall 2023- Spring 2026) (now advised by Andrew McGregor)
 
 **Undergraduate Students**
 
@@ -24,5 +24,6 @@
 - Christopher Lim (Lexington High School), Summer 2022. His research report [here](https://docs.google.com/document/d/1UfwNaYc-p_eTSg6QqEQDW_xrX0vwlLODLNpQj32-OLw/edit).
 - Jason Alexander (Lexington High School), Summer 2023.
 - Aadya Goel (Acton-Boxborough Regional High School), Summer 2024. 
+- Truman Scoppetto (Natick High School), Summer 2026
 
 
