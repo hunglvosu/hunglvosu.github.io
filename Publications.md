@@ -9,19 +9,6 @@ My research has been generously supported by two NSF grants:  [CCF-2121952](http
   For every fixed graph $H$, we prove that three trees suffice to form a constant-stretch tree cover of any $H$-minor-free graph. This number is optimal: a recent result of Chen, Tan, and Xu establishes that constant-stretch tree covers of toroidal grids need at least three trees. Our proof connects tree covers to Assouad--Nagata dimension and applies Liu's recent bound on this dimension for minor-free metrics.
   </font>
   </details>
-
-
-- **Fatness and Flatness**
-  <br>Arnold Filtser and **Hung Le** and Nikolas Mählmann and Marcin Pilipczuk and Michał Pilipczuk.
-  <br>[[PDF](https://arxiv.org/abs/2607.21474)]
-  <br> Manuscript.
-  <details><summary style="color:#7C4700">Abstract</summary>
-  <font color = "#7C4700">
-  Fat minors extend graph minors to weighted graphs and suitable metric spaces. We establish a structural consequence of excluding a fixed $\delta$-fat minor: a metric version of flatness, or uniform quasi-wideness, which we call drill-flatness. For sufficiently large scales $\alpha\geq\beta$ relative to $\delta$, every sufficiently large vertex set contains a sizable subset that becomes $\alpha$-scattered after deleting a bounded number of radius-$\beta$ balls. The argument only requires excluding shallow fat minors whose branch sets have radius at most $2\alpha$.<br><br>
-  This yields bounded $\varepsilon$-scatter dimension at scales sufficiently large relative to $\delta$. Together with the results of Abbasi et al. (FOCS 2023), it gives a $k$-Center algorithm for metrics excluding $H$ as a $\delta$-fat minor. The algorithm runs in ${\cal O}_{H,\varepsilon}(n^{{\cal O}(1)})$ time and achieves cost at most $(1+\varepsilon)\mathsf{OPT}+{\cal O}(\delta/\varepsilon^2)$.<br><br>
-  For hereditary classes of unweighted graphs, we also characterize drill-flatness through the exclusion of shallow induced minors. This provides an induced-minor counterpart to the classical equivalence between flatness and nowhere denseness.
-  </font>
-  </details>
   
 - **Planar Embedding of Okamura-Seymour Quasimetrics in Polynomial Time with an Application to Distributed SSSP**
   <br>**Hung Le** and Hector Tierno and Shuang Yang.
