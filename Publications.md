@@ -1,5 +1,17 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
+- **Improved Euclidean Shallow Light Trees**
+  <br>**Hung Le** and Shay Solomon and Cuong Than and Csaba D. Tóth and Tianyi Zhang.
+  <br>[[PDF](https://arxiv.org/abs/2608.03951)]
+  <br> To appear in the 38th Annual ACM-SIAM Symposium on Discrete Algorithms. **SODA 2027**.
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "#7C4700">
+  A rooted spanning tree is an $(\alpha,\beta)$-shallow-light tree (SLT) when its root-to-vertex distances are at most $\alpha$ times the corresponding graph distances and its total weight is at most $\beta$ times the minimum spanning tree weight. Khuller, Raghavachari, and Young (SODA 1993) obtained $(1+\epsilon,1+2/\epsilon)$-SLTs, with an optimal tradeoff for general graphs, including series-parallel graphs. They asked whether Euclidean geometry permits a lightness bound of $(2-c)/\epsilon$ for some constant $c>0$.<br><br>
+  We answer this question affirmatively. For Euclidean instances, we obtain root-stretch $1+\epsilon$ and lightness $\left(\frac{5}{3}+o_\epsilon(1)\right)\frac{1}{\epsilon}$.<br><br>
+  In the Euclidean plane, we improve the lightness further to $\left(\frac{2\pi}{\sqrt{4\pi^2+1}}+o_\epsilon(1)\right)\frac{1}{\epsilon}\approx(0.987+o_\epsilon(1))\frac{1}{\epsilon}$. This improves the previous leading constant by more than a factor of two and approaches the lower bound $\left(\frac{2\pi}{2\pi+1}+o_\epsilon(1)\right)\frac{1}{\epsilon}\approx(0.862+o_\epsilon(1))\frac{1}{\epsilon}$ of Elkin and Solomon (FOCS 2011).
+  </font>
+  </details>
+  
 - **Fatness and Flatness**
   <br>Arnold Filtser and **Hung Le** and Nikolas Mählmann and Marcin Pilipczuk and Michał Pilipczuk.
   <br>[[PDF](https://arxiv.org/abs/2607.21474)]
