@@ -23,6 +23,11 @@ My technical blog [Rambling on Graphs](https://minorfree.github.io) is up. <br>
 
 I will be updating both good news, bad news and all kinds of news. 
 
+
+- **[September 2026]** Five papers rejected from [SODA 27](https://www.siam.org/conferences-events/siam-conferences/soda27/), and two papers accepted to SODA 2027. This SODA is unusually competitive (for obvious reasons); several strong papers of mine were rejected.
+
+- **[September 2026]** Three new papers uploaded to Arxiv: [here](https://arxiv.org/abs/2608.13508), [here](https://arxiv.org/abs/2608.03951) and [here](https://arxiv.org/abs/2607.21474).  
+ 
 - **[July 2026]** Our paper "Planar Embedding of Okamura-Seymour Quasimetrics in Polynomial Time with an Application to Distributed SSSP" was uploaded to [Arxiv](https://arxiv.org/abs/2606.31192). 
 
 - **[July 2026]** One paper rejected from [FOCS 2026](https://focs.computer.org/2026/), and one paper accepted to FOCS 2026.
@@ -38,11 +43,6 @@ I will be updating both good news, bad news and all kinds of news.
 - **[Feb 2026]** One paper rejected from [SocG 2026](https://cgweek26.computational-geometry.org). Four other papers were accepted to SoCG 2026.
 
 - **[Feb 2026]** Two papers rejected from [STOC 2026](https://acm-stoc.org/stoc2026/). Two other papers were accepted to STOC 2026.
-
-- **[Dec 2025]** Our paper "Approximating Euclidean Shallow-Light Trees" was uploaded to [Arxiv](https://arxiv.org/abs/2512.10797). 
-
-- **[Dec 2025]** Our paper "Separator Theorem for Minor-Free Graphs in Linear Time" was uploaded to [Arxiv](https://www.arxiv.org/abs/2512.01587). 
-  
 
  
  
