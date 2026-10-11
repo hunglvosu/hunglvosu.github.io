@@ -24,6 +24,8 @@ My technical blog [Rambling on Graphs](https://minorfree.github.io) is up. <br>
 I will be updating both good news, bad news and all kinds of news. 
 
 
+- **[Oct 2026]** Our paper "Peeling Half the Onion: Embedding $k$-Outerplanar Graphs into $\ell_1$ and Trees with a Polynomial Distortion (in $k$)" was uploaded to [Arxiv](https://arxiv.org/abs/2610.10888). 
+
 - **[September 2026]** Five papers rejected from [SODA 27](https://www.siam.org/conferences-events/siam-conferences/soda27/), and two papers accepted to SODA 2027. This SODA is unusually competitive (for obvious reasons); several strong papers of mine were rejected.
 
 - **[September 2026]** Three new papers uploaded to Arxiv: [here](https://arxiv.org/abs/2608.13508), [here](https://arxiv.org/abs/2608.03951) and [here](https://arxiv.org/abs/2607.21474).  
@@ -42,7 +44,6 @@ I will be updating both good news, bad news and all kinds of news.
 
 - **[Feb 2026]** One paper rejected from [SocG 2026](https://cgweek26.computational-geometry.org). Four other papers were accepted to SoCG 2026.
 
-- **[Feb 2026]** Two papers rejected from [STOC 2026](https://acm-stoc.org/stoc2026/). Two other papers were accepted to STOC 2026.
 
  
  

@@ -1,5 +1,16 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
+- **Peeling Half the Onion: Embedding $k$-Outerplanar Graphs into $\ell_1$ and Trees with a Polynomial Distortion (in $k$)**
+  <br>Hsien-Chih Chang and Jonathan Conroy and William Eliot and **Hung Le** and Vinayak.
+  <br>[[PDF](https://arxiv.org/abs/2610.10888)]
+  <br> To appear in the 38th Annual ACM-SIAM Symposium on Discrete Algorithms. **SODA 2027**.
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "#7C4700">
+  In their SODA 2003 paper, Chekuri, Gupta, Newman, Rabinovich, and Sinclair obtained embeddings of $k$-outerplanar graphs into trees and $\ell_1$ with $2^{O(k)}$ distortion. This provides evidence for the conjecture that all planar metrics admit constant-distortion embeddings into $\ell_1$, but the exponential dependence on $k$ has persisted. Their construction recursively removes a single outer layer, paying a constant multiplicative distortion at each stage.<br><br>
+  We introduce a different onion-peeling method that removes half of the remaining layers in each step. This yields embeddings into trees and $\ell_1$ whose distortion is polynomial in $k$, improving exponentially on the previous bound. For tree embeddings, the result also narrows the gap to the known $\Omega(k)$ distortion lower bound.
+  </font>
+  </details>
+  
 - **Improved Euclidean Shallow Light Trees**
   <br>**Hung Le** and Shay Solomon and Cuong Than and Csaba D. Tóth and Tianyi Zhang.
   <br>[[PDF](https://arxiv.org/abs/2608.03951)]
