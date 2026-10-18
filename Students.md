@@ -21,9 +21,9 @@
 
 **High School Students**
 
-- Christopher Lim (Lexington High School), Summer 2022. His research report [here](https://docs.google.com/document/d/1UfwNaYc-p_eTSg6QqEQDW_xrX0vwlLODLNpQj32-OLw/edit).
+- Christopher Lim (Lexington High School), Summer 2022. Christopher's research report [here](https://docs.google.com/document/d/1UfwNaYc-p_eTSg6QqEQDW_xrX0vwlLODLNpQj32-OLw/edit).
 - Jason Alexander (Lexington High School), Summer 2023.
 - Aadya Goel (Acton-Boxborough Regional High School), Summer 2024. 
-- Truman Scoppetto (Natick High School), Summer 2026
+- Truman Scoppetto (Natick High School), Summer 2026. Truman's [research report](https://github.com/Peanut-soup/thrackle-db682-computation/blob/main/Another_Brick_in_the_Wall.pdf).
 
 
