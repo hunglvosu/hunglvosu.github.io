@@ -1,5 +1,45 @@
 My research has been generously supported by two NSF grants:  [CCF-2121952](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2121952) and [CCF-2237288](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2237288)
 
+- **Flow-Optimal Separators for Minor-Free and Induced-Minor-Free Graphs in Linear Time via Follow the Regularized Leader**
+  <br>**Hung Le** and Jack Spalding-Jamieson.
+  <br>[[PDF](https://arxiv.org/abs/2611.05756)]
+  <br> Manuscript.
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  We give a new algorithm for finding balanced separators in minor-free and induced-minor-free graphs. A key technical idea is a new connection to online learning: we formulate a continuous, non-convex optimization problem and solve it using the Follow the Regularized Leader (FTRL) framework. Our implementation of each FTRL step yields a purely combinatorial algorithm that assigns and adjusts vertex weights over multiple rounds.<br><br>
+  For graphs with $n$ vertices and $m$ edges, we obtain the following results.<br><br>
+  (1) For $H$-induced-minor-free graphs, we find a balanced separator of size $O(\log(|V(H)|)\sqrt{|V(H)|+|E(H)|}\sqrt{m})$ in expected linear time for fixed $H$. As a corollary, we find balanced separators of size $O(\sqrt{m})$ in string graphs in expected linear time, without requiring string representations.<br><br>
+  (2) For $K_h$-minor-free graphs, we find a balanced separator of size $O(h\log h\sqrt{n})$ in expected linear time for fixed $h$. Our algorithm unifies two long lines of work on separators in minor-free graphs, dating back to Alon, Seymour, and Thomas (1990): one optimizing separator size and the other optimizing running time. It also gives a natural interpretation of the vertex weighting scheme in a recent linear-time algorithm by Bonnet, Korhonen, Le, Li, and Masarik (2026).<br><br>
+  The separator bounds for both graph classes are flow-optimal: techniques based on flow-cut duality, including ours, cannot yield balanced separators of asymptotically smaller size.
+
+  </font>
+  </details>
+
+- **$K_h$-Minor-Free Graphs Have Balanced Separators of Size $O(h\sqrt{n})$**
+  <br>Jonathan Conroy and **Hung Le** and Jack Spalding-Jamieson.
+  <br>[[PDF](https://arxiv.org/abs/2611.00663)]
+  <br> Manuscript.
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  We show that every $K_h$-minor-free graph with $n$ vertices has a balanced separator of size $O(h\sqrt{n})$ for any parameter $h \in \mathbb{N}$, resolving the conjecture posed by Alon, Seymour, and Thomas [AST90] in 1990. The proof is elementary, building on the combinatorial framework by Le [Le26].<br><br>
+  A key new idea of the proof is the existence of a short hitting walk on vertex expanders: given $k$ large (not necessarily disjoint) subsets of vertices, there is a walk of length $O(k/\psi(G))$ hitting every subset, where $\psi(G)$ is the vertex expansion. This technical result substantially improves on an analogous lemma by Alon, Seymour, and Thomas [AST90] in an important parameter setting, where the previous lower bound [Kot00] does not apply.
+
+  </font>
+  </details>
+
+- **Metric Planarity Testing is Hard**
+  <br>Anubhav Dhar and Debajyoti Kar and Sándor Kisfaludi-Bak and **Hung Le** and Bartłomiej Lewandowski and Karol Węgrzycki.
+  <br>[[PDF](https://arxiv.org/abs/2610.15682)]
+  <br> Manuscript.
+  <details><summary style="color:#7C4700">Abstract</summary>
+  <font color = "7C4700">
+  A key milestone in algorithmic graph theory is Hopcroft and Tarjan's 1974 linear-time algorithm for graph planarity testing. At a workshop in 2002, Linial and Rabinovich asked for either a polynomial-time algorithm or an NP-hardness proof for metric planarity testing: given a metric space $(X,d_X)$, determine whether there exists an edge-weighted planar graph $G=(V,E,w)$ with $X\subseteq V$ that realizes the distances in $X$, meaning that $d_G(x,y)=d_X(x,y)$ for every $x,y\in X$. This question arose in the context of research on metric embeddings and their applications in computer science since the mid-1990s. Over the past few decades, polynomial-time algorithms have been developed for several special cases.<br><br>
+  In this work, we show that metric planarity testing is NP-hard, in sharp contrast to graph planarity testing. Our reduction yields a stronger result: under the Exponential Time Hypothesis (ETH), no $2^{o(n)}$-time algorithm for metric planarity testing exists, where $n$ is the number of points in the metric.<br><br>
+  To complement our ETH lower bound, we give two algorithmic results: (i) an algorithm for computing a metric planar embedding in $2^{\tilde{O}(n^2)}$ time and (ii) a $(1+\epsilon)$-approximation algorithm in $2^{\tilde{O}(n)}$ time for any fixed $\epsilon\in(0,1)$. The second algorithm produces a planar graph that preserves the input metric up to a factor of $(1+\epsilon)$.
+
+  </font>
+  </details>
+  
 - **Peeling Half the Onion: Embedding $k$-Outerplanar Graphs into $\ell_1$ and Trees with a Polynomial Distortion (in $k$)**
   <br>Hsien-Chih Chang and Jonathan Conroy and William Eliot and **Hung Le** and Vinayak.
   <br>[[PDF](https://arxiv.org/abs/2610.10888)]
