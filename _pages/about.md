@@ -23,6 +23,7 @@ My technical blog [Rambling on Graphs](https://minorfree.github.io) is up. <br>
 
 I will be updating both good news, bad news and all kinds of news. 
 
+- **[Nov 2026]** Three papers uploaded to arxiv: [metric planarity testing](https://arxiv.org/abs/2610.15682), [AST conjecture](https://arxiv.org/abs/2611.00663), and [linear time separator algorithms](https://arxiv.org/abs/2611.05756).
 
 - **[Oct 2026]** Our paper "Peeling Half the Onion: Embedding $k$-Outerplanar Graphs into $\ell_1$ and Trees with a Polynomial Distortion (in $k$)" was uploaded to [Arxiv](https://arxiv.org/abs/2610.10888). 
 
@@ -41,8 +42,6 @@ I will be updating both good news, bad news and all kinds of news.
 - **[April 2026]** Three new papers uploaded to Arxiv: [here](https://arxiv.org/abs/2603.28100v1), [here](https://arxiv.org/abs/2603.28265v1) and [here](https://arxiv.org/abs/2603.21790).   
 
 - **[March 2026]** I will serve as an Associate Editor of [TCS Journal](https://www.sciencedirect.com/journal/theoretical-computer-science/about/editorial-board).
-
-- **[Feb 2026]** One paper rejected from [SocG 2026](https://cgweek26.computational-geometry.org). Four other papers were accepted to SoCG 2026.
 
 
  
